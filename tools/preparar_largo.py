@@ -43,6 +43,13 @@ async def voces(d, h):
 
 
 CF_ID, CF_TOKEN = os.environ.get("CF_ACCOUNT_ID", "").strip(), os.environ.get("CF_API_TOKEN", "").strip()
+LOG = []
+
+
+def log(*a):
+    line = " ".join(str(x) for x in a)
+    print(line, flush=True)
+    LOG.append(line)
 
 
 def cloudflare(prompt, seed, vertical):
@@ -51,7 +58,7 @@ def cloudflare(prompt, seed, vertical):
     r = requests.post(url, headers={"Authorization": f"Bearer {CF_TOKEN}"},
                       json={"prompt": prompt[:2000], "steps": 6, "seed": seed}, timeout=120)
     if r.status_code != 200:
-        print("cloudflare", r.status_code, r.text[:300], flush=True)
+        log("cloudflare", r.status_code, r.text[:400])
         return None
     im = Image.open(io.BytesIO(base64.b64decode(r.json()["result"]["image"]))).convert("RGB")
     w, h = im.size  # 1024x1024: recorte al formato del vídeo
@@ -73,7 +80,7 @@ def pollinations(prompt, seed, vertical):
     r = requests.get(url, timeout=180)
     if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 20000:
         return r.content
-    print("pollinations", r.status_code, flush=True)
+    log("pollinations", r.status_code)
     return None
 
 
@@ -82,7 +89,7 @@ def imagenes(d, h):
     estilo = h.get("estilo_imagen", ESTILO)
     vertical = h.get("formato") == "vertical"
     motor = cloudflare if CF_ID and CF_TOKEN else pollinations
-    print("Motor de imágenes:", motor.__name__, flush=True)
+    log("Motor de imágenes:", motor.__name__, "| account id:", len(CF_ID), "caracteres | token:", len(CF_TOKEN), "caracteres")
     for i, b in enumerate(h["bloques"]):
         p = b.get("imagen")
         if not p or p == "=" or b.get("tipo") == "capitulo":
@@ -98,10 +105,10 @@ def imagenes(d, h):
                     print("imagen ok", dst.name, flush=True)
                     break
             except Exception as e:
-                print("imagen error", e, flush=True)
+                log("imagen error", repr(e)[:300])
             time.sleep(5 + 8 * k)
         else:
-            print("SIN IMAGEN", dst.name, "(el montaje usará la anterior)", flush=True)
+            log("SIN IMAGEN", dst.name)
         time.sleep(1 if motor is cloudflare else 4)
 
 
@@ -113,4 +120,6 @@ for hj in sorted(list(Path("largos").glob("*/historia.json")) + list(Path("corto
     print("Preparando", d, flush=True)
     asyncio.run(voces(d, h))
     imagenes(d, h)
+    (d / "log_imagenes.txt").write_text("\n".join(LOG) + "\n", encoding="utf-8")
+    LOG.clear()
     (d / "preparado.txt").write_text("ok\n")
