@@ -1,0 +1,35 @@
+name: Publicar vídeo largo (release)
+on:
+  push:
+    branches: ['subida-*']
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unir partes, crear release y guardar el enlace
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          if [ ! -f nombre.txt ]; then echo "Subida incompleta, espero a la última parte"; exit 0; fi
+          RAMA="${GITHUB_REF_NAME}"
+          ID="${RAMA#subida-}"
+          NOMBRE="$(cat nombre.txt)"
+          cat partes/parte_* > "$NOMBRE"
+          sha256sum -c sha256.txt
+          gh release create "largo-$ID" "$NOMBRE" --title "Vídeo largo $ID" --notes "Vídeo para YouTube" --target main
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/largo-$ID/$NOMBRE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch --depth 1 origin main
+          git checkout -B main origin/main
+          mkdir -p "largos/$ID"
+          echo "$URL" > "largos/$ID/url.txt"
+          git add "largos/$ID/url.txt"
+          git commit -m "Enlace del vídeo $ID [skip ci]"
+          git push origin main
+          git push origin --delete "$RAMA"
