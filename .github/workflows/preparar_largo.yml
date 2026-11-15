@@ -19,6 +19,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install "edge-tts>=7" requests pillow
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install transformers
       - run: python tools/preparar_largo.py
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}

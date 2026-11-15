@@ -16,6 +16,9 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from anim25d import MOVES, Scene  # noqa: E402
+
 D = Path(sys.argv[1]).resolve()
 OUT = Path(sys.argv[2]).resolve()
 LIMIT = int(sys.argv[3]) if len(sys.argv) > 3 else None
@@ -41,6 +44,16 @@ def dur_of(f):
 
 
 # ---------- imágenes: normalizadas a 2400x1350 con gradación de terror ----------
+def prep_depth(src, dst):
+    im = Image.open(src).convert("L")
+    w, h = Image.open(str(src).replace("_depth.png", ".jpg")).size
+    im = im.resize((w, h), Image.BICUBIC)
+    s = max(BW / w, BH / h)
+    im = im.resize((int(w * s + 1), int(h * s + 1)), Image.BICUBIC)
+    w, h = im.size
+    im.crop(((w - BW) // 2, (h - BH) // 2, (w - BW) // 2 + BW, (h - BH) // 2 + BH)).save(dst)
+
+
 def prep_img(src, dst):
     im = Image.open(src).convert("RGB")
     w, h = im.size
@@ -59,7 +72,7 @@ def prep_img(src, dst):
     Image.fromarray((a * 255).astype(np.uint8)).save(dst, quality=94)
 
 
-blocks, last_img = [], None
+blocks, last_img, last_depth = [], None, None
 for i, b in enumerate(H["bloques"]):
     if LIMIT and i >= LIMIT:
         break
@@ -71,7 +84,13 @@ for i, b in enumerate(H["bloques"]):
             dst = IMG / f"b{i:03d}.jpg"
             prep_img(src, dst)
             last_img = dst
+            dsrc = D / "imgs" / f"bloque_{i:03d}_depth.png"
+            last_depth = None
+            if dsrc.exists():
+                last_depth = IMG / f"b{i:03d}_d.png"
+                prep_depth(dsrc, last_depth)
         b["img"] = last_img
+        b["depth"] = last_depth if last_img is not None else None
     blocks.append(b)
 first = next((b["img"] for b in blocks if b.get("img")), None)
 if first is None:
@@ -106,10 +125,25 @@ for b in blocks:
     else:
         z0 = 1.0
         flip += 1
-    fx = [0.5, 0.35, 0.65, 0.45, 0.58][flip % 5]
-    fy = [0.45, 0.4, 0.5, 0.55, 0.42][flip % 5]
+    fx = [0.5, 0.47, 0.53, 0.5, 0.5][flip % 5]
+    fy = [0.45, 0.47, 0.5, 0.5, 0.48][flip % 5]
     b["z"], b["f"] = (z0, z0 + delta), (fx, fy)
+    b["move"] = MOVES[flip % len(MOVES)]
     prev_img, prev_z = b["img"], z0 + delta
+# tramos seguidos con la misma imagen: un único movimiento continuo
+runs = []
+for b in blocks:
+    if b["tipo"] == "capitulo":
+        continue
+    if runs and runs[-1][-1]["img"] == b["img"] and runs[-1][-1]["i"] == b["i"] - 1:
+        runs[-1].append(b)
+    else:
+        runs.append([b])
+for r in runs:
+    tot, off = sum(x["nf"] for x in r), 0
+    for x in r:
+        x["run_off"], x["run_len"], x["move"], x["f"] = off, tot, r[0]["move"], r[0]["f"]
+        off += x["nf"]
 END_CARD = 3.0 if VERT else 6.0
 TOTAL = t + END_CARD
 print(f"{len(blocks)} bloques · {TOTAL / 60:.2f} min", flush=True)
@@ -163,15 +197,7 @@ def seg_filter(b):
                      f"drawtext=fontfile={F_SERIF}:textfile={esc(f2)}:expansion=none:fontsize={fs}:fontcolor=0xF0EEE8:"
                      f"x=(w-text_w)/2:y=545:alpha='{al}'")
     else:
-        z0, z1 = b["z"]
-        fx, fy = b["f"]
-        Z = f"({z0}+({z1}-{z0})*t/{d:.3f})"
-        chain = (f"[0:v]scale=w='2*trunc({OW}*{Z}/2)':h='2*trunc({OH}*{Z}/2)':eval=frame:flags=bicubic,"
-                 f"crop={OW}:{OH}:x='(iw-{OW})*{fx}':y='(ih-{OH})*{fy}'")
-        if b.get("ambiente") == "nieve" and not VERT:
-            chain += "[bg];[1:v]format=rgba,colorchannelmixer=aa=0.6[sn];[bg][sn]overlay=x=0:y='mod(t*75,1080)-1080':shortest=1"
-        parts.append(chain)
-        parts.append("eq=brightness='0.012*sin(2*PI*0.27*t)+0.012*(random(0)-0.5)':eval=frame")
+        parts.append("[0:v]null")  # fotogramas ya animados en 2.5D por anim25d
         cs = chunks(b["texto"])
         w = [len(c) + 10 for c in cs]
         t0, t1 = b["pre"] + 0.05, b["pre"] + b["vdur"] - 0.2
@@ -206,6 +232,20 @@ ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-r", str(FPS), "
 
 def render(b):
     out = SEG / f"seg_{b['i']:03d}.mp4"
+    if b["tipo"] != "capitulo":
+        sc = Scene(b["img"], b.get("depth"), OW, OH, b.get("ambiente", "interior"), seed=b["i"])
+        cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24",
+               "-s", f"{OW}x{OH}", "-r", str(FPS), "-i", "-", "-filter_complex", seg_filter(b), "-map", "[v]",
+               "-frames:v", str(b["nf"])] + ENC + [str(out)]
+        proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+        for k in range(b["nf"]):
+            g = b["run_off"] + k
+            fr = sc.frame(g / max(1, b["run_len"] - 1), g / FPS, b["move"], focus=b["f"])
+            proc.stdin.write(fr.tobytes())
+        proc.stdin.close()
+        if proc.wait() != 0:
+            raise RuntimeError(f"ffmpeg falló en el bloque {b['i']}")
+        return out
     cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-loop", "1", "-framerate", str(FPS),
            "-t", f"{b['dur']:.4f}", "-i", str(b["img"])]
     if b["tipo"] != "capitulo" and b.get("ambiente") == "nieve":

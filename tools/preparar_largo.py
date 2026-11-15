@@ -112,14 +112,38 @@ def imagenes(d, h):
         time.sleep(1 if motor is cloudflare else 4)
 
 
+_DEPTH = None
+
+
+def profundidad(d):
+    """Mapa de profundidad (Depth Anything V2 Small) para cada imagen: necesario para la animación 2.5D."""
+    global _DEPTH
+    for img in sorted((d / "imgs").glob("bloque_???.jpg")):
+        dst = img.with_name(img.stem + "_depth.png")
+        if dst.exists():
+            continue
+        try:
+            if _DEPTH is None:
+                from transformers import pipeline
+                _DEPTH = pipeline("depth-estimation", model="depth-anything/Depth-Anything-V2-Small-hf", device=-1)
+            res = _DEPTH(Image.open(img).convert("RGB"))
+            res["depth"].convert("L").resize(Image.open(img).size).save(dst)
+            log("profundidad ok", dst.name)
+        except Exception as e:
+            log("profundidad error", img.name, repr(e)[:300])
+
+
 for hj in sorted(list(Path("largos").glob("*/historia.json")) + list(Path("cortos").glob("*/historia.json"))):
     d = hj.parent
     if (d / "preparado.txt").exists():
+        if (d / "imgs").exists() and any(not p.with_name(p.stem + "_depth.png").exists() for p in (d / "imgs").glob("bloque_???.jpg")):
+            profundidad(d)
         continue
     h = json.loads(hj.read_text(encoding="utf-8"))
     print("Preparando", d, flush=True)
     asyncio.run(voces(d, h))
     imagenes(d, h)
+    profundidad(d)
     (d / "log_imagenes.txt").write_text("\n".join(LOG) + "\n", encoding="utf-8")
     LOG.clear()
     (d / "preparado.txt").write_text("ok\n")
