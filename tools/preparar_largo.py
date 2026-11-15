@@ -112,13 +112,68 @@ def imagenes(d, h):
         time.sleep(1 if motor is cloudflare else 4)
 
 
+ESTILO_PJ = (", full body character, standing, isolated on plain white background, centered, creepy comic book "
+             "illustration, graphic novel art, thick black ink outlines, cel shading, flat muted desaturated colors, "
+             "no text, no watermark, no shadow on the floor")
+_REMBG = None
+
+
+def reparto(d, h):
+    """Genera cada personaje una vez (fondo blanco) y le quita el fondo con rembg -> imgs/personaje_<id>.png (RGBA)."""
+    global _REMBG
+    pj = h.get("reparto", {})
+    if not pj:
+        return
+    (d / "imgs").mkdir(exist_ok=True)
+    motor = cloudflare if CF_ID and CF_TOKEN else pollinations
+    for k, (pid, prompt) in enumerate(pj.items()):
+        dst = d / "imgs" / f"personaje_{pid}.png"
+        if dst.exists():
+            continue
+        data = None
+        for intento in range(4):
+            try:
+                data = motor(prompt + ESTILO_PJ, 500 + k + 31 * intento, False) if motor is pollinations else _cf_square(prompt + ESTILO_PJ)
+                if data:
+                    break
+            except Exception as e:
+                log("personaje error", pid, repr(e)[:200])
+            time.sleep(5)
+        if not data:
+            log("SIN PERSONAJE", pid)
+            continue
+        try:
+            if _REMBG is None:
+                from rembg import new_session
+                _REMBG = new_session("isnet-general-use")
+            from rembg import remove
+            im = Image.open(io.BytesIO(data)).convert("RGB")
+            out = remove(im, session=_REMBG)
+            bb = out.getchannel("A").point(lambda v: 255 if v > 20 else 0).getbbox()
+            if bb:
+                out = out.crop(bb)
+            out.save(dst)
+            log("personaje ok", dst.name, out.size)
+        except Exception as e:
+            log("recorte error", pid, repr(e)[:300])
+
+
+def _cf_square(prompt):
+    url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell"
+    r = requests.post(url, headers={"Authorization": f"Bearer {CF_TOKEN}"}, json={"prompt": prompt[:2000], "steps": 6}, timeout=120)
+    if r.status_code != 200:
+        log("cloudflare", r.status_code, r.text[:300])
+        return None
+    return base64.b64decode(r.json()["result"]["image"])
+
+
 _DEPTH = None
 
 
 def profundidad(d):
     """Mapa de profundidad (Depth Anything V2 Small) para cada imagen: necesario para la animación 2.5D."""
     global _DEPTH
-    for img in sorted((d / "imgs").glob("bloque_???.jpg")):
+    for img in sorted((d / "imgs").glob("bloque_???.jpg")):  # solo fondos
         dst = img.with_name(img.stem + "_depth.png")
         if dst.exists():
             continue
@@ -143,6 +198,7 @@ for hj in sorted(list(Path("largos").glob("*/historia.json")) + list(Path("corto
     print("Preparando", d, flush=True)
     asyncio.run(voces(d, h))
     imagenes(d, h)
+    reparto(d, h)
     profundidad(d)
     (d / "log_imagenes.txt").write_text("\n".join(LOG) + "\n", encoding="utf-8")
     LOG.clear()

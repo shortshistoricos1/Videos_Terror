@@ -17,7 +17,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from anim25d import MOVES, Scene  # noqa: E402
+from anim25d import MOVES, Actor, Impacto, Scene, prep_sprite  # noqa: E402
 
 D = Path(sys.argv[1]).resolve()
 OUT = Path(sys.argv[2]).resolve()
@@ -230,17 +230,47 @@ def seg_filter(b):
 ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-r", str(FPS), "-g", "48", "-pix_fmt", "yuv420p", "-threads", "1"]
 
 
+def local_t(b, phrase, default=0.3):
+    k = b["texto"].find(phrase) if phrase else -1
+    if k < 0:
+        return default
+    return b["pre"] + b["vdur"] * (k / max(1, len(b["texto"])))
+
+
+def capas(b):
+    """Personajes animados, palabras de impacto y golpes (fogonazo + sacudida) de un bloque."""
+    actors, imps, golpes = [], [], []
+    for spec in b.get("personajes", []):
+        src = D / "imgs" / f"personaje_{spec.get('quien', '')}.png"
+        if not src.exists():
+            continue
+        alto = float(spec.get("alto", 0.5 if VERT else 0.72))
+        spr = prep_sprite(src, alto * OH, spec.get("silueta", False), spec.get("espejo", False))
+        if spr is not None:
+            actors.append(Actor(spr, dict(spec, t0=local_t(b, spec.get("en", ""), 0.2)), OW, OH, b["dur"]))
+    for spec in b.get("impactos", []):
+        imps.append(Impacto(spec["texto"].upper(), local_t(b, spec.get("en", ""), 0.5), OW, OH, F_BOLD))
+    for spec in b.get("sfx", []):
+        if spec.get("tipo") == "golpes":
+            t0 = local_t(b, spec.get("en", ""), 0.5)
+            golpes += [(t0 + 0.05 + 0.5 * k, 0.55) for k in range(3)]
+        elif spec.get("tipo") == "golpe_final":
+            golpes.append((b["pre"] + b["vdur"] + 0.15, 1.0))
+    return actors, imps, golpes
+
+
 def render(b):
     out = SEG / f"seg_{b['i']:03d}.mp4"
     if b["tipo"] != "capitulo":
         sc = Scene(b["img"], b.get("depth"), OW, OH, b.get("ambiente", "interior"), seed=b["i"])
+        sc.actors, sc.impactos, sc.golpes = capas(b)
         cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24",
                "-s", f"{OW}x{OH}", "-r", str(FPS), "-i", "-", "-filter_complex", seg_filter(b), "-map", "[v]",
                "-frames:v", str(b["nf"])] + ENC + [str(out)]
         proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
         for k in range(b["nf"]):
             g = b["run_off"] + k
-            fr = sc.frame(g / max(1, b["run_len"] - 1), g / FPS, b["move"], focus=b["f"])
+            fr = sc.frame(g / max(1, b["run_len"] - 1), g / FPS, b["move"], focus=b["f"], tl=k / FPS)
             proc.stdin.write(fr.tobytes())
         proc.stdin.close()
         if proc.wait() != 0:

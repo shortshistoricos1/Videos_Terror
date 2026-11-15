@@ -1,0 +1,26 @@
+{
+ "titulo": "Prueba de personajes",
+ "subtitulo": "Una historia de miedo",
+ "reparto": {
+  "anciano": "frail elderly man with messy grey hair, brown corduroy jacket, beige knitted sweater, grey trousers, holding a smartphone, scared wide eyes",
+  "sombra": "tall thin faceless humanoid shadow creature with long arms, pitch black body, slightly hunched"
+ },
+ "bloques": [
+  {"texto": "Aquella noche, en la residencia, el anciano de la habitación doce salió al pasillo sin hacer ruido.",
+   "imagen": "empty long corridor of an old nursing home at night, green linoleum floor, closed wooden doors with numbers, one flickering ceiling lamp, no people",
+   "ambiente": "interior",
+   "personajes": [{"quien": "anciano", "anim": "camina", "desde": "izq", "x": 0.38, "en": "salió"}]},
+  {"texto": "Contó las puertas en voz baja. Once. Doce. Y entonces llamaron tres veces desde dentro de su habitación.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [{"quien": "anciano", "anim": "tiembla", "x": 0.38}],
+   "impactos": [{"texto": "DOCE", "en": "Doce"}],
+   "sfx": [{"tipo": "golpes", "en": "llamaron"}]},
+  {"texto": "Cuando se giró, algo alto y negro le esperaba al fondo del pasillo. Y empezó a acercarse.",
+   "imagen": "dark end of a nursing home corridor at night, emergency exit sign glowing faintly, long shadows, no people",
+   "ambiente": "interior",
+   "personajes": [{"quien": "sombra", "anim": "se_acerca", "x": 0.5, "silueta": true, "en": "acercarse"}],
+   "sfx": [{"tipo": "golpe_final"}],
+   "pausa": 1.4}
+ ]
+}
