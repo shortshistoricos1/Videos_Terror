@@ -12,7 +12,7 @@ Formato: short vertical 1080×1920 de ~45–55 s, historia de miedo contada como
    (tarda ~2 min; necesita ffmpeg, Pillow, numpy y las fuentes Poppins de `/usr/share/fonts/truetype/google-fonts/`).
 4. Revisa 3 fotogramas (inicio, mitad, final) con ffmpeg y míralos: texto legible, nada cortado. Si algo falla, corrige el JSON y repite.
 5. Sube el vídeo: `git add` + commit + `git -c push.negotiate=true push` a `main`.
-6. Busca en Metricool (getScheduledPosts, blogId 7969360) el **primer día a partir de hoy sin ningún post de YouTube programado** y programa ahí el short a las **20:00** (Europe/Madrid) con createScheduledPost:
+6. Busca en Metricool (getScheduledPosts, blogId 7969360) el **primer día a partir de hoy sin ningún short de YouTube programado** (ignora los borradores, `draft: true`, y los vídeos largos) y programa ahí el short a las **20:00** (Europe/Madrid) con createScheduledPost:
    - `media`: `["https://raw.githubusercontent.com/shortshistoricos1/videos_terror/main/videos/NNN_slug.mp4"]`
    - `providers`: `[{"network":"youtube"}]`, `draft`: false, `autoPublish`: true
    - `text`: el campo `descripcion` del JSON

@@ -14,7 +14,7 @@ Formato: 1920×1080, 12–14 min, historia narrada (voz Edge TTS generada por Gi
 6. Revisa 6 fotogramas repartidos y el volumen (`ebur128`, objetivo ≈ −16 LUFS). Debe pesar < 1,5 GB.
 7. Commit + push de `largos/NNN_slug/miniatura.jpg` y `capitulos.txt` (los crea el montaje).
 8. Sube el vídeo: `bash tools/subir_largo.sh NNN_slug /tmp/NNN_slug.mp4`. La Action **«Publicar vídeo largo»** lo une, crea la release `largo-NNN_slug` y escribe `largos/NNN_slug/url.txt` en `main` (2–5 min). Espera a ese archivo igual que en el paso 3.
-9. Programa en Metricool (createScheduledPost) **hoy a las 18:00** (Europe/Madrid); si hoy ya hay un vídeo largo programado, el siguiente lunes/miércoles/viernes libre:
+9. Programa en Metricool (createScheduledPost) **hoy a las 18:00** (Europe/Madrid); si hoy ya hay un vídeo largo programado (ignora borradores `draft: true` y shorts), el siguiente lunes/miércoles/viernes libre:
    - `media`: `[contenido de url.txt]`
    - `providers`: `[{"network":"youtube"}]`, `draft`: false, `autoPublish`: true
    - `text`: descripción del JSON + línea en blanco + "Capítulos:" + contenido de `capitulos.txt` + hashtags
