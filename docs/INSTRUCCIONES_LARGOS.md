@@ -6,11 +6,11 @@ Formato: 1920×1080, 12–14 min, historia narrada (voz Edge TTS generada por Gi
 ## Pasos
 
 1. Lee `historias/HISTORIAL_LARGOS.md` y escribe una historia NUEVA (reglas abajo) en `largos/NNN_slug/historia.json` (NNN = siguiente número; el 000 es Valdecaña).
-2. Commit + `git -c push.negotiate=true push` a `main`. Esto lanza la Action **«Preparar vídeo largo»**, que genera `voces/` e `imgs/` y escribe `preparado.txt` (5–15 min).
+2. Commit + `git -c push.negotiate=true push` a `main`. Esto lanza la Action **«Preparar vídeo largo»**, que genera `voces/`, `imgs/` (imágenes de cómic + mapas de profundidad `_depth.png` para la animación 2.5D) y escribe `preparado.txt` (5–15 min).
 3. Espera (bucle con `git fetch --depth 1 origin main` cada 30 s, máx. 45 min) a que exista `origin/main:largos/NNN_slug/preparado.txt`; luego `git pull --depth 1` (o `git reset --hard origin/main` si el clon es superficial).
    Si en 45 min no aparece, termina explicando que la Action falló (el usuario puede verla en la pestaña Actions del repo).
 4. Comprueba que hay voces para todos los bloques y mira 3–4 imágenes con Read. Una imagen que falte se sustituye sola por la anterior.
-5. Monta: `python3 -I tools/largo.py largos/NNN_slug /tmp/NNN_slug.mp4` en segundo plano (≈25–35 min con 2 núcleos) y espera a que termine.
+5. Monta: `python3 -I tools/largo.py largos/NNN_slug /tmp/NNN_slug.mp4` en segundo plano (animación 2.5D con mapas de profundidad: ≈35–45 min con 2 núcleos) y espera a que termine.
 6. Revisa 6 fotogramas repartidos y el volumen (`ebur128`, objetivo ≈ −16 LUFS). Debe pesar < 1,5 GB.
 7. Commit + push de `largos/NNN_slug/miniatura.jpg` y `capitulos.txt` (los crea el montaje).
 8. Sube el vídeo: `bash tools/subir_largo.sh NNN_slug /tmp/NNN_slug.mp4`. La Action **«Publicar vídeo largo»** lo une, crea la release `largo-NNN_slug` y escribe `largos/NNN_slug/url.txt` en `main` (2–5 min). Espera a ese archivo igual que en el paso 3.

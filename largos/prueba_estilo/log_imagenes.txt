@@ -1,4 +1,0 @@
-Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
-profundidad ok bloque_000_depth.png
-profundidad ok bloque_001_depth.png
-profundidad ok bloque_002_depth.png
