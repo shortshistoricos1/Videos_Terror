@@ -16,132 +16,187 @@
   {
    "imagen": "gloomy gothic Victorian mansion on a foggy English moor at night, one lit window, dead trees, crows",
    "ambiente": "viento",
+   "fondo": "dark",
    "elementos": [
     {
-     "tipo": "busqueda",
-     "texto": "victorian psycho",
+     "tipo": "tag",
+     "texto": "Radar del terror · hoy",
      "en": "Por qué"
     },
     {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos hablan de",
+     "tam": 118,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Victorian Psycho?",
+     "color": "rojo",
+     "tam": 132,
+     "en": "Victorian Psycho"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "victorian psycho",
+     "en": "Victorian Psycho"
+    },
+    {
      "tipo": "sello",
-     "texto": "TENDENCIA HOY",
-     "en": "habla hoy",
-     "y": 0.47
+     "texto": "● Tendencia hoy",
+     "en": "Victorian Psycho"
     }
    ]
   },
   {
    "desde": "Porque este viernes",
+   "etiqueta": "01 · ESTRENO",
    "imagen": "old movie theater facade at night with glowing red marquee lights, wet street, empty, mist",
    "ambiente": "lluvia",
+   "fondo": "dark",
    "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Viernes",
+     "en": "Porque este viernes"
+    },
     {
      "tipo": "fecha",
      "dia": 13,
      "mes": "noviembre",
-     "etiqueta": "estreno en EE. UU.",
-     "en": "viernes trece",
-     "y": 0.22
+     "etiqueta": "cines de EE. UU.",
+     "en": "viernes trece"
     },
     {
      "tipo": "sello",
-     "texto": "NOVELA ESPAÑOLA",
-     "en": "novela española",
-     "y": 0.56
+     "texto": "Novela española ✓",
+     "en": "novela española"
     }
    ]
   },
   {
    "desde": "La escribió",
+   "etiqueta": "02 · LA AUTORA",
    "imagen": "candlelit antique writing desk with an open old book, quill and ink, dark Victorian study, shadows",
-   "ambiente": "interior",
+   "fondo": "red",
    "elementos": [
     {
-     "tipo": "tarjeta",
-     "titulo": "Virginia Feito",
-     "texto": "Escritora española que ya triunfa en Hollywood",
-     "en": "Virginia Feito",
-     "y": 0.3
+     "tipo": "titulo",
+     "texto": "Virginia Feito",
+     "en": "Virginia Feito"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "pie": "Escritora española",
+     "en": "Virginia Feito"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "Ya triunfa en Hollywood",
+     "en": "Hollywood"
     }
    ]
   },
   {
    "desde": "Maika Monroe",
+   "etiqueta": "03 · LA PROTAGONISTA",
    "imagen": "long dark Victorian mansion hallway with old family portraits, candle sconces, closed doors, empty, no people, no speech bubbles, no lettering",
-   "ambiente": "interior",
+   "fondo": "dark",
    "elementos": [
     {
-     "tipo": "tarjeta",
-     "titulo": "Winifred",
-     "texto": "La nueva institutriz",
-     "en": "es Winifred",
-     "y": 0.18
+     "tipo": "titulo",
+     "texto": "Maika Monroe",
+     "tam": 120,
+     "en": "Maika Monroe"
+    },
+    {
+     "tipo": "tag",
+     "texto": "De «Longlegs»",
+     "en": "Longlegs"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 640,
+     "en": "Maika Monroe",
+     "personajes": [
+      {
+       "quien": "institutriz",
+       "anim": "aparece",
+       "en": "es Winifred",
+       "alto": 0.9
+      }
+     ]
     },
     {
      "tipo": "sello",
-     "texto": "SIGLO XIX",
-     "en": "siglo diecinueve",
-     "y": 0.36
-    },
-    {
-     "tipo": "sello",
-     "texto": "DESAPARECEN",
-     "en": "desaparecer",
-     "y": 0.45
-    }
-   ],
-   "personajes": [
-    {
-     "quien": "institutriz",
-     "anim": "aparece",
-     "x": 0.5,
-     "y": 0.99,
-     "alto": 0.5,
+     "texto": "Es Winifred · institutriz",
      "en": "es Winifred"
+    },
+    {
+     "tipo": "desaparece",
+     "texto": "Desaparecen",
+     "color": "rojo",
+     "tam": 116,
+     "en": "desaparecer"
     }
    ]
   },
   {
    "desde": "La comparan",
    "imagen": "fine porcelain teacups on a lace tablecloth in a dark Victorian parlor, single candle, one cup knocked over, ominous",
-   "ambiente": "interior",
+   "fondo": "bone",
    "elementos": [
     {
-     "tipo": "titular",
-     "texto": "AMERICAN PSYCHO",
-     "en": "American Psycho",
-     "y": 0.26
+     "tipo": "tag",
+     "texto": "La comparan con",
+     "en": "La comparan"
     },
     {
-     "tipo": "sello",
-     "texto": "CON TACITAS DE TÉ",
-     "en": "tacitas",
-     "y": 0.42
+     "tipo": "titulo",
+     "texto": "American Psycho",
+     "tam": 136,
+     "en": "American Psycho"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "…con tacitas de té",
+     "color": "rojo",
+     "tam": 96,
+     "en": "tacitas"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 560,
+     "en": "tacitas"
     }
    ]
   },
   {
    "desde": "En Rotten Tomatoes",
+   "etiqueta": "04 · LA CRÍTICA",
    "imagen": "empty dark cinema auditorium with red velvet seats, projector beam through dust, eerie",
-   "ambiente": "interior",
+   "fondo": "dark",
    "elementos": [
     {
      "tipo": "dato",
      "valor": 74,
      "sufijo": "%",
      "etiqueta": "Rotten Tomatoes",
-     "en": "setenta y cuatro",
-     "y": 0.18
+     "en": "setenta y cuatro"
     },
     {
      "tipo": "tarjeta",
      "titulo": "Su inspiración",
-     "texto": "Jack Nicholson en El resplandor",
-     "en": "Jack Nicholson",
-     "y": 0.44
+     "texto": "Jack Nicholson en «El resplandor»",
+     "en": "Jack Nicholson"
     }
    ]
   }
  ],
- "cierre_desde": "Si quieres"
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Para el terror del día",
+  "comentario": "¿la verás? 👇"
+ }
 }
