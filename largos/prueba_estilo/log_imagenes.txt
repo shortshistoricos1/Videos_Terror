@@ -1,0 +1,19 @@
+Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (c30cef25-047b-42e4-aabe-06c3eb4420a4)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (f994cb21-429b-4923-8267-67cc40e553bd)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (65350029-9fb5-44c0-935e-fab48904d1d9)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (6b1f1cc9-bda0-43a8-bbd3-91f66a51dc87)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (a11d3332-9c2c-4035-b68d-1ba6fd66345d)","code":5006}],"success":false,"result":{},"messages":[]}
+SIN IMAGEN bloque_000.jpg
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (adfb537b-528d-46a5-9da4-cff019becf9d)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (b59f348d-7359-4af0-a246-7f052b19cb01)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (c08a5126-11af-4daa-bd92-1d87888df18d)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (f742fcdc-87ea-41c9-9b77-91a7adec6008)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (48cf43f1-7958-49ca-b380-f6447522e0f0)","code":5006}],"success":false,"result":{},"messages":[]}
+SIN IMAGEN bloque_001.jpg
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (f57d45b9-b28a-4132-af13-d70a91e68198)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (cb6e4550-a13d-46a7-8b50-93dd5db82ae8)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (1176ef7f-8364-4cfc-98c8-7527c8d2f89c)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (a53a0d8b-1d83-4e2f-b593-1b44952375ee)","code":5006}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: Bad input: Error: Additional or unevaluated properties '/seed' at '/' not allowed (5a326ec4-f77e-4eeb-bde8-4771eb52ca69)","code":5006}],"success":false,"result":{},"messages":[]}
+SIN IMAGEN bloque_002.jpg
