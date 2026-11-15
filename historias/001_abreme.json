@@ -1,0 +1,33 @@
+{
+  "titulo_youtube": "Mi madre me escribió esto a las 2:13... 😨 #shorts",
+  "descripcion": "Mi madre me escribió esto a las 2:13 de la madrugada... ¿Tú habrías abierto? 👇 #terror #historiasdeterror #miedo #shorts",
+  "contact": "Mamá",
+  "intro": ["Mi madre me escribió", "esto a las ", "2:13", "de la madrugada", "Léelo hasta el final."],
+  "end": ["¿Tú habrías", "abierto?", "Te leo en comentarios"],
+  "script": [
+    ["M", "¿Estás despierta?", "2:13"],
+    ["Y", "Sí. ¿Ya habéis vuelto?", "2:13"],
+    ["M", "Sí. ¿Has encendido tú la luz del pasillo?", "2:13"],
+    ["Y", "No... ¿por?", "2:13"],
+    ["M", "Hay alguien andando por el pasillo.", "2:14"],
+    ["Y", "Será papá", "2:14"],
+    ["M", "Papá está aquí conmigo.", "2:14"],
+    ["Y", "Voy a mirar", "2:14"],
+    ["M", "NO", "2:14"],
+    ["M", "Echa el pestillo y no hagas ruido.", "2:14"],
+    ["Y", "Ya está. Me estás asustando", "2:15"],
+    ["M", "Tranquila. Ya se ha ido.", "2:15"],
+    ["M", "Ahora ábreme, cariño. Soy yo.", "2:15"],
+    ["KNOCK3"],
+    ["Y", "¿Mamá? ¿Eres tú la de la puerta?", "2:16"],
+    ["TYPESTOP"],
+    ["BANNER"],
+    ["M", "Lo tengo yo.", "2:17"],
+    ["M", "Ábreme.", "2:17"],
+    ["FINAL"]
+  ],
+  "banner": {
+    "from": "Papá",
+    "text": "Hija, seguimos en casa de los abuelos. Mamá se ha dejado el móvil en casa. ¿Lo ves por ahí?"
+  }
+}
