@@ -1,5 +1,0 @@
-Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
-personaje ok personaje_anciano.png (543, 958)
-personaje ok personaje_sombra.png (520, 893)
-profundidad ok bloque_000_depth.png
-profundidad ok bloque_002_depth.png

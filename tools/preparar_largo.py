@@ -114,7 +114,7 @@ def imagenes(d, h):
 
 ESTILO_PJ = (", full body character, standing, isolated on plain white background, centered, creepy comic book "
              "illustration, graphic novel art, thick black ink outlines, cel shading, flat muted desaturated colors, "
-             "no text, no watermark, no shadow on the floor")
+             "no text, no logos, no brands, no watermark, no shadow on the floor")
 _REMBG = None
 
 

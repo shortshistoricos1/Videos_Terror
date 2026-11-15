@@ -44,6 +44,19 @@ Si algo falla, no programes nada a medias y explica el error.
 - `ambiente`: interior | viento | lluvia | fuego | estatica. `sfx`: golpes | aranazos | telefono | respiracion | latido | golpe_final.
 - Alterna voces entre días: es-ES-AlvaroNeural, es-ES-ElviraNeural, es-MX-JorgeNeural, es-MX-DaliaNeural.
 
+## Personajes animados (úsalos en casi todas las escenas)
+
+Los personajes se generan aparte (fondo recortado automáticamente) y se animan encima del fondo, sincronizados con la voz.
+
+- En el JSON, `"reparto"`: `{"id": "descripción EN INGLÉS del personaje: edad, pelo, ropa, rasgos"}` (1–3 personajes). Se genera UNA vez y se reutiliza en todo el vídeo, así siempre es igual. Monstruos/sombras: descríbelos de cuerpo entero.
+- En cada bloque, `"personajes": [{"quien": "id", "anim": "...", "x": 0.5, "y": 0.97, "alto": 0.72, "desde": "izq|der", "en": "frase exacta donde empieza", "silueta": false, "espejo": false}]`
+  - `anim`: `respira` (quieto), `camina` (entra andando desde `desde` hasta `x`), `asoma` (se asoma desde un lado), `se_acerca` (crece hacia cámara), `aparece` (surge parpadeando), `tiembla` (miedo), `gira` (se da la vuelta).
+  - `x`: posición horizontal (0–1); `y`: dónde pisa (0.97 = abajo); `alto`: altura respecto a la pantalla (0.72 horizontal, 0.5 vertical; menos si está lejos).
+  - `silueta: true` para criaturas/sombras (negro con contraluz). `espejo: true` para que mire al otro lado.
+- **Si un bloque lleva personajes, el prompt de `imagen` de ese fondo debe ser SIN personas** ("..., no people").
+- `"impactos": [{"texto": "DOCE", "en": "Doce"}]`: palabra clave que salta en grande al decirla (1 cada 2–4 bloques, en momentos de tensión).
+- Los `sfx` `golpes` y `golpe_final` añaden solos fogonazo y sacudida de cámara.
+
 ## Reglas de la historia
 
 - Español de España, primera persona, frases cortas para escuchar. Original (nada de creepypastas conocidas).

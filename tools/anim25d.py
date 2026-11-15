@@ -176,11 +176,11 @@ def prep_sprite(path, target_h, silueta=False, espejo=False):
     rgb = g + (rgb - g) * 0.8
     rgb = rgb * np.array([1.05, 0.97, 0.9], np.float32) * 0.82      # BGR: frío y algo más oscuro
     if silueta:
-        rgb = rgb * 0.06
+        rgb = rgb * 0.05
     # borde de luz tenue (rim light) para separarlo del fondo
     edge = cv2.GaussianBlur(a, (0, 0), 3)[..., None] if a.ndim == 2 else cv2.GaussianBlur(a[..., 0], (0, 0), 3)[..., None]
     rim = np.clip(edge - a, 0, 1) * 0 + np.clip(a - cv2.erode(a, np.ones((5, 5), np.uint8))[..., None] if a.ndim == 3 else 0, 0, 1)
-    rgb = np.clip(rgb + rim * np.array([60, 40, 30], np.float32), 0, 255)
+    rgb = np.clip(rgb + rim * np.array([170, 150, 140] if silueta else [60, 40, 30], np.float32), 0, 255)
     return np.dstack([rgb, a[..., 0] * 255]).astype(np.float32)
 
 
@@ -231,6 +231,7 @@ class Actor:
         self.t0 = float(spec.get("t0", 0.0))
         self.desde = spec.get("desde", "izq")
         self.seed = hash(str(spec)) % 1000 / 100.0
+        self.silueta = bool(spec.get("silueta", False))
 
     def draw(self, frame, t):
         OW, OH = self.OW, self.OH
@@ -289,6 +290,15 @@ class Actor:
         else:  # respira
             sy = breath
             rot = sway * 0.6
+        if self.silueta and alpha > 0.01:              # contraluz detrás de la silueta
+            h = self.spr.shape[0] * sy
+            gx, gy, r = cx, by - h * 0.55, max(40.0, h * 0.55)
+            H, W = frame.shape[:2]
+            x0, y0, x1, y1 = max(0, int(gx - 2 * r)), max(0, int(gy - 2 * r)), min(W, int(gx + 2 * r)), min(H, int(gy + 2 * r))
+            if x1 > x0 and y1 > y0:
+                yy, xx = np.mgrid[y0:y1, x0:x1].astype(np.float32)
+                g = np.exp(-(((xx - gx) / (r * 0.8)) ** 2 + ((yy - gy) / r) ** 2)) * 0.55 * alpha
+                frame[y0:y1, x0:x1] += g[..., None] * np.array([200, 185, 170], np.float32)
         sh_a = alpha * 0.9
         shadow(frame, cx, by, w * abs(sx), sh_a)
         blit(frame, self.spr, cx, by, sx, sy * 1.0, rot, alpha)
@@ -320,4 +330,4 @@ class Impacto:
         k = ease_out_back(tt / 0.28)
         s = 1.9 - 0.9 * k
         alpha = min(1.0, tt / 0.08) * (1 - smooth((tt - 1.35) / 0.35))
-        blit(frame, self.spr, self.OW / 2, self.OH * 0.40 + self.spr.shape[0] / 2, s, s, -3, alpha)
+        blit(frame, self.spr, self.OW / 2, self.OH * 0.30 + self.spr.shape[0] / 2, s, s, -3, alpha)
