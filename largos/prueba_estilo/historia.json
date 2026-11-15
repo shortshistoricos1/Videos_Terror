@@ -1,6 +1,22 @@
-{"titulo": "Prueba de estilo", "subtitulo": "Una historia de miedo",
+{
+ "titulo": "Prueba de estilo",
+ "subtitulo": "Una historia de miedo",
  "bloques": [
-  {"texto": "Aquella noche, en la residencia, el anciano de la habitación doce no dejaba de mirar su móvil.", "imagen": "an elderly man with grey hair, brown jacket and beige sweater standing in a dark nursing home corridor at night, staring at his smartphone with wide frightened eyes, half-open wooden door behind him", "ambiente": "interior"},
-  {"texto": "La carretera del puerto estaba cubierta de nieve, y los camiones llevaban horas parados.", "imagen": "snowy mountain pass road at night in Spain, two old abandoned trucks on the roadside, full moon, dark pine forest, tattered flag on a pole", "ambiente": "nieve"},
-  {"texto": "Y al fondo del pasillo, alguien encendió la luz del baño.", "imagen": "long dark hospital corridor at night, a single bathroom door at the end with light leaking from below, a tall thin shadow on the floor", "ambiente": "interior"}
- ]}
+  {
+   "texto": "Aquella noche, en la residencia, el anciano de la habitación doce no dejaba de mirar su móvil.",
+   "imagen": "an elderly man with grey hair, brown jacket and beige sweater standing in a dark nursing home corridor at night, staring at his smartphone with wide frightened eyes, half-open wooden door behind him",
+   "ambiente": "interior"
+  },
+  {
+   "texto": "La carretera del puerto estaba cubierta de nieve, y los camiones llevaban horas parados.",
+   "imagen": "snowy mountain pass road at night in Spain, two old abandoned trucks on the roadside, full moon, dark pine forest, tattered flag on a pole",
+   "ambiente": "nieve"
+  },
+  {
+   "texto": "Y al fondo del pasillo, alguien encendió la luz del baño.",
+   "imagen": "long dark hospital corridor at night, a single bathroom door at the end with light leaking from below, a tall thin shadow on the floor",
+   "ambiente": "interior"
+  }
+ ],
+ "prueba": 2
+}
