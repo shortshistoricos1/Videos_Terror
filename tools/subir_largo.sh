@@ -16,11 +16,11 @@ git add .github
 split -b 90m -d -a 2 "$VID" partes/parte_
 for p in partes/parte_*; do
   git add "$p"; git commit -q -m "Parte $(basename "$p") de $ID"
-  git push -q origin "subida-$ID"
+  git push -q -f origin "subida-$ID"
   echo "subida $p"
 done
 echo "$NOMBRE" > nombre.txt
 ( cd "$(dirname "$VID")" && sha256sum "$NOMBRE" ) > sha256.txt
 git add nombre.txt sha256.txt; git commit -q -m "Subida completa de $ID"
-git push -q origin "subida-$ID"
+git push -q -f origin "subida-$ID"
 echo "Subida completa: subida-$ID"
