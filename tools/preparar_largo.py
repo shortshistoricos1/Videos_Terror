@@ -84,6 +84,42 @@ def pollinations(prompt, seed, vertical):
     return None
 
 
+def imagenes_radar(d, h):
+    (d / "imgs").mkdir(exist_ok=True)
+    estilo = h.get("estilo_imagen", ESTILO)
+    motor = cloudflare if CF_ID and CF_TOKEN else pollinations
+    for i, e in enumerate(h.get("escenas", [])):
+        p = e.get("imagen")
+        dst = d / "imgs" / f"escena_{i}.jpg"
+        if not p or p == "=" or (dst.exists() and dst.stat().st_size > 20000):
+            continue
+        for k in range(5):
+            try:
+                data = motor(p + estilo, 2000 + i + 97 * k, True)
+                if data:
+                    dst.write_bytes(data)
+                    log("escena ok", dst.name)
+                    break
+            except Exception as ex:
+                log("escena error", repr(ex)[:300])
+            time.sleep(5 + 8 * k)
+
+
+def voz_url(d, h):
+    """Voz generada con el conector de ElevenLabs: se descarga del enlace firmado."""
+    url = h.get("voz_url")
+    dst = d / "voces" / "completa.mp3"
+    if not url or dst.exists():
+        return
+    dst.parent.mkdir(exist_ok=True)
+    r = requests.get(url, timeout=120)
+    if r.status_code == 200 and len(r.content) > 5000:
+        dst.write_bytes(r.content)
+        log("voz ElevenLabs ok", len(r.content), "bytes")
+    else:
+        log("voz ElevenLabs ERROR", r.status_code)
+
+
 def imagenes(d, h):
     (d / "imgs").mkdir(exist_ok=True)
     estilo = h.get("estilo_imagen", ESTILO)
@@ -173,7 +209,7 @@ _DEPTH = None
 def profundidad(d):
     """Mapa de profundidad (Depth Anything V2 Small) para cada imagen: necesario para la animación 2.5D."""
     global _DEPTH
-    for img in sorted((d / "imgs").glob("bloque_???.jpg")):  # solo fondos
+    for img in sorted(list((d / "imgs").glob("bloque_???.jpg")) + list((d / "imgs").glob("escena_*.jpg"))):  # solo fondos
         dst = img.with_name(img.stem + "_depth.png")
         if dst.exists():
             continue
@@ -188,16 +224,20 @@ def profundidad(d):
             log("profundidad error", img.name, repr(e)[:300])
 
 
-for hj in sorted(list(Path("largos").glob("*/historia.json")) + list(Path("cortos").glob("*/historia.json"))):
+for hj in sorted(list(Path("largos").glob("*/historia.json")) + list(Path("cortos").glob("*/historia.json")) + list(Path("radar").glob("*/historia.json"))):
     d = hj.parent
     if (d / "preparado.txt").exists():
-        if (d / "imgs").exists() and any(not p.with_name(p.stem + "_depth.png").exists() for p in (d / "imgs").glob("bloque_???.jpg")):
+        if (d / "imgs").exists() and any(not p.with_name(p.stem + "_depth.png").exists() for p in list((d / "imgs").glob("bloque_???.jpg")) + list((d / "imgs").glob("escena_*.jpg"))):
             profundidad(d)
         continue
     h = json.loads(hj.read_text(encoding="utf-8"))
     print("Preparando", d, flush=True)
-    asyncio.run(voces(d, h))
-    imagenes(d, h)
+    if h.get("formato") == "radar":
+        voz_url(d, h)
+        imagenes_radar(d, h)
+    else:
+        asyncio.run(voces(d, h))
+        imagenes(d, h)
     reparto(d, h)
     profundidad(d)
     (d / "log_imagenes.txt").write_text("\n".join(LOG) + "\n", encoding="utf-8")

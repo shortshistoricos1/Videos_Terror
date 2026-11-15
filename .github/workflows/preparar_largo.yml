@@ -2,7 +2,7 @@ name: Preparar vídeo largo (voces + imágenes)
 on:
   push:
     branches: [main]
-    paths: ['largos/*/historia.json', 'cortos/*/historia.json']
+    paths: ['largos/*/historia.json', 'cortos/*/historia.json', 'radar/*/historia.json']
   workflow_dispatch:
 permissions:
   contents: write
@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add largos cortos 2>/dev/null || git add largos
+          git add -A
           git diff --cached --quiet || git commit -m "Voces e imágenes generadas [skip ci]"
           for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
