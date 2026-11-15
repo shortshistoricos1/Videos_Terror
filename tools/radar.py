@@ -202,7 +202,7 @@ def cursor():
     return to_spr(im)
 
 
-LOGO_S, LOGO_L, BOTON, CURSOR = logo(0.62), logo(1.25), boton(), cursor()
+LOGO_S, LOGO_L, BOTON, CURSOR = logo(0.8), logo(1.25), boton(), cursor()
 
 
 # ======================================================================  escenas y elementos
@@ -289,7 +289,7 @@ def build_scene(i, e):
     im = im.crop(((w - 1350) // 2, (h - 2400) // 2, (w - 1350) // 2 + 1350, (h - 2400) // 2 + 2400))
     a = np.asarray(im, np.float32) / 255.0
     g = a.mean(2, keepdims=True)
-    a = np.clip(((g + (a - g) * 0.85) * np.array([0.95, 0.97, 1.04]) - 0.5) * 1.06 + 0.44, 0, 1)
+    a = np.clip(((g + (a - g) * 0.9) * np.array([0.96, 0.98, 1.03]) - 0.5) * 1.06 + 0.49, 0, 1)
     Image.fromarray((a * 255).astype(np.uint8)).save(pre, quality=94)
     dsrc = src.with_name(src.stem + "_depth.png")
     dpre = None
@@ -312,7 +312,7 @@ def build_scene(i, e):
 SCENES = [build_scene(i, e) for i, e in enumerate(escenas)]
 # degradado para que se lean los gráficos (arriba y abajo más oscuro)
 yy = np.linspace(0, 1, OH, dtype=np.float32)[:, None]
-SHADE = (0.45 + 0.55 * (1 - np.clip(np.abs(yy - 0.62) / 0.62, 0, 1)) ** 0.7)[..., None]
+SHADE = (0.68 + 0.32 * (1 - np.clip(np.abs(yy - 0.62) / 0.62, 0, 1)) ** 0.7)[..., None]
 CLOSE_BG = None
 
 
@@ -427,9 +427,16 @@ def subs_filter():
     chunks = []
     for s in sents:
         k = TEXTO.find(s, pos)
-        words = s.split()
-        for j in range(0, len(words), 5):
-            c = " ".join(words[j:j + 5])
+        words, cur = s.split(), []
+        groups = []
+        for w_ in words:
+            if cur and len(" ".join(cur + [w_])) > 18:
+                groups.append(" ".join(cur))
+                cur = []
+            cur.append(w_)
+        if cur:
+            groups.append(" ".join(cur))
+        for c in groups:
             kk = TEXTO.find(c, k)
             chunks.append((c, kk))
             k = kk + len(c)
@@ -441,7 +448,7 @@ def subs_filter():
             break
         fp = TMP / f"s{n:03d}.txt"
         fp.write_text(c.upper(), encoding="utf-8")
-        parts.append(f"drawtext=fontfile={F_B}:textfile={str(fp).replace(':', chr(92) + ':')}:expansion=none:fontsize=58:"
+        parts.append(f"drawtext=fontfile={F_B}:textfile={str(fp).replace(':', chr(92) + ':')}:expansion=none:fontsize=64:"
                      f"fontcolor=0xF2ECE2:borderw=5:bordercolor=black:x=(w-text_w)/2:y=h*0.80:enable='between(t,{a:.2f},{min(b, T_CIERRE):.2f})'")
     return ",".join(parts) if parts else "null"
 

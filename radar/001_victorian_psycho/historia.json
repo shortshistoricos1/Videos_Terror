@@ -2,31 +2,146 @@
  "formato": "radar",
  "titulo_youtube": "¿Por qué todo el mundo habla de Victorian Psycho? 😱 #shorts",
  "descripcion": "Victorian Psycho llegó a los cines de EE. UU. el viernes 13 y nace de la novela de la española Virginia Feito. ¿La verás? 👇 #terror #victorianpsycho #maikamonroe #peliculasdeterror #shorts",
- "fuentes": ["https://www.dreadcentral.com/trailer/596462/victorian-psycho-final-trailer-maika-monroe/", "https://rottentomatoes.com/m/victorian_psycho", "https://www.bluradio.com/hjck/virginia-feito-la-escritora-espanola-que-triunfa-en-hollywood-cb20", "https://www.dreadcentral.com/news/595428/victorian-psycho-maika-monroe-shining-influences/"],
+ "fuentes": [
+  "https://www.dreadcentral.com/trailer/596462/victorian-psycho-final-trailer-maika-monroe/",
+  "https://rottentomatoes.com/m/victorian_psycho",
+  "https://www.bluradio.com/hjck/virginia-feito-la-escritora-espanola-que-triunfa-en-hollywood-cb20",
+  "https://www.dreadcentral.com/news/595428/victorian-psycho-maika-monroe-shining-influences/"
+ ],
  "texto": "¿Por qué todo el mundo habla hoy de Victorian Psycho? Porque este viernes trece llegó a los cines de Estados Unidos... y nace de una novela española. La escribió Virginia Feito, una escritora española que ya triunfa en Hollywood. Maika Monroe, la protagonista de Longlegs, es Winifred, una institutriz que llega a una mansión inglesa del siglo diecinueve... y, poco a poco, la gente de la casa empieza a desaparecer. La comparan con American Psycho... pero con tacitas de té. En Rotten Tomatoes ya tiene un setenta y cuatro por ciento. Y Monroe confiesa que se inspiró en Jack Nicholson en El resplandor. Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
  "reparto": {
   "institutriz": "young pale Victorian governess woman, tight blonde bun, high-collar black dress with white collar, hands clasped, eerie polite smile, cold staring eyes"
  },
  "escenas": [
-  {"imagen": "gloomy gothic Victorian mansion on a foggy English moor at night, one lit window, dead trees, crows", "ambiente": "viento",
-   "elementos": [{"tipo": "busqueda", "texto": "victorian psycho", "en": "Por qué"},
-                 {"tipo": "sello", "texto": "TENDENCIA HOY", "en": "habla hoy", "y": 0.47}]},
-  {"desde": "Porque este viernes", "imagen": "old movie theater facade at night with glowing red marquee lights, wet street, empty, mist", "ambiente": "lluvia",
-   "elementos": [{"tipo": "fecha", "dia": 13, "mes": "noviembre", "etiqueta": "estreno en EE. UU.", "en": "viernes trece", "y": 0.22},
-                 {"tipo": "sello", "texto": "NOVELA ESPAÑOLA", "en": "novela española", "y": 0.56}]},
-  {"desde": "La escribió", "imagen": "candlelit antique writing desk with an open old book, quill and ink, dark Victorian study, shadows", "ambiente": "interior",
-   "elementos": [{"tipo": "tarjeta", "titulo": "Virginia Feito", "texto": "Escritora española que ya triunfa en Hollywood", "en": "Virginia Feito", "y": 0.30}]},
-  {"desde": "Maika Monroe", "imagen": "long dark Victorian mansion hallway with old family portraits, candle sconces, closed doors, no people", "ambiente": "interior",
-   "elementos": [{"tipo": "tarjeta", "titulo": "Winifred", "texto": "La nueva institutriz", "en": "es Winifred", "y": 0.18},
-                 {"tipo": "sello", "texto": "SIGLO XIX", "en": "siglo diecinueve", "y": 0.36},
-                 {"tipo": "sello", "texto": "DESAPARECEN", "en": "desaparecer", "y": 0.45}],
-   "personajes": [{"quien": "institutriz", "anim": "aparece", "x": 0.5, "y": 0.99, "alto": 0.5, "en": "es Winifred"}]},
-  {"desde": "La comparan", "imagen": "fine porcelain teacups on a lace tablecloth in a dark Victorian parlor, single candle, one cup knocked over, ominous", "ambiente": "interior",
-   "elementos": [{"tipo": "titular", "texto": "AMERICAN PSYCHO", "en": "American Psycho", "y": 0.26},
-                 {"tipo": "sello", "texto": "CON TACITAS DE TÉ", "en": "tacitas", "y": 0.42}]},
-  {"desde": "En Rotten Tomatoes", "imagen": "empty dark cinema auditorium with red velvet seats, projector beam through dust, eerie", "ambiente": "interior",
-   "elementos": [{"tipo": "dato", "valor": 74, "sufijo": "%", "etiqueta": "Rotten Tomatoes", "en": "setenta y cuatro", "y": 0.18},
-                 {"tipo": "tarjeta", "titulo": "Su inspiración", "texto": "Jack Nicholson en El resplandor", "en": "Jack Nicholson", "y": 0.44}]}
+  {
+   "imagen": "gloomy gothic Victorian mansion on a foggy English moor at night, one lit window, dead trees, crows",
+   "ambiente": "viento",
+   "elementos": [
+    {
+     "tipo": "busqueda",
+     "texto": "victorian psycho",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "sello",
+     "texto": "TENDENCIA HOY",
+     "en": "habla hoy",
+     "y": 0.47
+    }
+   ]
+  },
+  {
+   "desde": "Porque este viernes",
+   "imagen": "old movie theater facade at night with glowing red marquee lights, wet street, empty, mist",
+   "ambiente": "lluvia",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 13,
+     "mes": "noviembre",
+     "etiqueta": "estreno en EE. UU.",
+     "en": "viernes trece",
+     "y": 0.22
+    },
+    {
+     "tipo": "sello",
+     "texto": "NOVELA ESPAÑOLA",
+     "en": "novela española",
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "desde": "La escribió",
+   "imagen": "candlelit antique writing desk with an open old book, quill and ink, dark Victorian study, shadows",
+   "ambiente": "interior",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Virginia Feito",
+     "texto": "Escritora española que ya triunfa en Hollywood",
+     "en": "Virginia Feito",
+     "y": 0.3
+    }
+   ]
+  },
+  {
+   "desde": "Maika Monroe",
+   "imagen": "long dark Victorian mansion hallway with old family portraits, candle sconces, closed doors, empty, no people, no speech bubbles, no lettering",
+   "ambiente": "interior",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Winifred",
+     "texto": "La nueva institutriz",
+     "en": "es Winifred",
+     "y": 0.18
+    },
+    {
+     "tipo": "sello",
+     "texto": "SIGLO XIX",
+     "en": "siglo diecinueve",
+     "y": 0.36
+    },
+    {
+     "tipo": "sello",
+     "texto": "DESAPARECEN",
+     "en": "desaparecer",
+     "y": 0.45
+    }
+   ],
+   "personajes": [
+    {
+     "quien": "institutriz",
+     "anim": "aparece",
+     "x": 0.5,
+     "y": 0.99,
+     "alto": 0.5,
+     "en": "es Winifred"
+    }
+   ]
+  },
+  {
+   "desde": "La comparan",
+   "imagen": "fine porcelain teacups on a lace tablecloth in a dark Victorian parlor, single candle, one cup knocked over, ominous",
+   "ambiente": "interior",
+   "elementos": [
+    {
+     "tipo": "titular",
+     "texto": "AMERICAN PSYCHO",
+     "en": "American Psycho",
+     "y": 0.26
+    },
+    {
+     "tipo": "sello",
+     "texto": "CON TACITAS DE TÉ",
+     "en": "tacitas",
+     "y": 0.42
+    }
+   ]
+  },
+  {
+   "desde": "En Rotten Tomatoes",
+   "imagen": "empty dark cinema auditorium with red velvet seats, projector beam through dust, eerie",
+   "ambiente": "interior",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 74,
+     "sufijo": "%",
+     "etiqueta": "Rotten Tomatoes",
+     "en": "setenta y cuatro",
+     "y": 0.18
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Su inspiración",
+     "texto": "Jack Nicholson en El resplandor",
+     "en": "Jack Nicholson",
+     "y": 0.44
+    }
+   ]
+  }
  ],
  "cierre_desde": "Si quieres"
 }
