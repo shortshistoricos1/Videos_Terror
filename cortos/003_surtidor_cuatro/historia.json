@@ -3,46 +3,128 @@
  "titulo": "El surtidor cuatro",
  "titulo_youtube": "Trabajo sola en una gasolinera… y la cámara me grabó FUERA 😨 #shorts",
  "descripcion": "Una gasolinera vacía a las tres de la mañana, un surtidor que se enciende solo y una cámara que graba lo imposible. ¿Tú habrías salido a mirar? #terror #historiasdeterror #miedo #creepy #shorts",
- "final": ["¿Tú habrías salido a mirar?", "Sígueme para más"],
- "voz": {"voz": "es-ES-ElviraNeural", "rate": "-5%", "pitch": "-4Hz"},
+ "final": [
+  "¿Tú habrías salido a mirar?",
+  "Sígueme para más"
+ ],
+ "voz": {
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+0%",
+  "pitch": "-4Hz"
+ },
  "reparto": {
   "empleada": "woman around 30 years old, dark brown hair in a ponytail, plain red work jacket with a small blank name badge, dark trousers, tired face, wide frightened eyes, no logos"
  },
  "bloques": [
-  {"texto": "A las tres de la mañana, el surtidor cuatro empezó a funcionar solo.",
+  {
+   "texto": "A las tres de la mañana, el surtidor cuatro se encendió solo.",
    "imagen": "empty roadside gas station at night seen from the road, harsh fluorescent canopy lights, a single fuel pump with its digital display glowing, thin fog, dark pine forest behind, no people",
-   "ambiente": "viento"},
-  {"texto": "Trabajo sola en una gasolinera de carretera. Aquella noche no había pasado ni un coche.",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "Trabajo sola en una gasolinera de carretera. No había ni un coche.",
    "imagen": "interior of a small gas station shop at night, counter with cash register, snack shelves, big window showing dark empty pumps outside, cold fluorescent light, no people",
    "ambiente": "interior",
-   "personajes": [{"quien": "empleada", "anim": "camina", "desde": "izq", "x": 0.45, "y": 0.97, "alto": 0.55, "en": "Trabajo"}]},
-  {"texto": "Pero la pantalla de la caja contaba litros. Diez. Veinte. Treinta.",
+   "personajes": [
+    {
+     "quien": "empleada",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.45,
+     "y": 0.97,
+     "alto": 0.55,
+     "en": "Trabajo"
+    }
+   ]
+  },
+  {
+   "texto": "Pero la caja contaba litros. Diez. Veinte. Treinta.",
    "imagen": "=",
    "ambiente": "interior",
-   "personajes": [{"quien": "empleada", "anim": "tiembla", "x": 0.45, "y": 0.97, "alto": 0.55}],
-   "impactos": [{"texto": "TREINTA", "en": "Treinta"}]},
-  {"texto": "Miré las cámaras. Junto al surtidor había una mujer de espaldas, con la manguera en la mano.",
+   "personajes": [
+    {
+     "quien": "empleada",
+     "anim": "tiembla",
+     "x": 0.45,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "TREINTA",
+     "en": "Treinta"
+    }
+   ]
+  },
+  {
+   "texto": "Miré la cámara. Junto al surtidor había una mujer de espaldas.",
    "imagen": "grainy black and white security camera monitor screen showing a gas pump at night, a woman with a dark ponytail in a work jacket standing with her back to the camera holding the fuel nozzle, timestamp-free, scan lines",
-   "ambiente": "estatica"},
-  {"texto": "Llevaba mi chaqueta roja. Mi coleta. Mi placa con el nombre.",
+   "ambiente": "estatica"
+  },
+  {
+   "texto": "Llevaba mi chaqueta roja. Mi coleta. Mi placa.",
    "imagen": "=",
    "ambiente": "estatica",
-   "impactos": [{"texto": "MI PLACA", "en": "placa"}],
-   "sfx": [{"tipo": "latido"}]},
-  {"texto": "Entonces sonó el teléfono de la tienda. Era mi jefe, susurrando: Marta, ¿qué haces ahí fuera?",
+   "impactos": [
+    {
+     "texto": "MI PLACA",
+     "en": "placa"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ]
+  },
+  {
+   "texto": "Sonó el teléfono. Era mi jefe, susurrando: Marta, ¿qué haces ahí fuera?",
    "imagen": "close-up of an old beige landline telephone on a gas station counter at night, cash register beside it, dark window behind reflecting fluorescent lights, no people",
    "ambiente": "interior",
-   "sfx": [{"tipo": "telefono", "en": "sonó"}],
-   "personajes": [{"quien": "empleada", "anim": "gira", "x": 0.68, "y": 0.97, "alto": 0.55, "en": "Marta"}]},
-  {"texto": "En el monitor, la mujer soltó la manguera, se giró despacio y miró a la cámara.",
+   "sfx": [
+    {
+     "tipo": "telefono",
+     "en": "sonó"
+    }
+   ],
+   "personajes": [
+    {
+     "quien": "empleada",
+     "anim": "gira",
+     "x": 0.68,
+     "y": 0.97,
+     "alto": 0.55,
+     "en": "Marta"
+    }
+   ]
+  },
+  {
+   "texto": "En el monitor, la mujer se giró despacio y miró a la cámara.",
    "imagen": "grainy black and white security camera monitor screen, a woman with a dark ponytail in a work jacket at a gas pump at night turning her head to stare straight into the camera, face in deep shadow, scan lines and static",
    "ambiente": "estatica",
-   "sfx": [{"tipo": "respiracion"}],
-   "impactos": [{"texto": "MIRÓ", "en": "miró"}]},
-  {"texto": "Busqué la cámara de dentro. El mostrador estaba vacío. Ni rastro de nadie. Ni siquiera de mí.",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "MIRÓ",
+     "en": "miró"
+    }
+   ]
+  },
+  {
+   "texto": "Busqué la cámara de dentro. El mostrador estaba vacío. Ni siquiera estaba yo.",
    "imagen": "grainy high angle security camera view from the ceiling of an empty gas station shop counter at night, cash register, fluorescent light, completely empty, no people, static noise",
    "ambiente": "estatica",
-   "sfx": [{"tipo": "golpe_final"}],
-   "pausa": 1.2}
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 1.0
+  }
  ]
 }
