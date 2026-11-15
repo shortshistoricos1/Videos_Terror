@@ -48,8 +48,9 @@ def imagenes(d, h):
         dst = d / "imgs" / f"bloque_{i:03d}.jpg"
         if dst.exists() and dst.stat().st_size > 20000:
             continue
+        w, hh = (1080, 1920) if h.get("formato") == "vertical" else (1920, 1080)
         url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(p + estilo) +
-               f"?width=1920&height=1080&seed={1000 + i}&nologo=true&model=flux")
+               f"?width={w}&height={hh}&seed={1000 + i}&nologo=true&model=flux")
         for k in range(6):
             try:
                 r = requests.get(url, timeout=180)
@@ -66,7 +67,7 @@ def imagenes(d, h):
         time.sleep(4)
 
 
-for hj in sorted(Path("largos").glob("*/historia.json")):
+for hj in sorted(list(Path("largos").glob("*/historia.json")) + list(Path("cortos").glob("*/historia.json"))):
     d = hj.parent
     if (d / "preparado.txt").exists():
         continue

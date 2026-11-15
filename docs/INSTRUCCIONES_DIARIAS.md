@@ -1,49 +1,52 @@
-# Short de terror diario — procedimiento
+# Short de terror diario (estilo cómic narrado) — procedimiento
 
-Canal: **Shorts Terror España** (YouTube), publicado vía **Metricool**, marca `shorts.historia.e`, `blogId` **7969360**, zona horaria Europe/Madrid.
-Formato: short vertical 1080×1920 de ~45–55 s, historia de miedo contada como **conversación de chat** (sin voz), con sonido sintetizado.
+Canal: **Shorts Terror España** (YouTube) vía **Metricool**, `blogId` **7969360**, Europe/Madrid.
+Formato: short vertical 1080×1920 de 40–55 s, historia narrada (voz Edge TTS) sobre ilustraciones de **cómic de terror** generadas por IA, con movimiento de cámara, subtítulos grandes y sonido sintetizado. Mismo sistema que los vídeos largos (`docs/INSTRUCCIONES_LARGOS.md`), en vertical.
 
 ## Pasos de cada día
 
-1. Lee `historias/HISTORIAL.md` para no repetir contacto, situación ni giro de los últimos 30 días.
-2. Escribe una historia NUEVA y original en `historias/NNN_slug.json` (NNN = siguiente número). Reglas abajo.
-3. Genera el vídeo:
-   `python3 -I tools/chat_short.py historias/NNN_slug.json videos/NNN_slug.mp4`
-   (tarda ~2 min; necesita ffmpeg, Pillow, numpy y las fuentes Poppins de `/usr/share/fonts/truetype/google-fonts/`).
-4. Revisa 3 fotogramas (inicio, mitad, final) con ffmpeg y míralos: texto legible, nada cortado. Si algo falla, corrige el JSON y repite.
-5. Sube el vídeo: `git add` + commit + `git -c push.negotiate=true push` a `main`.
-6. Busca en Metricool (getScheduledPosts, blogId 7969360) el **primer día a partir de hoy sin ningún short de YouTube programado** (ignora los borradores, `draft: true`, y los vídeos largos) y programa ahí el short a las **20:00** (Europe/Madrid) con createScheduledPost:
-   - `media`: `["https://raw.githubusercontent.com/shortshistoricos1/videos_terror/main/videos/NNN_slug.mp4"]`
-   - `providers`: `[{"network":"youtube"}]`, `draft`: false, `autoPublish`: true
-   - `text`: el campo `descripcion` del JSON
-   - `youtubeData`: `{"title": titulo_youtube, "type":"short", "privacy":"public", "tags":[...5–8 etiquetas de terror en español...], "category":"ENTERTAINMENT", "madeForKids": false, "isAiGeneratedContent": true}`
-7. Cuando Metricool responda OK (copia el vídeo a su servidor), **borra los mp4 de `videos/`** con más de 2 días (git rm + push) para que el repo no crezca.
-8. Añade una línea a `historias/HISTORIAL.md`: `NNN | fecha programada | contacto | situación | giro final`. Commit + push.
-9. Resume en 2–3 líneas en español qué historia se hizo y para qué día quedó programada.
+1. Lee `historias/HISTORIAL.md` (no repitas escenario, amenaza ni giro de los últimos 30 días).
+2. Escribe la historia en `cortos/NNN_slug/historia.json` (NNN = siguiente número del historial) con `"formato": "vertical"`. Formato y reglas abajo.
+3. Commit + `git -c push.negotiate=true push` a `main` → la Action **«Preparar vídeo largo»** genera `voces/`, `imgs/` (verticales) y `preparado.txt` (2–6 min).
+4. Espera (bucle `git fetch --depth 1 origin +refs/heads/main:refs/remotes/origin/main` cada 20 s, máx. 30 min) a que exista `origin/main:cortos/NNN_slug/preparado.txt`; luego `git reset --hard origin/main`.
+5. Mira las imágenes con Read. Monta: `python3 -I tools/largo.py cortos/NNN_slug /tmp/NNN_slug.mp4` (≈3–5 min).
+6. Revisa 4 fotogramas y la duración (≤ 59 s; si pasa, acorta el texto y repite desde el paso 2 con otro NNN_slug).
+7. Sube: `bash tools/subir_largo.sh NNN_slug /tmp/NNN_slug.mp4` y espera `origin/main:largos/NNN_slug/url.txt` (la Action de publicación lo escribe ahí también para los shorts).
+8. Busca en Metricool (getScheduledPosts) el **primer día a partir de hoy sin ningún short de YouTube programado** (ignora borradores `draft: true` y vídeos largos) y programa a las **20:00** con createScheduledPost:
+   - `media`: `[contenido de url.txt]`, `providers`: `[{"network":"youtube"}]`, `draft`: false, `autoPublish`: true
+   - `text`: `descripcion` del JSON
+   - `youtubeData`: `{"title": titulo_youtube, "type":"short", "privacy":"public", "tags":[5–8 etiquetas], "category":"ENTERTAINMENT", "madeForKids": false, "isAiGeneratedContent": true}`
+9. Añade una línea a `historias/HISTORIAL.md`: `NNN | fecha programada | escenario | amenaza | giro`. Commit + push.
+10. Resume en 2–3 líneas: título, de qué va, día y hora.
 
-Si un paso falla (Metricool, push, render), no publiques nada a medias: explica el error en el resumen.
+Si algo falla, no programes nada a medias y explica el error.
 
-## Formato del JSON
+## Formato de `historia.json`
 
 ```json
 {
-  "titulo_youtube": "máx. 90 caracteres, gancho + emoji + #shorts",
+  "formato": "vertical",
+  "titulo": "El último autobús",
+  "titulo_youtube": "gancho fuerte, máx. 90 caracteres 😨 #shorts",
   "descripcion": "1–2 frases + pregunta al público + 4–5 hashtags",
-  "contact": "nombre del contacto (cabecera del chat)",
-  "intro": ["línea 1", "línea 2 (parte blanca) ", "parte roja", "línea 3", "texto pequeño gris"],
-  "end": ["pregunta final línea 1", "línea 2 en rojo", "texto pequeño"],
-  "script": [["M","texto del contacto","2:13"], ["Y","texto del protagonista","2:13"], ..., ["KNOCK3"], ..., ["TYPESTOP"], ["BANNER"], ["M","...","2:17"], ["FINAL"]],
-  "banner": {"from": "quien manda la notificación del giro", "text": "texto de la notificación (máx. ~110 caracteres)"}
+  "final": ["¿Tú te habrías bajado?", "Sígueme para más"],
+  "voz": {"voz": "es-ES-AlvaroNeural", "rate": "-5%", "pitch": "-4Hz"},
+  "bloques": [
+    {"texto": "Gancho de 1 frase que obligue a quedarse.", "imagen": "prompt EN INGLÉS de la viñeta", "ambiente": "interior"},
+    {"texto": "...", "imagen": "=", "sfx": [{"tipo": "golpes", "en": "llamaron"}]},
+    {"texto": "Frase final con el giro.", "imagen": "...", "sfx": [{"tipo": "golpe_final"}], "pausa": 1.2}
+  ]
 }
 ```
 
-Orden **obligatorio** de los eventos especiales (el generador depende de él): mensajes → `KNOCK3` (tres golpes en una puerta/ventana/pared) → mensajes → `TYPESTOP` (el contacto escribe y se calla) → `BANNER` (notificación de un tercero que revela el giro) → 1–3 mensajes finales del contacto → `FINAL`.
-"M" = el contacto, "Y" = el protagonista. Horas coherentes y crecientes (madrugada). 14–20 mensajes en total para que dure 45–55 s.
+- 7–10 bloques, **110–140 palabras en total** (≈ 40–55 s). 5–8 imágenes distintas (`"="` reutiliza la anterior).
+- El primer bloque es el gancho (se entiende sin contexto y crea una pregunta). El último, el giro.
+- `ambiente`: interior | viento | lluvia | fuego | estatica. `sfx`: golpes | aranazos | telefono | respiracion | latido | golpe_final.
+- Alterna voces entre días: es-ES-AlvaroNeural, es-ES-ElviraNeural, es-MX-JorgeNeural, es-MX-DaliaNeural.
 
 ## Reglas de la historia
 
-- Español de España, natural, frases cortas como en WhatsApp. Sin faltas.
-- Original: nunca copiar creepypastas conocidas ("yo también lo he oído", etc.).
-- Varía cada día: tipo de contacto (madre, hermano, pareja, compañero de piso, abuela, amigo, vecina, número desconocido, canguro, jefe, grupo de clase…), lugar (piso, pueblo, casa rural, autocaravana, residencia, hotel, camping, garaje…) y tipo de giro (suplantación, el contacto ya estaba muerto, está dentro de casa, era el propio protagonista, la hora es imposible, el móvil estaba apagado…).
-- El giro tiene que entenderse con la notificación `BANNER` + el último mensaje.
-- Terror psicológico, sin gore explícito, sin violencia contra menores, sin suicidio ni autolesiones, sin personas reales ni marcas.
+- Español de España, primera persona, frases cortas para escuchar. Original (nada de creepypastas conocidas).
+- Varía escenario (residencia, autobús nocturno, ascensor, gasolinera, faro, hospital, pueblo, garaje, camping, hotel…), amenaza y giro.
+- Estilo de imagen: cómic de terror (lo añade la Action). Describe cada viñeta: plano, personaje (misma descripción en todas), lugar y luz. Sin texto en la imagen.
+- Terror psicológico; sin gore explícito, sin violencia sexual, sin menores en peligro grave, sin suicidio ni autolesiones, sin personas, marcas ni sucesos reales.

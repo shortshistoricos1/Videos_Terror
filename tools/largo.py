@@ -21,6 +21,9 @@ OUT = Path(sys.argv[2]).resolve()
 LIMIT = int(sys.argv[3]) if len(sys.argv) > 3 else None
 ROOT = Path(__file__).resolve().parent.parent
 H = json.loads((D / "historia.json").read_text(encoding="utf-8"))
+VERT = H.get("formato") == "vertical"
+OW, OH = (1080, 1920) if VERT else (1920, 1080)
+BW, BH = (1350, 2400) if VERT else (2400, 1350)
 TMP = Path(tempfile.mkdtemp(prefix="largo_"))
 SEG, TXT, IMG = TMP / "seg", TMP / "txt", TMP / "img"
 for p in (SEG, TXT, IMG):
@@ -41,17 +44,17 @@ def dur_of(f):
 def prep_img(src, dst):
     im = Image.open(src).convert("RGB")
     w, h = im.size
-    s = max(2400 / w, 1350 / h)
+    s = max(BW / w, BH / h)
     im = im.resize((int(w * s + 1), int(h * s + 1)), Image.LANCZOS)
     w, h = im.size
-    im = im.crop(((w - 2400) // 2, (h - 1350) // 2, (w - 2400) // 2 + 2400, (h - 1350) // 2 + 1350))
+    im = im.crop(((w - BW) // 2, (h - BH) // 2, (w - BW) // 2 + BW, (h - BH) // 2 + BH))
     a = np.asarray(im, np.float32) / 255.0
     g = a.mean(2, keepdims=True)
     a = g + (a - g) * 0.88                       # algo menos de saturación
     a = a * np.array([0.93, 0.98, 1.06])         # tono frío
     a = np.clip((a - 0.5) * 1.08 + 0.47, 0, 1)   # algo más de contraste y oscuridad
-    y, x = np.ogrid[:1350, :2400]
-    dd = np.sqrt(((x - 1200) / 1200) ** 2 + ((y - 675) / 675) ** 2)
+    y, x = np.ogrid[:BH, :BW]
+    dd = np.sqrt(((x - BW / 2) / (BW / 2)) ** 2 + ((y - BH / 2) / (BH / 2)) ** 2)
     a = a * np.clip(1 - 0.55 * (dd / 1.414) ** 2.2, 0, 1)[..., None]
     Image.fromarray((a * 255).astype(np.uint8)).save(dst, quality=94)
 
@@ -107,7 +110,7 @@ for b in blocks:
     fy = [0.45, 0.4, 0.5, 0.55, 0.42][flip % 5]
     b["z"], b["f"] = (z0, z0 + delta), (fx, fy)
     prev_img, prev_z = b["img"], z0 + delta
-END_CARD = 6.0
+END_CARD = 3.0 if VERT else 6.0
 TOTAL = t + END_CARD
 print(f"{len(blocks)} bloques · {TOTAL / 60:.2f} min", flush=True)
 
@@ -154,7 +157,7 @@ def seg_filter(b):
         f2.write_text(title, encoding="utf-8")
         al = "if(lt(t,0.9),0,if(lt(t,1.5),(t-0.9)/0.6,1))"
         fs = 110 if len(title) <= 22 else 84
-        parts.append(f"[0:v]scale=1920:1080,boxblur=22:2,eq=brightness=-0.22:saturation=0.5,"
+        parts.append(f"[0:v]scale={OW}:{OH},boxblur=22:2,eq=brightness=-0.22:saturation=0.5,"
                      f"drawtext=fontfile={F_SUB}:textfile={esc(f1)}:expansion=none:fontsize=40:fontcolor=0xE04040:"
                      f"x=(w-text_w)/2:y=440:alpha='{al}',drawbox=x=860:y=510:w=200:h=3:color=0xE04040@0.8:t=fill,"
                      f"drawtext=fontfile={F_SERIF}:textfile={esc(f2)}:expansion=none:fontsize={fs}:fontcolor=0xF0EEE8:"
@@ -163,9 +166,9 @@ def seg_filter(b):
         z0, z1 = b["z"]
         fx, fy = b["f"]
         Z = f"({z0}+({z1}-{z0})*t/{d:.3f})"
-        chain = (f"[0:v]scale=w='2*trunc(1920*{Z}/2)':h='2*trunc(1080*{Z}/2)':eval=frame:flags=bicubic,"
-                 f"crop=1920:1080:x='(iw-1920)*{fx}':y='(ih-1080)*{fy}'")
-        if b.get("ambiente") == "nieve":
+        chain = (f"[0:v]scale=w='2*trunc({OW}*{Z}/2)':h='2*trunc({OH}*{Z}/2)':eval=frame:flags=bicubic,"
+                 f"crop={OW}:{OH}:x='(iw-{OW})*{fx}':y='(ih-{OH})*{fy}'")
+        if b.get("ambiente") == "nieve" and not VERT:
             chain += "[bg];[1:v]format=rgba,colorchannelmixer=aa=0.6[sn];[bg][sn]overlay=x=0:y='mod(t*75,1080)-1080':shortest=1"
         parts.append(chain)
         parts.append("eq=brightness='0.012*sin(2*PI*0.27*t)+0.012*(random(0)-0.5)':eval=frame")
@@ -177,11 +180,12 @@ def seg_filter(b):
             a, e = acc, acc + (t1 - t0) * wk / sum(w)
             acc = e
             fp = TXT / f"s{b['i']:03d}_{k:02d}.txt"
-            fp.write_text("\n".join(textwrap.wrap(c, 46)), encoding="utf-8")
-            parts.append(f"drawtext=fontfile={F_SUB}:textfile={esc(fp)}:expansion=none:fontsize=44:text_align=center:"
-                         f"fontcolor=0xF2F2F2:line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=18:"
-                         f"x=(w-text_w)/2:y=h-text_h-80:enable='between(t,{a:.2f},{e:.2f})'")
-        if b["i"] == 0:
+            fp.write_text("\n".join(textwrap.wrap(c, 22 if VERT else 46)), encoding="utf-8")
+            sub_y = "h*0.68-text_h/2" if VERT else "h-text_h-80"
+            parts.append(f"drawtext=fontfile={F_SUB if not VERT else F_BOLD}:textfile={esc(fp)}:expansion=none:fontsize={68 if VERT else 44}:text_align=center:"
+                         f"fontcolor=0xF2F2F2:line_spacing=10:box=1:boxcolor=black@0.55:boxborderw=18:borderw={3 if VERT else 0}:bordercolor=black:"
+                         f"x=(w-text_w)/2:y={sub_y}:enable='between(t,{a:.2f},{e:.2f})'")
+        if b["i"] == 0 and not VERT:
             ft, fs2 = TXT / "title.txt", TXT / "title2.txt"
             ft.write_text(H["titulo"].upper(), encoding="utf-8")
             fs2.write_text(H.get("subtitulo", "Una historia de miedo"), encoding="utf-8")
@@ -218,9 +222,10 @@ def render_end():
     f1.write_text(fin[0], encoding="utf-8")
     f2.write_text(fin[1], encoding="utf-8")
     al = "if(lt(t,0.6),t/0.6,1)"
-    vf = (f"[0:v]scale=1920:1080,boxblur=24:2,eq=brightness=-0.32:saturation=0.4,"
-          f"drawtext=fontfile={F_SERIF}:textfile={esc(f1)}:expansion=none:fontsize=96:fontcolor=0xF0EEE8:x=(w-text_w)/2:y=430:alpha='{al}',"
-          f"drawtext=fontfile={F_SUB}:textfile={esc(f2)}:expansion=none:fontsize=42:fontcolor=0xE04040:x=(w-text_w)/2:y=590:alpha='{al}',"
+    ey1, ey2, efs = ("h*0.40", "h*0.50", 76) if VERT else ("430", "590", 96)
+    vf = (f"[0:v]scale={OW}:{OH},boxblur=24:2,eq=brightness=-0.32:saturation=0.4,"
+          f"drawtext=fontfile={F_SERIF}:textfile={esc(f1)}:expansion=none:fontsize={efs}:fontcolor=0xF0EEE8:x=(w-text_w)/2:y={ey1}:alpha='{al}',"
+          f"drawtext=fontfile={F_SUB}:textfile={esc(f2)}:expansion=none:fontsize=42:fontcolor=0xE04040:x=(w-text_w)/2:y={ey2}:alpha='{al}',"
           f"noise=alls=5:allf=t+u,fade=t=in:st=0:d=0.8,fade=t=out:st={END_CARD - 1.0}:d=1.0,format=yuv420p[v]")
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-loop", "1", "-framerate", str(FPS),
                     "-t", str(END_CARD), "-i", str(blocks[-1]["img"]), "-filter_complex", vf, "-map", "[v]",
@@ -399,7 +404,8 @@ def miniatura():
 
 
 if __name__ == "__main__":
-    miniatura()
+    if not VERT:
+        miniatura()
     wav = build_audio()
     print("audio listo", flush=True)
     with ThreadPoolExecutor(2) as ex:
