@@ -47,7 +47,7 @@ def prep_img(src, dst):
     im = im.crop(((w - 2400) // 2, (h - 1350) // 2, (w - 2400) // 2 + 2400, (h - 1350) // 2 + 1350))
     a = np.asarray(im, np.float32) / 255.0
     g = a.mean(2, keepdims=True)
-    a = g + (a - g) * 0.72                       # menos saturación
+    a = g + (a - g) * 0.88                       # algo menos de saturación
     a = a * np.array([0.93, 0.98, 1.06])         # tono frío
     a = np.clip((a - 0.5) * 1.08 + 0.47, 0, 1)   # algo más de contraste y oscuridad
     y, x = np.ogrid[:1350, :2400]

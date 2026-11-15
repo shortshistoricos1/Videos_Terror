@@ -9,8 +9,9 @@ from pathlib import Path
 import edge_tts
 import requests
 
-ESTILO = (", cinematic horror film still, dark moody low-key lighting, photorealistic, 35mm film, "
-          "subtle film grain, Spain, no text, no watermark")
+ESTILO = (", creepy comic book illustration, graphic novel art, thick black ink outlines, cel shading, "
+          "flat muted desaturated colors, eerie night atmosphere, dramatic shadows, detailed background, "
+          "horror comic panel, no text, no speech bubbles, no watermark")
 
 
 async def voces(d, h):

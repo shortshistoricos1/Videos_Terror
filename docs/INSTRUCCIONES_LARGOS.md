@@ -61,4 +61,5 @@ Si algo falla, no programes nada a medias; explica qué paso falló.
 - Original. Nada de creepypastas conocidas ni de copiar películas.
 - Variedad respecto al historial: escenario (pueblo, ciudad, carretera, hospital, faro, internado, autobús nocturno, mina, residencia, barco, casa rural…), tipo de amenaza (doble, presencia, reglas, objeto maldito, desaparición, bucle temporal, vecino…) y giro.
 - Terror psicológico; sin gore explícito, sin violencia sexual, sin menores en peligro grave, sin suicidio ni autolesiones, sin personas, marcas ni sucesos reales.
+- Estilo visual: cómic de terror (lo añade la Action; no lo repitas en el prompt). Describe la escena como una viñeta: plano, personaje, lugar, luz.
 - Prompts de imagen coherentes entre sí (misma casa, mismo personaje: describe edad, ropa y pelo igual en todos los prompts).
