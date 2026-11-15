@@ -56,7 +56,7 @@ def cloudflare(prompt, seed, vertical):
     """FLUX.1 schnell en Cloudflare Workers AI (gratis hasta 10.000 neuronas/día). Devuelve bytes JPG o None."""
     url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell"
     r = requests.post(url, headers={"Authorization": f"Bearer {CF_TOKEN}"},
-                      json={"prompt": prompt[:2000], "steps": 6, "seed": seed}, timeout=120)
+                      json={"prompt": prompt[:2000], "steps": 6}, timeout=120)
     if r.status_code != 200:
         log("cloudflare", r.status_code, r.text[:400])
         return None
