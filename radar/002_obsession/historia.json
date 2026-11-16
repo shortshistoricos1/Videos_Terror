@@ -8,7 +8,11 @@
   "https://kantan.news/news/horror-film-obsession-which-earned-700-times-its-box-office-budget-is-coming-to-netflix",
   "https://en.wikipedia.org/wiki/Obsession_(2025_film)"
  ],
- "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
  "texto": "¿Por qué todo el mundo habla hoy de Obsession? Porque mañana, diecisiete de noviembre, llega a Netflix en Estados Unidos la película de terror sorpresa del año. Costó como mucho setecientos cincuenta mil dólares... y ha recaudado más de quinientos millones en todo el mundo. Es la película con menos de un millón de presupuesto que más ha recaudado de la historia. Su director, Curry Barker, empezó haciendo sketches de humor en YouTube. La historia: un chico rompe un juguete que concede un deseo... y pide que su amiga le quiera más que a nadie en el mundo. Y ella se obsesiona. En Rotten Tomatoes tiene un noventa y tres por ciento. Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
  "reparto": {
   "amiga": "young woman with long dark messy hair, oversized grey hoodie, pale skin, wide unblinking eyes, unsettling adoring smile, head slightly tilted"
@@ -19,11 +23,34 @@
    "ambiente": "lluvia",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
-    {"tipo": "titulo", "texto": "¿Por qué todos hablan de", "tam": 118, "en": "Por qué"},
-    {"tipo": "titulo", "texto": "Obsession?", "color": "rojo", "tam": 150, "en": "Obsession"},
-    {"tipo": "busqueda", "texto": "obsession pelicula", "en": "Obsession"},
-    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "Obsession"}
+    {
+     "tipo": "tag",
+     "texto": "Radar del terror · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos hablan de",
+     "tam": 118,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Obsession?",
+     "color": "rojo",
+     "tam": 150,
+     "en": "Obsession"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "obsession pelicula",
+     "en": "Obsession"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Obsession"
+    }
    ]
   },
   {
@@ -33,9 +60,23 @@
    "ambiente": "interior",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "titulo", "texto": "Mañana", "en": "Porque mañana"},
-    {"tipo": "fecha", "dia": 17, "mes": "noviembre", "etiqueta": "Netflix EE. UU.", "en": "diecisiete"},
-    {"tipo": "sello", "texto": "Sorpresa del año", "en": "sorpresa"}
+    {
+     "tipo": "titulo",
+     "texto": "Mañana",
+     "en": "Porque mañana"
+    },
+    {
+     "tipo": "fecha",
+     "dia": 17,
+     "mes": "noviembre",
+     "etiqueta": "Netflix EE. UU.",
+     "en": "diecisiete"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Sorpresa del año",
+     "en": "sorpresa"
+    }
    ]
   },
   {
@@ -44,10 +85,27 @@
    "imagen": "old wooden table in a dark basement covered with stacks of dollar bills under a single hanging bulb, ominous shadows, no text",
    "fondo": "red",
    "elementos": [
-    {"tipo": "tag", "texto": "Costó", "en": "Costó"},
-    {"tipo": "titulo", "texto": "750.000 $", "tam": 140, "en": "setecientos"},
-    {"tipo": "subtitulo", "texto": "Recaudó +500 millones", "en": "quinientos"},
-    {"tipo": "sello", "texto": "Récord histórico", "en": "de la historia"}
+    {
+     "tipo": "tag",
+     "texto": "Costó",
+     "en": "Costó"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "750.000 $",
+     "tam": 140,
+     "en": "setecientos"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "Recaudó +500 millones",
+     "en": "quinientos"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Récord histórico",
+     "en": "de la historia"
+    }
    ]
   },
   {
@@ -56,9 +114,23 @@
    "imagen": "small cluttered home video studio at night, a camera on a tripod pointing at an empty chair, ring light glowing, eerie shadows, no people, no text",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "titulo", "texto": "Curry Barker", "tam": 130, "en": "Curry Barker"},
-    {"tipo": "imagen", "alto": 560, "pie": "Empezó en YouTube", "en": "Curry Barker"},
-    {"tipo": "sello", "texto": "Sketches de humor", "en": "sketches"}
+    {
+     "tipo": "titulo",
+     "texto": "Curry Barker",
+     "tam": 130,
+     "en": "Curry Barker"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 560,
+     "pie": "Empezó en YouTube",
+     "en": "Curry Barker"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Sketches de humor",
+     "en": "sketches"
+    }
    ]
   },
   {
@@ -67,11 +139,36 @@
    "imagen": "dim music store at night with guitars on the walls, a small broken wooden toy on the counter, cold blue light, empty, no people, no lettering, no speech bubbles",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "tag", "texto": "Un juguete · un deseo", "en": "juguete"},
-    {"tipo": "imagen", "alto": 640, "en": "La historia",
-     "personajes": [{"quien": "amiga", "anim": "se_acerca", "en": "su amiga", "alto": 0.9}]},
-    {"tipo": "sello", "texto": "«Que me quiera»", "en": "le quiera"},
-    {"tipo": "desaparece", "texto": "Se obsesiona", "color": "rojo", "tam": 116, "en": "se obsesiona"}
+    {
+     "tipo": "tag",
+     "texto": "Un juguete · un deseo",
+     "en": "juguete"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 640,
+     "en": "La historia",
+     "personajes": [
+      {
+       "quien": "amiga",
+       "anim": "se_acerca",
+       "en": "su amiga",
+       "alto": 0.9
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "«Que me quiera»",
+     "en": "le quiera"
+    },
+    {
+     "tipo": "desaparece",
+     "texto": "Se obsesiona",
+     "color": "rojo",
+     "tam": 116,
+     "en": "se obsesiona"
+    }
    ]
   },
   {
@@ -80,11 +177,25 @@
    "imagen": "empty old cinema auditorium with red seats, projector beam through dust, one seat with a red rose, eerie, no text",
    "fondo": "bone",
    "elementos": [
-    {"tipo": "dato", "valor": 93, "sufijo": "%", "etiqueta": "Rotten Tomatoes", "en": "noventa y tres"},
-    {"tipo": "sello", "texto": "Mañana en Netflix", "en": "Rotten Tomatoes"}
+    {
+     "tipo": "dato",
+     "valor": 93,
+     "sufijo": "%",
+     "etiqueta": "Rotten Tomatoes",
+     "en": "noventa y tres"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Mañana en Netflix",
+     "en": "Rotten Tomatoes"
+    }
    ]
   }
  ],
  "cierre_desde": "Si quieres",
- "cierre": {"lema": "Para el terror del día", "comentario": "¿la has visto? 👇"}
+ "cierre": {
+  "lema": "Para el terror del día",
+  "comentario": "¿la has visto? 👇"
+ },
+ "reintento_imagenes": 1
 }
