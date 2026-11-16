@@ -7,43 +7,177 @@
   "https://www.periodistadigital.com/deportes/20261116/inglaterra-lleva-triunfo-espana-deja-nations-league-aire-noticia-689405267263/",
   "https://libero.pe/futbol-internacional/2026/11/14/espana-vs-inglaterra-en-vivo-en-directo-via-espn-rtve-1-partido-de-uefa-nations-league-1035370"
  ],
- "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
  "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
  "texto": "¿Qué ha pasado con España? Que anoche se le acabó la racha. Inglaterra ganó dos a tres en el Metropolitano, en Madrid, en la Nations League. Harry Kane abrió el marcador de penalti justo antes del descanso. Y en la segunda parte, Inglaterra marcó dos goles más en apenas cinco minutos. Pero España reaccionó. Oyarzabal marcó de penalti y Nico Williams hizo el dos a tres. No bastó. Inglaterra se queda primera del grupo y España segunda, las dos con quince puntos. Aun así, España ya está en cuartos de final. Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
  "escenas": [
-  {"imagen": "empty football stadium at night under bright floodlights, green pitch seen from the stands, dramatic sky", "fondo": "dark",
+  {
+   "imagen": "empty football stadium at night under bright floodlights, green pitch seen from the stands, dramatic sky",
+   "fondo": "dark",
    "elementos": [
-    {"tipo": "tag", "texto": "Radar Viral · hoy", "en": "Qué ha pasado"},
-    {"tipo": "titulo", "texto": "¿Qué ha pasado", "tam": 130, "en": "Qué ha pasado"},
-    {"tipo": "titulo", "texto": "con España?", "color": "rojo", "tam": 140, "en": "con España"},
-    {"tipo": "busqueda", "texto": "españa inglaterra", "en": "con España"},
-    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "racha"}]},
-  {"desde": "Inglaterra ganó", "etiqueta": "01 · EL RESULTADO", "imagen": "football scoreboard glowing at night in a stadium, abstract shapes, no numbers, no text", "fondo": "red",
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Qué ha pasado"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Qué ha pasado",
+     "tam": 130,
+     "en": "Qué ha pasado"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "con España?",
+     "color": "rojo",
+     "tam": 140,
+     "en": "con España"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "españa inglaterra",
+     "en": "con España"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "racha"
+    }
+   ]
+  },
+  {
+   "desde": "Inglaterra ganó",
+   "etiqueta": "01 · EL RESULTADO",
+   "imagen": "football scoreboard glowing at night in a stadium, abstract shapes, no numbers, no text",
+   "fondo": "red",
    "elementos": [
-    {"tipo": "titulo", "texto": "España 2 · 3", "tam": 150, "en": "Inglaterra ganó"},
-    {"tipo": "subtitulo", "texto": "Inglaterra gana en Madrid", "en": "dos a tres"},
-    {"tipo": "fecha", "dia": 15, "mes": "noviembre", "etiqueta": "Metropolitano", "en": "Metropolitano"},
-    {"tipo": "sello", "texto": "Nations League", "en": "Nations League"}]},
-  {"desde": "Harry Kane", "etiqueta": "02 · LOS GOLES", "imagen": "football resting on the penalty spot in front of an empty goal net, stadium lights, dramatic", "fondo": "dark",
+    {
+     "tipo": "titulo",
+     "texto": "España 2 · 3",
+     "tam": 150,
+     "en": "Inglaterra ganó"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "Inglaterra gana en Madrid",
+     "en": "dos a tres"
+    },
+    {
+     "tipo": "fecha",
+     "dia": 15,
+     "mes": "noviembre",
+     "etiqueta": "Metropolitano",
+     "en": "Metropolitano"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Nations League",
+     "en": "Nations League"
+    }
+   ]
+  },
+  {
+   "desde": "Harry Kane",
+   "etiqueta": "02 · LOS GOLES",
+   "imagen": "football resting on the penalty spot in front of an empty goal net, stadium lights, dramatic",
+   "fondo": "dark",
    "elementos": [
-    {"tipo": "titulo", "texto": "Harry Kane", "en": "Harry Kane"},
-    {"tipo": "imagen", "alto": 520, "pie": "Penalti antes del descanso", "en": "penalti"},
-    {"tipo": "sello", "texto": "+2 en 5 minutos", "en": "cinco minutos"}]},
-  {"desde": "Pero España reaccionó", "etiqueta": "03 · LA REACCIÓN", "imagen": "football hitting the back of a goal net, motion lines, stadium at night", "fondo": "bone",
+    {
+     "tipo": "titulo",
+     "texto": "Harry Kane",
+     "en": "Harry Kane"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Penalti",
+     "texto": "Justo antes del descanso",
+     "en": "penalti"
+    },
+    {
+     "tipo": "sello",
+     "texto": "+2 en 5 minutos",
+     "en": "cinco minutos"
+    }
+   ]
+  },
+  {
+   "desde": "Pero España reaccionó",
+   "etiqueta": "03 · LA REACCIÓN",
+   "imagen": "football hitting the back of a goal net, motion lines, stadium at night",
+   "fondo": "bone",
    "elementos": [
-    {"tipo": "titulo", "texto": "España reacciona", "tam": 120, "en": "Pero España"},
-    {"tipo": "tarjeta", "titulo": "Oyarzabal", "texto": "Gol de penalti", "en": "Oyarzabal"},
-    {"tipo": "tarjeta", "titulo": "Nico Williams", "texto": "El 2-3", "en": "Nico Williams"},
-    {"tipo": "sello", "texto": "No bastó", "en": "No bastó"}]},
-  {"desde": "Inglaterra se queda", "etiqueta": "04 · EL GRUPO", "imagen": "two football trophies podium abstract, cyan and pink light beams, stadium background", "fondo": "dark",
+    {
+     "tipo": "titulo",
+     "texto": "España reacciona",
+     "tam": 120,
+     "en": "Pero España"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Oyarzabal",
+     "texto": "Gol de penalti",
+     "en": "Oyarzabal"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Nico Williams",
+     "texto": "El 2-3",
+     "en": "Nico Williams"
+    },
+    {
+     "tipo": "sello",
+     "texto": "No bastó",
+     "en": "No bastó"
+    }
+   ]
+  },
+  {
+   "desde": "Inglaterra se queda",
+   "etiqueta": "04 · EL GRUPO",
+   "imagen": "two football trophies podium abstract, cyan and pink light beams, stadium background",
+   "fondo": "dark",
    "elementos": [
-    {"tipo": "subtitulo", "texto": "1º Inglaterra · 2º España", "en": "primera"},
-    {"tipo": "dato", "valor": 15, "sufijo": " pts", "etiqueta": "las dos selecciones", "en": "quince puntos"}]},
-  {"desde": "Aun así", "etiqueta": "05 · LO QUE VIENE", "imagen": "football tunnel leading to a bright stadium pitch, light at the end, empty", "fondo": "red",
+    {
+     "tipo": "subtitulo",
+     "texto": "1º Inglaterra · 2º España",
+     "en": "primera"
+    },
+    {
+     "tipo": "dato",
+     "valor": 15,
+     "sufijo": " pts",
+     "etiqueta": "las dos selecciones",
+     "en": "quince puntos"
+    }
+   ]
+  },
+  {
+   "desde": "Aun así",
+   "etiqueta": "05 · LO QUE VIENE",
+   "imagen": "football tunnel leading to a bright stadium pitch, light at the end, empty",
+   "fondo": "red",
    "elementos": [
-    {"tipo": "titulo", "texto": "España, en cuartos", "tam": 120, "en": "Aun así"},
-    {"tipo": "sello", "texto": "Clasificada ✓", "en": "cuartos de final"}]}
+    {
+     "tipo": "titulo",
+     "texto": "España, en cuartos",
+     "tam": 120,
+     "en": "Aun así"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Clasificada ✓",
+     "en": "cuartos de final"
+    }
+   ]
+  }
  ],
  "cierre_desde": "Si quieres",
- "cierre": {"lema": "Lo más buscado de cada día", "comentario": "¿Cómo viste a España? 👇"}
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Cómo viste a España? 👇"
+ }
 }
