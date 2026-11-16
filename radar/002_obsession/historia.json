@@ -73,6 +73,11 @@
      "en": "diecisiete"
     },
     {
+     "tipo": "imagen",
+     "alto": 480,
+     "en": "llega a Netflix"
+    },
+    {
      "tipo": "sello",
      "texto": "Sorpresa del año",
      "en": "sorpresa"
@@ -99,6 +104,11 @@
     {
      "tipo": "subtitulo",
      "texto": "Recaudó +500 millones",
+     "en": "quinientos"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450,
      "en": "quinientos"
     },
     {
@@ -197,5 +207,5 @@
   "lema": "Para el terror del día",
   "comentario": "¿la has visto? 👇"
  },
- "reintento_imagenes": 1
+ "reintento_imagenes": 2
 }
