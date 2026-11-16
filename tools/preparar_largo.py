@@ -89,7 +89,13 @@ def pollinations(prompt, seed, vertical):
     w, hh = (1080, 1920) if vertical else (1920, 1080)
     url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt[:1500]) +
            f"?width={w}&height={int(hh * 1.08)}&seed={seed}&nologo=true&model=flux")
-    r = requests.get(url, timeout=180)
+    for k in range(6):  # el plan gratuito limita peticiones seguidas (402/429/503): esperar y reintentar
+        r = requests.get(url, timeout=180)
+        if r.status_code in (402, 429, 500, 502, 503):
+            log("pollinations", r.status_code, "espero", 15 + 10 * k, "s")
+            time.sleep(15 + 10 * k)
+            continue
+        break
     if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 20000:
         im = Image.open(io.BytesIO(r.content)).convert("RGB")
         W_, H_ = im.size
