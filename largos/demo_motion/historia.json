@@ -1,0 +1,39 @@
+{
+ "titulo": "EL GRUPO DEL PORTAL",
+ "subtitulo": "Una historia de miedo",
+ "titulo_youtube": "DEMO motion horizontal",
+ "descripcion": "Demo",
+ "final": ["¿Tú habrías abierto?", "Suscríbete para más historias de miedo"],
+ "comentario": "yo salgo del grupo YA 😨",
+ "miniatura": {"texto1": "NO ABRAS", "texto2": "EL GRUPO DEL PORTAL", "bloque": 3},
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "-6%", "pitch": "-4Hz"},
+ "reparto": {"vecino": "man around 35 years old, short messy black hair, grey hoodie, jeans, tired face, frightened eyes, no logos"},
+ "bloques": [
+  {"texto": "Llevo tres años en el grupo de vecinos de mi portal. Anoche alguien escribió desde el piso que lleva vacío desde dos mil diecinueve.",
+   "imagen": "old Spanish apartment building stairwell at night, dim yellow light, mailboxes, no people", "ambiente": "interior",
+   "personajes": [{"quien": "vecino", "anim": "camina", "desde": "izq", "x": 0.4, "en": "Llevo"}]},
+  {"tipo": "capitulo", "texto": "Uno. El cuarto B."},
+  {"texto": "Eran las tres y cuarto. El móvil vibró encima de la mesilla. Un mensaje nuevo en el grupo.",
+   "imagen": "dark bedroom at night, phone glowing on a bedside table, window with blinds, no people", "ambiente": "interior",
+   "chat": {"contacto": "Vecinos Portal 7", "hora": "03:15", "mensajes": [
+     {"de": "el", "texto": "4ºB: ¿Alguien me puede abrir? Me he dejado las llaves", "en": "Un mensaje"},
+     {"de": "yo", "texto": "¿4ºB? Ese piso está vacío"},
+     {"de": "el", "texto": "4ºB: Estoy en tu puerta"}]}, "pausa": 2.6},
+  {"texto": "Me levanté sin hacer ruido y miré por la mirilla. El rellano estaba a oscuras. Pero la luz del sensor se encendió sola.",
+   "imagen": "view through a door peephole into a dark apartment landing, fisheye, one ceiling light, no people", "ambiente": "estatica",
+   "impactos": [{"texto": "SOLA", "en": "sola"}], "sfx": [{"tipo": "respiracion"}]},
+  {"texto": "Entonces llamaron. Tres golpes. Despacio.",
+   "imagen": "close-up of an old wooden apartment door from inside, light under the door, shadow of two feet, no people", "ambiente": "interior",
+   "sfx": [{"tipo": "golpes", "en": "llamaron"}], "pausa": 1.2},
+  {"tipo": "capitulo", "texto": "Dos. La mirilla."},
+  {"texto": "Volví a mirar el grupo. El mensaje ya no estaba. Solo quedaba uno, enviado desde mi propio número.",
+   "imagen": "=", "ambiente": "interior",
+   "chat": {"contacto": "Vecinos Portal 7", "hora": "03:19", "mensajes": [
+     {"de": "el", "texto": "4ºB: Estoy en tu puerta", "borrado": true, "en": "Volví"},
+     {"de": "yo", "texto": "Ya le abro yo. Tranquilos", "en": "Solo quedaba"}]}, "pausa": 2.2},
+  {"texto": "Yo no había escrito nada. Y detrás de mí, en el pasillo de mi casa, la luz del sensor se acababa de encender.",
+   "imagen": "dark narrow apartment hallway seen from behind, ceiling sensor light turning on at the end, no people", "ambiente": "interior",
+   "personajes": [{"quien": "vecino", "anim": "gira", "x": 0.55, "en": "Y detrás"}],
+   "sfx": [{"tipo": "golpe_final"}], "pausa": 1.6}
+ ]
+}
