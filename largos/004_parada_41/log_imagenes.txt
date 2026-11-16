@@ -1,0 +1,36 @@
+Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (5e0dedfc-aa2b-44d6-9d88-aee3549b33b3)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (08910275-cfa8-4ea8-be00-0d8e7d6d96e3)","code":8007}],"success":false,"result":{},"messages":[]}
+personaje ok personaje_marcos.png (1024, 1024)
+personaje ok personaje_senora.png (318, 938)
+personaje ok personaje_julian.png (559, 916)
+profundidad ok bloque_000_depth.png
+profundidad ok bloque_001_depth.png
+profundidad ok bloque_003_depth.png
+profundidad ok bloque_004_depth.png
+profundidad ok bloque_005_depth.png
+profundidad ok bloque_007_depth.png
+profundidad ok bloque_009_depth.png
+profundidad ok bloque_011_depth.png
+profundidad ok bloque_012_depth.png
+profundidad ok bloque_016_depth.png
+profundidad ok bloque_018_depth.png
+profundidad ok bloque_020_depth.png
+profundidad ok bloque_024_depth.png
+profundidad ok bloque_026_depth.png
+profundidad ok bloque_027_depth.png
+profundidad ok bloque_028_depth.png
+profundidad ok bloque_031_depth.png
+profundidad ok bloque_032_depth.png
+profundidad ok bloque_033_depth.png
+profundidad ok bloque_036_depth.png
+profundidad ok bloque_037_depth.png
+profundidad ok bloque_042_depth.png
+profundidad ok bloque_044_depth.png
+profundidad ok bloque_046_depth.png
+profundidad ok bloque_049_depth.png
+profundidad ok bloque_051_depth.png
+profundidad ok bloque_055_depth.png
+profundidad ok bloque_057_depth.png
+profundidad ok bloque_059_depth.png
+profundidad ok bloque_062_depth.png
