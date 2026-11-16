@@ -290,8 +290,6 @@ def build_audio():
     th = np.arange(int(1.0 * SR)) / SR
     ph = 2 * np.pi * np.cumsum(75 * np.exp(-th * 1.4)) / SR
     hit = ((np.sin(ph) + 0.5 * np.sin(2 * ph)) * np.exp(-th * 3.5) + rng.standard_normal(len(th)) * np.exp(-th * 30) * 0.4) * (1 - np.exp(-th * 900))
-    for a in starts[1:] + [T_CIERRE]:
-        put(wh, a - 0.2, 0.28)
     for h in hits:
         put(hit, h, 0.3)
     mix[-int(1.0 * SR):] *= np.linspace(1, 0, int(1.0 * SR))

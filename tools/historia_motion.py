@@ -270,8 +270,6 @@ def build_audio():
                        np.ones(20) / 20, mode="same") * 0.6
     bt = np.arange(int(2.2 * SR)) / SR
     br = np.convolve(rng.standard_normal(len(bt)), np.ones(8) / 8, mode="same") * np.sin(np.pi * bt / 2.2) ** 2
-    for b in blocks[1:]:
-        put(wh, b["start"] - 0.15, 0.22)
     for b in blocks:
         for s in b.get("sfx", []):
             ty = s.get("tipo")

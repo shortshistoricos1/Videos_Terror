@@ -1,7 +1,7 @@
 # Short de terror diario (estilo cómic narrado) — procedimiento
 
 Canal: **Shorts Terror España** (YouTube) vía **Metricool**, `blogId` **7969360**, Europe/Madrid.
-Formato: short vertical 1080×1920 de 40–55 s, historia narrada (voz Edge TTS) sobre ilustraciones de **cómic de terror** generadas por IA, con movimiento de cámara, subtítulos grandes y sonido sintetizado. Mismo sistema que los vídeos largos (`docs/INSTRUCCIONES_LARGOS.md`), en vertical.
+Formato: short vertical 1080×1920 de 40–58 s, montado en estilo motion design (tools/historia_motion.py), historia narrada (voz Edge TTS) sobre ilustraciones de **cómic de terror** generadas por IA, con movimiento de cámara, subtítulos grandes y sonido sintetizado. Mismo sistema que los vídeos largos (`docs/INSTRUCCIONES_LARGOS.md`), en vertical.
 
 ## Pasos de cada día
 
@@ -9,7 +9,7 @@ Formato: short vertical 1080×1920 de 40–55 s, historia narrada (voz Edge TTS)
 2. Escribe la historia en `cortos/NNN_slug/historia.json` (NNN = siguiente número del historial) con `"formato": "vertical"`. Formato y reglas abajo.
 3. Commit + `git -c push.negotiate=true push` a `main` → la Action **«Preparar vídeo largo»** genera `voces/`, `imgs/` (verticales) y `preparado.txt` (2–6 min).
 4. Espera (bucle `git fetch --depth 1 origin +refs/heads/main:refs/remotes/origin/main` cada 20 s, máx. 30 min) a que exista `origin/main:cortos/NNN_slug/preparado.txt`; luego `git reset --hard origin/main`.
-5. Mira las imágenes con Read. Monta: `python3 -I tools/largo.py cortos/NNN_slug /tmp/NNN_slug.mp4` (animación 2.5D: ≈3–6 min).
+5. Mira las imágenes con Read. Monta en **estilo motion design** (viñetas de cómic en tarjetas + narración palabra a palabra + marca): `python3 -I tools/historia_motion.py cortos/NNN_slug /tmp/NNN_slug.mp4` (≈2 min). Opcional en el JSON: `"comentario"` (texto que se escribe en la caja de comentario del cierre, p. ej. "yo no salgo ni loco 😨").
 6. Revisa 4 fotogramas y la duración (≤ 59 s; si pasa, acorta el texto y repite desde el paso 2 con otro NNN_slug).
 7. Sube: `bash tools/subir_largo.sh NNN_slug /tmp/NNN_slug.mp4` y espera `origin/main:largos/NNN_slug/url.txt` (la Action de publicación lo escribe ahí también para los shorts).
 8. Busca en Metricool (getScheduledPosts) el **primer día a partir de hoy sin ningún short de YouTube programado** (ignora borradores `draft: true` y vídeos largos) y programa a las **20:00** con createScheduledPost:
