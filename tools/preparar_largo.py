@@ -52,13 +52,24 @@ def log(*a):
     LOG.append(line)
 
 
+CF_AGOTADO = False
+
+
 def cloudflare(prompt, seed, vertical):
-    """FLUX.1 schnell en Cloudflare Workers AI (gratis hasta 10.000 neuronas/día). Devuelve bytes JPG o None."""
+    """FLUX.1 schnell en Cloudflare Workers AI (gratis hasta 10.000 neuronas/día). Devuelve bytes JPG o None.
+    Si se acaba la cuota diaria gratuita, pasa solo a Pollinations (gratis) hasta que termine la ejecución."""
+    global CF_AGOTADO
+    if CF_AGOTADO:
+        return pollinations(prompt, seed, vertical)
     url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell"
     r = requests.post(url, headers={"Authorization": f"Bearer {CF_TOKEN}"},
-                      json={"prompt": prompt[:2000], "steps": 6}, timeout=120)
+                      json={"prompt": prompt[:2000], "steps": 4}, timeout=120)
     if r.status_code != 200:
-        log("cloudflare", r.status_code, r.text[:400])
+        log("cloudflare", r.status_code, r.text[:200])
+        if r.status_code == 429 or "daily free allocation" in r.text or "4006" in r.text:
+            CF_AGOTADO = True
+            log("Cuota diaria de Cloudflare agotada: sigo con Pollinations")
+            return pollinations(prompt, seed, vertical)
         return None
     im = Image.open(io.BytesIO(base64.b64decode(r.json()["result"]["image"]))).convert("RGB")
     w, h = im.size  # 1024x1024: recorte al formato del vídeo
@@ -74,12 +85,20 @@ def cloudflare(prompt, seed, vertical):
 
 
 def pollinations(prompt, seed, vertical):
+    """Respaldo gratuito. Se pide un 8 % más alto y se recorta la franja de abajo (donde pone su marca de agua)."""
     w, hh = (1080, 1920) if vertical else (1920, 1080)
-    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt) +
-           f"?width={w}&height={hh}&seed={seed}&nologo=true&model=flux")
+    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt[:1500]) +
+           f"?width={w}&height={int(hh * 1.08)}&seed={seed}&nologo=true&model=flux")
     r = requests.get(url, timeout=180)
     if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 20000:
-        return r.content
+        im = Image.open(io.BytesIO(r.content)).convert("RGB")
+        W_, H_ = im.size
+        cut = int(H_ / 1.08)
+        im = im.crop((0, 0, W_, cut)).resize((w, hh), Image.LANCZOS)
+        buf = io.BytesIO()
+        im.save(buf, "JPEG", quality=93)
+        log("pollinations ok")
+        return buf.getvalue()
     log("pollinations", r.status_code)
     return None
 
@@ -208,11 +227,31 @@ def reparto(d, h):
             log("recorte error", pid, repr(e)[:300])
 
 
+def _poll_square(prompt):
+    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt[:1500]) +
+           "?width=1024&height=1106&seed=77&nologo=true&model=flux")
+    r = requests.get(url, timeout=180)
+    if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 20000:
+        im = Image.open(io.BytesIO(r.content)).convert("RGB")
+        im = im.crop((0, 0, im.size[0], int(im.size[1] / 1.08)))
+        buf = io.BytesIO()
+        im.save(buf, "PNG")
+        return buf.getvalue()
+    log("pollinations personaje", r.status_code)
+    return None
+
+
 def _cf_square(prompt):
+    global CF_AGOTADO
+    if CF_AGOTADO:
+        return _poll_square(prompt)
     url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell"
-    r = requests.post(url, headers={"Authorization": f"Bearer {CF_TOKEN}"}, json={"prompt": prompt[:2000], "steps": 6}, timeout=120)
+    r = requests.post(url, headers={"Authorization": f"Bearer {CF_TOKEN}"}, json={"prompt": prompt[:2000], "steps": 4}, timeout=120)
     if r.status_code != 200:
-        log("cloudflare", r.status_code, r.text[:300])
+        log("cloudflare", r.status_code, r.text[:200])
+        if r.status_code == 429 or "daily free allocation" in r.text:
+            CF_AGOTADO = True
+            return _poll_square(prompt)
         return None
     return base64.b64decode(r.json()["result"]["image"])
 
