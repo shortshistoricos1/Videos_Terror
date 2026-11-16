@@ -92,9 +92,9 @@
      "en": "Harry Kane"
     },
     {
-     "tipo": "tarjeta",
-     "titulo": "Penalti",
-     "texto": "Justo antes del descanso",
+     "tipo": "imagen",
+     "alto": 520,
+     "pie": "Penalti antes del descanso",
      "en": "penalti"
     },
     {
@@ -179,5 +179,6 @@
  "cierre": {
   "lema": "Lo más buscado de cada día",
   "comentario": "¿Cómo viste a España? 👇"
- }
+ },
+ "reintento_imagenes": 1
 }
