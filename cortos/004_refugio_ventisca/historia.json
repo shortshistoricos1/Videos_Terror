@@ -1,0 +1,75 @@
+{
+ "formato": "vertical",
+ "titulo": "El refugio",
+ "titulo_youtube": "Mi amigo me escribió «no abras»… pero llevaba horas muerto 😨 #shorts",
+ "descripcion": "Atrapado en un refugio de montaña en plena ventisca, alguien golpea la puerta con la voz de tu amigo. Y entonces te llega su mensaje. ¿Tú habrías abierto? #terror #historiasdeterror #miedo #creepy #shorts",
+ "final": ["¿Tú habrías abierto?", "Sígueme para más"],
+ "comentario": "yo no abro ni loco 😨",
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "-5%", "pitch": "-4Hz"},
+ "reparto": {
+  "montanero": "man around 32 years old, short dark beard, grey wool beanie, orange mountain jacket, dark hiking trousers, one ankle wrapped in a bandage, exhausted frightened face, no logos",
+  "dani": "man around 28 years old, short blond hair, friendly face, red mountain jacket, no logos"
+ },
+ "bloques": [
+  {
+   "texto": "Golpearon la puerta del refugio. Estábamos a dos mil metros, en plena ventisca.",
+   "imagen": "small stone mountain refuge hut at night in a violent blizzard, snow whipping sideways, one dim window glowing orange, dark jagged peaks behind, no people",
+   "ambiente": "viento",
+   "sfx": [{"tipo": "golpes", "en": "Golpearon"}]
+  },
+  {
+   "texto": "Dani había bajado al pueblo a buscar ayuda. Yo me quedé, con el tobillo roto.",
+   "imagen": "interior of a rustic stone mountain refuge at night, small wood stove with fire glowing, wooden bunk beds, backpacks and ropes on the floor, warm firelight and deep shadows, no people",
+   "ambiente": "fuego",
+   "personajes": [{"quien": "montanero", "anim": "respira", "x": 0.4, "y": 0.97, "alto": 0.55, "en": "Yo"}]
+  },
+  {
+   "texto": "Golpearon otra vez. Y desde fuera, la voz de Dani gritó: ¡Abre, que me congelo!",
+   "imagen": "heavy wooden door of a mountain refuge seen from inside at night, frost on the edges, snow blowing through the gap underneath, a lantern on the floor casting long shadows, no people",
+   "ambiente": "viento",
+   "sfx": [{"tipo": "golpes", "en": "Golpearon"}],
+   "personajes": [{"quien": "montanero", "anim": "gira", "x": 0.28, "y": 0.97, "alto": 0.55, "en": "Y desde"}],
+   "impactos": [{"texto": "¡ABRE!", "en": "Abre"}]
+  },
+  {
+   "texto": "Me arrastré hacia la puerta. Entonces vibró el móvil. Una sola raya de cobertura.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [{"quien": "montanero", "anim": "tiembla", "x": 0.3, "y": 0.97, "alto": 0.5}],
+   "impactos": [{"texto": "VIBRÓ", "en": "vibró"}]
+  },
+  {
+   "texto": "Me llegó un mensaje de Dani. Estaba a salvo en el pueblo. Le escribí quién había en la puerta. Respondió: no abras.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "pausa": 2.8,
+   "chat": {"contacto": "Dani", "avatar": "dani", "hora": "03:07",
+            "mensajes": [{"de": "el", "texto": "Ya estoy en el pueblo 🙏", "en": "Me llegó"},
+                         {"de": "el", "texto": "Suben a por ti al amanecer", "en": "Estaba a salvo"},
+                         {"de": "yo", "texto": "¿Entonces quién está en la puerta?", "en": "Le escribí"},
+                         {"de": "el", "texto": "No abras", "en": "Respondió"}]}
+  },
+  {
+   "texto": "Fuera dejó de golpear. Y algo empezó a arañar la madera, despacio.",
+   "imagen": "close-up of the inside of an old wooden refuge door at night, frost, fresh deep scratch marks appearing in the wood, flickering lantern light, no people",
+   "ambiente": "viento",
+   "sfx": [{"tipo": "aranazos", "en": "arañar"}],
+   "personajes": [{"quien": "montanero", "anim": "tiembla", "x": 0.72, "y": 0.97, "alto": 0.5, "espejo": true}],
+   "impactos": [{"texto": "ARAÑAR", "en": "arañar"}]
+  },
+  {
+   "texto": "Al amanecer subieron los rescatadores. Alrededor del refugio, la nieve no tenía ni una huella.",
+   "imagen": "stone mountain refuge at cold blue dawn after a storm, perfectly smooth untouched snow all around the door, no footprints at all, deep scratch marks on the outside of the door, no people",
+   "ambiente": "viento",
+   "sfx": [{"tipo": "latido"}]
+  },
+  {
+   "texto": "Encontraron a Dani a mitad de bajada. Llevaba muerto desde medianoche. Su mensaje llegó a las tres.",
+   "imagen": "snowy mountain trail at dawn, a red mountain jacket sleeve half buried in the snow, a smartphone screen glowing faintly in the snow beside it, cold blue light, mist, no face visible",
+   "ambiente": "viento",
+   "sfx": [{"tipo": "golpe_final"}],
+   "impactos": [{"texto": "A LAS TRES", "en": "a las tres"}],
+   "pausa": 1.2
+  }
+ ]
+}
