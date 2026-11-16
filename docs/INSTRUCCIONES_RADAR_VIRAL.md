@@ -29,3 +29,5 @@ Formato: short vertical 1080×1920 de 35–50 s con el tema **más buscado HOY e
 9. Añade una línea a `historias/HISTORIAL_RADAR_VIRAL.md` (NNN | fecha | tema | fuentes) y haz push. Resume: tema, título y hora de publicación, con las fuentes.
 
 Si algo falla, no programes nada a medias y explica el error.
+
+**Ilustraciones (obligatorio):** pon al menos 3 elementos `imagen` en el vídeo (en escenas distintas; `alto` 450–600). Si al acabar la Action falta alguna `imgs/escena_N.jpg`, NO la sustituyas por tarjetas de texto: borra `preparado.txt`, cambia algo mínimo en `historia.json` (p. ej. `"reintento_imagenes": 2`), haz push y espera otra vez (la Action vuelve a intentarlo y, si Cloudflare ha agotado su cuota gratuita, usa Pollinations). Solo si tras 2 reintentos sigue faltando, quita ese elemento `imagen`.

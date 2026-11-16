@@ -56,3 +56,5 @@ Motor: **`tools/radar_motion.py`** (HTML + Chrome). Ejemplo completo y probado: 
   - `tarjeta` (`titulo` + `texto` corto).
 - Máximo 4–5 elementos por escena y que quepan en pantalla (≈ 1 titular + 1 tarjeta/imagen + 1–2 sellos/tags). Textos cortos y en mayúsculas visuales.
 - Personas reales: solo por su nombre en texto, NUNCA dibujadas. Sin logos ni pósteres.
+
+**Ilustraciones (obligatorio):** pon al menos 3 elementos `imagen` en el vídeo (en escenas distintas; `alto` 450–600). Si al acabar la Action falta alguna `imgs/escena_N.jpg`, NO la sustituyas por tarjetas de texto: borra `preparado.txt`, cambia algo mínimo en `historia.json` (p. ej. `"reintento_imagenes": 2`), haz push y espera otra vez (la Action vuelve a intentarlo y, si Cloudflare ha agotado su cuota gratuita, usa Pollinations). Solo si tras 2 reintentos sigue faltando, quita ese elemento `imagen`.
