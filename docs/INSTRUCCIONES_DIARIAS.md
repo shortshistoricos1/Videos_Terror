@@ -57,6 +57,28 @@ Los personajes se generan aparte (fondo recortado automáticamente) y se animan 
 - `"impactos": [{"texto": "DOCE", "en": "Doce"}]`: palabra clave que salta en grande al decirla (1 cada 2–4 bloques, en momentos de tensión).
 - Los `sfx` `golpes` y `golpe_final` añaden solos fogonazo y sacudida de cámara.
 
+## Conversaciones de chat en el móvil (pon 1 en casi todas las historias)
+
+Un bloque puede mostrar, en lugar de la viñeta, una pantalla de chat de móvil (estilo mensajería, sin marcas): cabecera con contacto y «en línea / escribiendo…», burbujas que saltan con un aviso suave y mensajes que se borran solos. Queda muy bien para mensajes del jefe, de un número desconocido, del grupo de vecinos, de alguien que ya no debería poder escribir…
+
+```json
+{"texto": "Me llegó un mensaje de mi hermana. Llevaba un año muerta.",
+ "imagen": "prompt normal (se usa si el bloque siguiente pone \"=\")",
+ "pausa": 2.5,
+ "chat": {"contacto": "Lucía", "avatar": "id_del_reparto | ?", "hora": "03:12",
+          "mensajes": [{"de": "el", "texto": "¿Por qué no me abres?", "en": "Me llegó"},
+                       {"de": "yo", "texto": "¿Quién eres?"},
+                       {"de": "el", "texto": "Estoy en tu cocina", "borrado": true}]}}
+```
+
+- `de`: `el` (mensaje recibido, a la izquierda, con «escribiendo…» antes) o `yo` (enviado, a la derecha, en rojo con ✓✓).
+- `en`: frase exacta de la narración en la que aparece. Los mensajes sin `en` se reparten solos hasta el final del bloque, así que sube la `pausa` (2–3,5 s) para que dé tiempo a leerlos.
+- 2–5 mensajes cortos (máx. 8 palabras) y naturales, con algún emoji si encaja. `borrado: true` lo cambia a «Se eliminó este mensaje» 2 s después (úsalo como susto).
+- `avatar`: id de un personaje del reparto para usar su cara, `?` para número desconocido, o nada (inicial del nombre).
+- El bloque con chat no muestra personajes; la narración sigue apareciendo debajo.
+- **Coherencia obligatoria:** un chat es una conversación ESCRITA. La narración de ese bloque (y la del anterior que lo introduce) debe hablar de mensajes: «vibró el móvil», «me llegó un mensaje», «leí», «escribió», «le respondí», «estaba en línea», «se borró». NUNCA «sonó el teléfono», «llamó», «me dijo», «susurrando», «su voz», «contestó», ni el sfx `telefono`. Si quieres una llamada, no uses chat en ese bloque. El montaje se para con «INCOHERENTE» si lo detecta: reescribe el texto y repite desde el paso 2 con otro NNN_slug.
+- Los mensajes deben decir lo mismo que cuenta la narración (si el narrador dice «me preguntó dónde estaba», un mensaje debe ser esa pregunta).
+
 ## Reglas de la historia
 
 - Español de España, primera persona, frases cortas para escuchar. Original (nada de creepypastas conocidas).

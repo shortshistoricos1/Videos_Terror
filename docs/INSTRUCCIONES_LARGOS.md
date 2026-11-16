@@ -1,7 +1,7 @@
 # Vídeo largo de terror (lunes, miércoles y viernes) — procedimiento
 
 Canal: **Shorts Terror España** (YouTube) vía **Metricool**, `blogId` **7969360**, Europe/Madrid.
-Formato: 1920×1080, 12–14 min, historia narrada (voz Edge TTS generada por GitHub Actions), imágenes IA por escena (Pollinations, generadas por GitHub Actions), subtítulos, capítulos y sonido sintetizado.
+Formato: 1920×1080, 12–14 min, en el mismo **estilo motion design** que los shorts (`tools/historia_motion.py`): intro con título, viñeta de cómic con personajes animados a la izquierda y narración palabra a palabra a la derecha, palabras clave en rojo, capítulos a pantalla completa, **conversaciones de chat en el móvil** y cierre con SUSCRÍBETE. Voz Edge TTS e imágenes IA generadas por GitHub Actions.
 
 ## Pasos
 
@@ -10,7 +10,7 @@ Formato: 1920×1080, 12–14 min, historia narrada (voz Edge TTS generada por Gi
 3. Espera (bucle con `git fetch --depth 1 origin main` cada 30 s, máx. 45 min) a que exista `origin/main:largos/NNN_slug/preparado.txt`; luego `git pull --depth 1` (o `git reset --hard origin/main` si el clon es superficial).
    Si en 45 min no aparece, termina explicando que la Action falló (el usuario puede verla en la pestaña Actions del repo).
 4. Comprueba que hay voces para todos los bloques y mira 3–4 imágenes con Read. Una imagen que falte se sustituye sola por la anterior.
-5. Monta: `python3 -I tools/largo.py largos/NNN_slug /tmp/NNN_slug.mp4` en segundo plano (animación 2.5D con mapas de profundidad: ≈35–45 min con 2 núcleos) y espera a que termine.
+5. Monta: `python3 -I tools/historia_motion.py largos/NNN_slug /tmp/NNN_slug.mp4` en segundo plano (≈20–30 min con 2 núcleos; crea también `miniatura.jpg` y `capitulos.txt`) y espera a que termine.
 6. Revisa 6 fotogramas repartidos y el volumen (`ebur128`, objetivo ≈ −16 LUFS). Debe pesar < 1,5 GB.
 7. Commit + push de `largos/NNN_slug/miniatura.jpg` y `capitulos.txt` (los crea el montaje).
 8. Sube el vídeo: `bash tools/subir_largo.sh NNN_slug /tmp/NNN_slug.mp4`. La Action **«Publicar vídeo largo»** lo une, crea la release `largo-NNN_slug` y escribe `largos/NNN_slug/url.txt` en `main` (2–5 min). Espera a ese archivo igual que en el paso 3.
@@ -66,6 +66,10 @@ Los personajes se generan aparte (fondo recortado automáticamente) y se animan 
 - **Si un bloque lleva personajes, el prompt de `imagen` de ese fondo debe ser SIN personas** ("..., no people").
 - `"impactos": [{"texto": "DOCE", "en": "Doce"}]`: palabra clave que salta en grande al decirla (1 cada 2–4 bloques, en momentos de tensión).
 - Los `sfx` `golpes` y `golpe_final` añaden solos fogonazo y sacudida de cámara.
+
+## Conversaciones de chat en el móvil (3–5 por vídeo)
+
+Igual que en los shorts (ver `docs/INSTRUCCIONES_DIARIAS.md`, sección «Conversaciones de chat»): un bloque con `"chat": {"contacto", "avatar", "hora", "mensajes": [{"de": "el|yo", "texto", "en", "borrado"}]}` muestra una pantalla de chat de móvil en lugar de la viñeta. Úsalas en momentos clave (el primer mensaje raro, el que no debería existir, el que se borra) y sube la `pausa` de ese bloque a 2–3,5 s. Ejemplo probado: `largos/demo_motion/historia.json`. **Coherencia obligatoria** (misma regla que en los shorts): la narración de un bloque con chat habla de mensajes escritos (vibró el móvil, me llegó un mensaje, leí, escribió), nunca de llamadas, voces o susurros, y los mensajes dicen lo mismo que cuenta el narrador. Si el montaje se para con «INCOHERENTE», reescribe esos bloques, borra sus `voces/bloque_XXX.mp3` y `preparado.txt`, haz push y espera de nuevo a la Action.
 
 ## Reglas de la historia
 
