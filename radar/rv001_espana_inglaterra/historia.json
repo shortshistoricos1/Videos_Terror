@@ -152,6 +152,10 @@
      "sufijo": " pts",
      "etiqueta": "las dos selecciones",
      "en": "quince puntos"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460
     }
    ]
   },
@@ -166,6 +170,10 @@
      "texto": "España, en cuartos",
      "tam": 120,
      "en": "Aun así"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 560
     },
     {
      "tipo": "sello",
