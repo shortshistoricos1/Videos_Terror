@@ -106,11 +106,24 @@ def imagenes_radar(d, h):
 
 
 def voz_url(d, h):
-    """Voz generada con el conector de ElevenLabs: se descarga del enlace firmado."""
+    """Voz del Radar: si hay voz_url (ElevenLabs) se descarga; si no, se genera gratis con Edge TTS a partir de "texto"."""
     url = h.get("voz_url")
     dst = d / "voces" / "completa.mp3"
-    if not url or dst.exists():
+    if dst.exists():
         return
+    if not url:
+        dst.parent.mkdir(exist_ok=True)
+        v = h.get("voz", {})
+        voz, rate, pitch = v.get("voz", "es-ES-AlvaroNeural"), v.get("rate", "+0%"), v.get("pitch", "-2Hz")
+        for k in range(5):
+            try:
+                asyncio.run(edge_tts.Communicate(h["texto"], voz, rate=rate, pitch=pitch).save(str(dst)))
+                log("voz Edge TTS ok", voz, dst.stat().st_size, "bytes")
+                return
+            except Exception as e:
+                log("voz Edge TTS error", repr(e)[:200])
+                time.sleep(3 + 3 * k)
+        raise RuntimeError("sin voz para el Radar")
     dst.parent.mkdir(exist_ok=True)
     r = requests.get(url, timeout=120)
     if r.status_code == 200 and len(r.content) > 5000:

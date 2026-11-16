@@ -1,7 +1,7 @@
 # Radar Viral (TikTok, publica cada día a las 13:00): procedimiento
 
 Cuenta: **TikTok @radarviral45seg** vía **Metricool**, `blogId` **7969360**, Europe/Madrid. **Solo TikTok** (el YouTube de la misma marca es el canal de terror; aquí no se publica nada en YouTube).
-Formato: short vertical 1080×1920 de 35–50 s con el tema **más buscado HOY en España, de cualquier temática** (no de terror). Va contado con voz de **ElevenLabs** y con gráficos de tipografía cinética sincronizados (búsqueda que se escribe, sellos, fechas, contadores, tarjetas, titulares), con la marca **Radar Viral**: azul noche, rosa y cian, y un radar con botón de play. Motor: `tools/radar_motion.py` con `"marca": "radar_viral"` (mismo formato de escenas y elementos que `docs/INSTRUCCIONES_RADAR.md`).
+Formato: short vertical 1080×1920 de 35–50 s con el tema **más buscado HOY en España, de cualquier temática** (no de terror). Va contado con voz generada gratis (Edge TTS, como los vídeos largos) y con gráficos de tipografía cinética sincronizados (búsqueda que se escribe, sellos, fechas, contadores, tarjetas, titulares), con la marca **Radar Viral**: azul noche, rosa y cian, y un radar con botón de play. Motor: `tools/radar_motion.py` con `"marca": "radar_viral"` (mismo formato de escenas y elementos que `docs/INSTRUCCIONES_RADAR.md`).
 
 ## Pasos
 
@@ -9,7 +9,7 @@ Formato: short vertical 1080×1920 de 35–50 s con el tema **más buscado HOY e
    - **Evita** muertes y tragedias recientes, víctimas, crímenes, menores, suicidio, salud de personas concretas y rumores sin confirmar.
    - Con política, solo hechos verificables y neutrales, sin opinar ni tomar partido. Si dudas, elige otro tema.
 2. **Guion** (`texto`, 90–120 palabras): empieza con una pregunta gancho («¿Por qué todo el mundo busca hoy…?», «¿Quién es…?», «¿Qué ha pasado con…?»). Siguen 5–7 datos concretos y verificados, con números y fechas escritos en letra, como se pronuncian. Termina SIEMPRE con: «Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.»
-3. **Voz con el conector de ElevenLabs:** `creative_generate_speech` con `voice_id` **8HZqgqbee8zgakPIPwm5** y `model_id` **eleven_v4**; `prompt` = el texto exacto. Espera con `creative_get_flow_run_status` hasta `all_completed` y copia el `content_url` de la PRIMERA generación a `voz_url`. Caduca en ~2 h: sigue sin pausas.
+3. **Voz (gratis, sin ElevenLabs):** NO uses ElevenLabs. No pongas `voz_url`; pon en el JSON `"voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"}` (puedes alternar con es-ES-ElviraNeural). La Action genera `voces/completa.mp3` a partir de `texto` con Edge TTS, igual que en los vídeos largos.
 4. Escribe `radar/rvNNN_slug/historia.json` (NNN = siguiente número del historial de Radar Viral, p. ej. `rv001_…`) con:
    - `"formato": "radar"` y `"marca": "radar_viral"`
    - `"estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark"`
@@ -24,7 +24,7 @@ Formato: short vertical 1080×1920 de 35–50 s con el tema **más buscado HOY e
 7. Sube: `bash tools/subir_largo.sh rvNNN_slug /tmp/rvNNN_slug.mp4` y espera `origin/main:largos/rvNNN_slug/url.txt`.
 8. Metricool (createScheduledPost) **hoy a las 13:00** (Europe/Madrid). Si ya son más de las 12:50, prográmalo para dentro de 10 minutos.
    - `providers`: `[{"network":"tiktok"}]` (SOLO TikTok), `media`: `[contenido de url.txt]`, `draft`: false, `autoPublish`: true
-   - `text`: 1–2 frases con la pregunta gancho + pregunta al público + 4–6 hashtags (#loquesebusca #noticias #tendencias #radarviral + 1–2 del tema) + línea en blanco + "Voz creada con IA (ElevenLabs)."
+   - `text`: 1–2 frases con la pregunta gancho + pregunta al público + 4–6 hashtags (#loquesebusca #noticias #tendencias #radarviral + 1–2 del tema) + línea en blanco + "Voz creada con IA."
    - `tiktokData`: `{"privacyOption": "PUBLIC_TO_EVERYONE", "disableComment": false, "disableDuet": false, "disableStitch": false, "isAigc": true, "autoAddMusic": false, "commercialContentThirdParty": false, "commercialContentOwnBrand": false, "title": "pregunta gancho (máx. 90 caracteres)"}`
 9. Añade una línea a `historias/HISTORIAL_RADAR_VIRAL.md` (NNN | fecha | tema | fuentes) y haz push. Resume: tema, título y hora de publicación, con las fuentes.
 
