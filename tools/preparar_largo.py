@@ -162,6 +162,7 @@ def reparto(d, h):
         return
     (d / "imgs").mkdir(exist_ok=True)
     motor = cloudflare if CF_ID and CF_TOKEN else pollinations
+    estilo_pj = h.get("estilo_personaje", ESTILO_PJ)
     for k, (pid, prompt) in enumerate(pj.items()):
         dst = d / "imgs" / f"personaje_{pid}.png"
         if dst.exists():
@@ -169,7 +170,7 @@ def reparto(d, h):
         data = None
         for intento in range(4):
             try:
-                data = motor(prompt + ESTILO_PJ, 500 + k + 31 * intento, False) if motor is pollinations else _cf_square(prompt + ESTILO_PJ)
+                data = motor(prompt + estilo_pj, 500 + k + 31 * intento, False) if motor is pollinations else _cf_square(prompt + estilo_pj)
                 if data:
                     break
             except Exception as e:

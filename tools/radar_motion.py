@@ -67,6 +67,19 @@ EYE = """<svg viewBox="0 0 120 120" width="100%" height="100%"><circle cx="60" c
 <path d="M18 60 Q60 20 102 60 Q60 100 18 60Z" fill="#efe8dc"/><circle class="pupil" cx="60" cy="60" r="16" fill="#0d0a0b"/>
 <rect class="lid" x="10" y="14" width="100" height="26" fill="#e2262b"/></svg>"""
 
+# Marca: "terror" (Shorts Terror España, por defecto) o "radar_viral" (Radar Viral: lo más buscado del día, para TikTok)
+VIRAL = H.get("marca") == "radar_viral"
+RADAR = """<svg viewBox="0 0 120 120" width="100%" height="100%"><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff2d78"/></linearGradient></defs>
+<circle cx="60" cy="60" r="55" fill="#0b1326" stroke="url(#rg)" stroke-width="7"/>
+<circle cx="60" cy="60" r="38" fill="none" stroke="#22d3ee" stroke-opacity=".45" stroke-width="3"/>
+<circle cx="60" cy="60" r="21" fill="none" stroke="#22d3ee" stroke-opacity=".45" stroke-width="3"/>
+<g class="sweep"><path d="M60 60 L60 7 A53 53 0 0 1 106 34 Z" fill="#22d3ee" fill-opacity=".28"/></g>
+<path d="M51 44 L77 60 L51 76 Z" fill="#ff2d78"/><circle class="pupil" cx="60" cy="60" r="0"/><rect class="lid" width="0" height="0"/></svg>"""
+if VIRAL:
+    EYE = RADAR
+MARCA1, MARCA2 = ("RADAR VIRAL", "LO MÁS BUSCADO HOY") if VIRAL else ("SHORTS TERROR", "ESPAÑA")
+
 # ---------------------------------------------------------------- escenas -> HTML + línea de tiempo
 FONDOS = ["dark", "dark", "red", "dark", "bone", "dark", "red", "dark"]
 escenas = H["escenas"]
@@ -157,13 +170,13 @@ cierre = H.get("cierre", {})
 com = cierre.get("comentario", "¿Lo sabías? 👇")
 scenes_html.append(f"""<div class="scene" id="scC"><div class="stack" style="padding-top:300px">
  <div class="big" id="cA" data-k style="font-size:170px">SÍGUEME</div>
- <div class="mid red" id="cB" data-k>{esc(cierre.get("lema", "PARA EL TERROR DEL DÍA").upper())}</div>
+ <div class="mid red" id="cB" data-k>{esc(cierre.get("lema", "LO MÁS BUSCADO DE CADA DÍA" if VIRAL else "PARA EL TERROR DEL DÍA").upper())}</div>
  <div class="card brand" id="cC"><div style="width:180px;height:180px;flex:none">{EYE}</div>
-  <div><div style="font-size:78px;line-height:.95">SHORTS TERROR</div><div style="font-family:Serif;font-size:48px;letter-spacing:14px;color:var(--red)">ESPAÑA</div></div></div>
+  <div><div style="font-size:78px;line-height:.95">{MARCA1}</div><div style="font-family:{"Mono" if VIRAL else "Serif"};font-size:{38 if VIRAL else 48}px;letter-spacing:{4 if VIRAL else 14}px;color:{"#22d3ee" if VIRAL else "var(--red)"}">{MARCA2}</div></div></div>
  <div class="card coment" id="cD"><div class="mono" style="font-size:28px;color:#8d8386">comentario</div><div class="mono" style="font-size:48px;margin-top:8px" id="cDt" data-word="{esc(com)}"></div></div>
 </div></div>""")
 T_SIG = at("sígueme", T_CIERRE + 1.2)
-T_STE = at("Shorts Terror", T_CIERRE + 2.0)
+T_STE = at("Radar Viral" if VIRAL else "Shorts Terror", T_CIERRE + 2.0)
 timeline.insert(0, ("scene", "scC", T_CIERRE, 999, "dark"))
 timeline += [("kin", "cA", T_CIERRE + 0.05, None), ("kin", "cB", T_CIERRE + 0.45, None), ("slide", "cC", T_STE - 0.3),
              ("slide", "cD", T_STE + 0.4), ("type", "cDt", T_STE + 0.7)]
@@ -265,6 +278,14 @@ page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style>
 {''.join(scenes_html)}
 <div id="mascot">{EYE}</div>
 <script>{JS % dict(tl=json.dumps(timeline), prog=json.dumps(prog), ntot=max(1, num_total), hits=json.dumps(hits), end=TOTAL)}</script></body></html>"""
+if VIRAL:  # paleta Radar Viral: azul noche, rosa y cian
+    for a_, b_ in {"#e2262b": "#ff2d78", "#efe8dc": "#eef4ff", "#0d0a0b": "#070b16", "#1b1517": "#111a2e", "#140f10": "#0b1326",
+                   "#2a0c0e": "#12285a", "#120a0b": "#0a1532", "#070505": "#040812", "#ff3b30": "#ff4f93", "#d61f24": "#e0186a",
+                   "#8e0f13": "#7a0b3b", "#f6f1e8": "#f4f8ff", "#e6ded1": "#e2eaf8", "#cfc5b6": "#c3cee6", "#3a3133": "#26314d",
+                   "#6b6266": "#5d6a86", "#8d8386": "#7f8aa5", "rgba(255,70,50,.9)": "rgba(34,211,238,.75)",
+                   "rgba(255,40,30,0)": "rgba(34,211,238,0)"}.items():
+        page = page.replace(a_, b_)
+    page = page.replace("m.querySelector('.lid')", "m.querySelector('.sweep').setAttribute('transform',`rotate(${(t*140)%%360} 60 60)`);m.querySelector('.lid')".replace("%%", "%"))
 page_path = TMP / "radar.html"
 page_path.write_text(page, encoding="utf-8")
 
@@ -277,7 +298,24 @@ def build_audio():
     mix = np.zeros(N, np.float32)
     mix[:min(N, len(v))] += v[:N] / (np.abs(v).max() + 1e-9) * 0.85
     x = np.arange(N, dtype=np.float32) / SR
-    mix += (0.045 * np.sin(2 * np.pi * 55 * x) + 0.025 * np.sin(2 * np.pi * 110 * x) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.1 * x))).astype(np.float32)
+    if VIRAL:
+        beat = 60 / 112
+        kt = np.arange(int(0.25 * SR)) / SR
+        kick = np.sin(2 * np.pi * np.cumsum(55 + 90 * np.exp(-kt * 30)) / SR) * np.exp(-kt * 14)
+        tick = np.convolve(rng.standard_normal(int(0.05 * SR)), [1, -1], mode="same") * np.exp(-np.arange(int(0.05 * SR)) / SR * 90)
+        k = 0
+        while k * beat < TOTAL - 1:
+            i0 = int(k * beat * SR)
+            n = min(len(kick), N - i0)
+            mix[i0:i0 + n] += kick[:n].astype(np.float32) * 0.07
+            i1 = int((k + 0.5) * beat * SR)
+            n = min(len(tick), N - i1)
+            if n > 0:
+                mix[i1:i1 + n] += tick[:n].astype(np.float32) * 0.03
+            k += 1
+        mix += (0.02 * np.sin(2 * np.pi * 220 * x) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.07 * x))).astype(np.float32)
+    else:
+        mix += (0.045 * np.sin(2 * np.pi * 55 * x) + 0.025 * np.sin(2 * np.pi * 110 * x) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.1 * x))).astype(np.float32)
 
     def put(sig, t0, g):
         i = int(t0 * SR)
@@ -291,7 +329,7 @@ def build_audio():
     ph = 2 * np.pi * np.cumsum(75 * np.exp(-th * 1.4)) / SR
     hit = ((np.sin(ph) + 0.5 * np.sin(2 * ph)) * np.exp(-th * 3.5) + rng.standard_normal(len(th)) * np.exp(-th * 30) * 0.4) * (1 - np.exp(-th * 900))
     for h in hits:
-        put(hit, h, 0.3)
+        put(hit, h, 0.18 if VIRAL else 0.3)
     mix[-int(1.0 * SR):] *= np.linspace(1, 0, int(1.0 * SR))
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.9
     p = TMP / "mix.wav"
