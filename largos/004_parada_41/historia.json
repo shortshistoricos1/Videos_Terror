@@ -1,0 +1,812 @@
+{
+ "titulo": "LA PARADA 41",
+ "subtitulo": "Una historia de miedo",
+ "titulo_youtube": "Conduzco el bus nocturno… y cada noche se sienta una fila más cerca | Historia de terror",
+ "descripcion": "Marcos conduce el autobús nocturno N7 por Zaragoza. Cada noche, a las 3:33, el letrero anuncia una parada que no existe: la 41, Los Almendros. Allí sube una señora con un abrigo verde empapado… y cada noche se sienta una fila más cerca. Un número desconocido le deja una sola norma: no pares nunca en la 41.\n\n¿Tú habrías parado? Te leo en comentarios.",
+ "tags": [
+  "historias de miedo",
+  "historia de terror",
+  "relatos de terror",
+  "terror español",
+  "creepypasta en español",
+  "autobús nocturno",
+  "historias de fantasmas",
+  "Zaragoza",
+  "terror psicológico",
+  "historias de terror narradas"
+ ],
+ "final": [
+  "¿Tú habrías parado en la 41?",
+  "Suscríbete para más historias de miedo"
+ ],
+ "comentario": "yo no vuelvo a coger un búho en mi vida 😨",
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "-7%",
+  "pitch": "-6Hz"
+ },
+ "reparto": {
+  "marcos": "Spanish man around 45 years old, short dark hair with grey streaks, stubble, tired eyes, navy blue bus driver uniform shirt and dark jacket, no logos, full body",
+  "senora": "very old Spanish woman around 80, white hair in a tight bun, pale wrinkled face, long dark green wool coat soaking wet and dripping, small black handbag, full body, standing",
+  "julian": "pale bald Spanish man around 60, thick grey moustache, soaked navy blue bus driver uniform dripping water, unsettling smile, full body"
+ },
+ "bloques": [
+  {
+   "texto": "Durante once noches conduje un autobús nocturno por Zaragoza. Cada noche, a las tres y treinta y tres, el letrero anunciaba una parada que no existe. Y cada noche, la misma pasajera se sentaba una fila más cerca de mí.",
+   "imagen": "interior of an empty city night bus seen from the front, long aisle, rows of blue seats, cold fluorescent light, dark windows with city lights, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "aparece",
+     "x": 0.62,
+     "y": 0.9,
+     "alto": 0.45,
+     "en": "la misma pasajera"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "MÁS CERCA",
+     "en": "más cerca"
+    }
+   ]
+  },
+  {
+   "texto": "Alguien me escribió una sola norma: no pares nunca en la cuarenta y uno. Tardé once noches en entender quién me la estaba pidiendo. Y por qué.",
+   "imagen": "front of a city bus at night in the rain, glowing orange destination sign blurred, headlights, wet asphalt, no people",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "41",
+     "en": "cuarenta y uno"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Uno. La N7."
+  },
+  {
+   "texto": "Me llamo Marcos. Llevo dieciocho años conduciendo autobuses urbanos. En octubre me pasaron al turno de noche, a la línea N7, la que sale de la plaza y cruza media ciudad hasta los polígonos.",
+   "imagen": "large empty city square at night in Spain, a lit bus stop shelter, orange streetlights, wet pavement, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marcos",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.35,
+     "en": "Me llamo"
+    }
+   ]
+  },
+  {
+   "texto": "Nadie quería esa línea. El conductor de antes, un tal Julián, había pedido el cambio de un día para otro. Sin explicaciones. En cocheras, cuando pregunté por él, todos miraron hacia otro lado.",
+   "imagen": "bus depot at night, rows of parked city buses under flickering fluorescent lights, oil stains on the floor, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marcos",
+     "anim": "respira",
+     "x": 0.3
+    }
+   ]
+  },
+  {
+   "texto": "La primera noche fue tranquila. Algún estudiante, un par de enfermeras saliendo de turno, un hombre dormido que se bajó en la última. Calles mojadas, semáforos en ámbar, y el zumbido del motor.",
+   "imagen": "view through a bus windshield of a wet empty city avenue at night, amber traffic lights, reflections on asphalt, no people",
+   "ambiente": "lluvia"
+  },
+  {
+   "texto": "A las tres y media llegué a la cabecera y di la vuelta. El autobús iba vacío. Puse la radio bajita y encendí el letrero de regreso.",
+   "imagen": "=",
+   "ambiente": "interior"
+  },
+  {
+   "texto": "Entonces el letrero de dentro, el que anuncia la próxima parada, parpadeó. Se apagó un segundo. Y cuando volvió, ponía algo que yo no había visto nunca: Parada cuarenta y uno. Los Almendros.",
+   "imagen": "dark bus interior ceiling with a glowing red LED next-stop display flickering, rows of empty seats below, no readable text, no people",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "LOS ALMENDROS",
+     "en": "Los Almendros"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Dos. Los Almendros."
+  },
+  {
+   "texto": "La N7 tiene treinta y ocho paradas. Me las había aprendido de memoria. Y sin embargo, unos metros más adelante, bajo una farola, había una marquesina que no estaba en ningún mapa.",
+   "imagen": "old lonely bus shelter under a single streetlamp, a bare almond tree behind it, thick fog, empty road at night, no people",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "Y en la marquesina, una señora. Muy mayor, con el pelo blanco recogido y un abrigo verde, largo, empapado. Aunque esa noche no había llovido.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "respira",
+     "x": 0.6,
+     "alto": 0.62,
+     "en": "una señora"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "EMPAPADO",
+     "en": "empapado"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Frené sin pensarlo. Es lo que haces cuando alguien espera. Abrí las puertas. Ella subió despacio, sin mirarme, y pasó de largo por la máquina de los billetes.",
+   "imagen": "open front folding doors of a city bus seen from inside, wet steps, foggy night outside, ticket machine, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "camina",
+     "desde": "der",
+     "x": 0.55,
+     "en": "Ella subió"
+    }
+   ]
+  },
+  {
+   "texto": "Le pedí el billete. No respondió. Se fue hasta el fondo y se sentó en la última fila, junto a la ventanilla, con el bolso en las rodillas.",
+   "imagen": "back row of seats of an empty night bus, rain-streaked window with blurred city lights, dim greenish light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "respira",
+     "x": 0.68,
+     "y": 0.92,
+     "alto": 0.48,
+     "en": "se sentó"
+    }
+   ]
+  },
+  {
+   "texto": "Arranqué. En el espejo interior la veía quieta, mirando la calle. En la siguiente parada miré otra vez. El asiento estaba vacío. Y las puertas no se habían abierto.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "VACÍO",
+     "en": "vacío"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Al llegar a cocheras le escribí a Rosa, la de la central de tráfico. Le pregunté si la N7 tenía parada cuarenta y uno. Me respondió que tenía treinta y ocho. Le escribí lo de la señora. Y leí que en su pantalla iba vacío.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Rosa Central",
+    "hora": "03:58",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "¿La N7 tiene parada 41?",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "Tiene 38 😅 ¿Te has perdido?",
+      "en": "Me respondió"
+     },
+     {
+      "de": "yo",
+      "texto": "Se me ha subido una señora ahí",
+      "en": "Le escribí lo"
+     },
+     {
+      "de": "el",
+      "texto": "En mi pantalla vas vacío",
+      "en": "Y leí"
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Tres. La segunda fila."
+  },
+  {
+   "texto": "Pensé que había sido el cansancio. La segunda noche, a las tres y treinta y tres, el letrero volvió a parpadear. Parada cuarenta y uno. Y la marquesina estaba allí otra vez.",
+   "imagen": "view through a bus windshield at night, a lone bus shelter appearing out of thick fog ahead, single streetlamp, almond tree, no people",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "No quería parar. Juro que no quería. Pero el pie fue solo al freno, como si el autobús supiera el camino mejor que yo.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marcos",
+     "anim": "tiembla",
+     "x": 0.35,
+     "en": "No quería"
+    }
+   ]
+  },
+  {
+   "texto": "Subió la señora del abrigo verde. Pasó por mi lado. Olía a río, a barro, a algo que lleva mucho tiempo debajo del agua. Esta vez se sentó en la penúltima fila.",
+   "imagen": "long bus aisle seen from the driver position, rows of empty seats, dim blue night light, wet footprints on the floor, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "camina",
+     "desde": "der",
+     "x": 0.6,
+     "alto": 0.6,
+     "en": "Subió"
+    }
+   ]
+  },
+  {
+   "texto": "Una fila más cerca. Lo noté enseguida. Y al llegar a la parada siguiente, otra vez había desaparecido.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "UNA FILA MÁS",
+     "en": "Una fila"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Esa noche, ya en casa, el móvil vibró encima de la mesa. Un mensaje de un número que no tenía guardado. Lo leí dos veces antes de entenderlo. Le escribí preguntando quién era.",
+   "imagen": "small dark kitchen at dawn, a phone glowing on the table, blinds half closed, cold light, no people",
+   "ambiente": "interior",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "+34 611 20 04 17",
+    "avatar": "?",
+    "hora": "05:12",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "No la dejes llegar a la primera fila",
+      "en": "Un mensaje"
+     },
+     {
+      "de": "el",
+      "texto": "Y nunca pares en la 41",
+      "en": "Lo leí"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Quién eres?",
+      "en": "Le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "Julián. Conducía la N7 antes que tú"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Julián. El que había pedido el cambio sin explicaciones. Sus dos normas eran claras: que no la dejara llegar a la primera fila, y que nunca, nunca, parara en la cuarenta y uno.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "NUNCA",
+     "en": "nunca, nunca"
+    }
+   ]
+  },
+  {
+   "texto": "Le pregunté por qué. Ya no respondió. En su perfil ponía que su última conexión había sido hacía tres años. Pensé que se le habría estropeado el móvil. Qué tonto fui.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.6
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cuatro. Las normas."
+  },
+  {
+   "texto": "Las noches siguientes intenté cumplirlas. Cuando el letrero parpadeaba, apretaba el volante y pisaba el acelerador. La marquesina pasaba a mi derecha como un fogonazo, con la señora de pie, mirándome.",
+   "imagen": "motion-blurred view from a speeding bus window of a bus shelter under a streetlamp at night, almond tree, fog, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "respira",
+     "x": 0.72,
+     "alto": 0.5,
+     "en": "con la señora"
+    }
+   ]
+  },
+  {
+   "texto": "Y aun así, cuando miraba el espejo, ella estaba dentro. Sentada. Cada noche, una fila más cerca. La tercera noche, en la novena fila. La quinta, en la séptima.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "respira",
+     "x": 0.58,
+     "y": 0.93,
+     "alto": 0.55,
+     "en": "ella estaba dentro"
+    }
+   ]
+  },
+  {
+   "texto": "Ya no desaparecía al llegar a la siguiente parada. Se quedaba hasta cocheras. Y cuando yo bajaba a revisar el autobús, el asiento estaba mojado.",
+   "imagen": "close-up of a soaked blue bus seat, a puddle of muddy water on the floor, fluorescent depot light, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "MOJADO",
+     "en": "mojado"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Empecé a fijarme en el contador de pasajeros, el que hay sobre la puerta. La primera noche marcaba cero al llegar a cocheras. La sexta, marcaba catorce. Yo no había subido a nadie.",
+   "imagen": "close-up of a small green glowing digital counter above a bus door, dark bus interior, no readable text, no people",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "CATORCE",
+     "en": "catorce"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "La séptima noche le escribí a Rosa. Le pedí que mirara la cámara interior de mi autobús desde la central. Tardó un rato en responder. Cuando lo hizo, leí que iba lleno. Que había gente de pie.",
+   "imagen": "grainy black and white security camera view from the ceiling of a bus interior, rows of seats, no people",
+   "ambiente": "estatica",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Rosa Central",
+    "hora": "03:41",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "¿Puedes mirar mi cámara interior?",
+      "en": "Le pedí"
+     },
+     {
+      "de": "el",
+      "texto": "Marcos, vas lleno 😳",
+      "en": "Cuando lo hizo"
+     },
+     {
+      "de": "el",
+      "texto": "Hay gente de pie en el pasillo",
+      "en": "Que había"
+     },
+     {
+      "de": "yo",
+      "texto": "Voy solo, Rosa"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Miré por el espejo. Asientos vacíos. Pasillo vacío. Solo ella, en la quinta fila, con el bolso en las rodillas. Pero el aire estaba frío y pesado, como en un autobús lleno de gente mojada.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "respira",
+     "x": 0.55,
+     "y": 0.94,
+     "alto": 0.6,
+     "en": "Solo ella"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ]
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cinco. El barrio del río."
+  },
+  {
+   "texto": "Necesitaba saber qué era Los Almendros. Busqué en internet, en mapas antiguos, en la hemeroteca. Nada. Hasta que un compañero mayor, en la máquina de café de cocheras, me lo explicó bajando la voz.",
+   "imagen": "old bus depot break room at night, coffee vending machine glowing, metal lockers, flickering fluorescent tube, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marcos",
+     "anim": "respira",
+     "x": 0.3,
+     "en": "Necesitaba"
+    }
+   ]
+  },
+  {
+   "texto": "Los Almendros era un barrio pequeño, junto al río, al final de la antigua línea siete. Hace tres años, una noche de tormenta, el autobús de las tres y media no llegó nunca a su última parada.",
+   "imagen": "small old riverside neighbourhood with low houses and almond trees, stormy night, swollen river, lightning in the clouds, no people",
+   "ambiente": "lluvia"
+  },
+  {
+   "texto": "El río se había desbordado. El autobús quedó atrapado en el paso bajo el puente. Tardaron dos días en sacarlo del agua. Después de aquello, cambiaron el recorrido y borraron la parada cuarenta y uno.",
+   "imagen": "flooded road underpass beneath an old stone bridge at night, dark muddy water, the roof of a bus barely visible, emergency lights reflected, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Le pregunté quién conducía aquella noche. El compañero se terminó el café. Tiró el vaso a la papelera. Y se fue sin responderme.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.8
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Seis. La tercera fila."
+  },
+  {
+   "texto": "La novena noche, la señora estaba en la tercera fila. Tan cerca que, por el espejo, podía verle las manos. Arrugadas. Blancas. Con barro debajo de las uñas.",
+   "imagen": "close-up of old wrinkled pale hands with mud under the nails holding a small black handbag on a bus seat, dim cold light",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "BARRO",
+     "en": "barro"
+    }
+   ]
+  },
+  {
+   "texto": "Entonces habló por primera vez. Muy bajito, casi sin mover los labios. Me preguntó si la iba a dejar en su parada. Que llevaba mucho tiempo esperando para bajar.",
+   "imagen": "seats right behind the driver cabin of a night bus, third row, dim greenish light, foggy windows, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "respira",
+     "x": 0.6,
+     "alto": 0.68,
+     "en": "Entonces"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ]
+  },
+  {
+   "texto": "No respondí. Apreté el volante. Pasé la marquesina de largo. Y ella se quedó mirándome la nuca hasta cocheras, sin parpadear.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marcos",
+     "anim": "tiembla",
+     "x": 0.4,
+     "alto": 0.7,
+     "en": "No respondí"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Esa noche me llegó otro mensaje de Julián. Sabía exactamente en qué fila estaba la señora. Le escribí que me estaba pidiendo parar. Su respuesta llegó al instante: no pares, pase lo que pase. Y debajo, otro mensaje.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.2
+  },
+  {
+   "texto": "El último mensaje se borró antes de que pudiera leerlo bien. Solo alcancé a ver el final: me quedo solo. Y por primera vez pensé que quizá Julián no me estaba protegiendo a mí.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "ME QUEDO SOLO",
+     "en": "me quedo solo"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Siete. La décima noche."
+  },
+  {
+   "texto": "La décima noche llovía como hace tres años. Rosa me lo había avisado por la tarde: aviso amarillo, crecida del río. Salí de cocheras con el estómago encogido.",
+   "imagen": "city street at night in heavy rain, flooded gutters, bus headlights cutting through the rain, no people",
+   "ambiente": "lluvia"
+  },
+  {
+   "texto": "A las tres y treinta y tres, el letrero parpadeó. Parada cuarenta y uno. Los Almendros. Y en el espejo ya no estaba solo ella.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Detrás de la señora, en todas las filas, había gente. Un hombre con traje. Dos chicas con mochila. Un abuelo con boina. Todos empapados. Todos mirándome.",
+   "imagen": "rearview mirror reflection of a crowded night bus full of dark soaked silhouettes of adult passengers staring forward, dripping water, cold greenish light, rain",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "TODOS",
+     "en": "Todos mirándome"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ]
+  },
+  {
+   "texto": "Nadie había subido. Nadie se había sentado. Simplemente estaban ahí, como si nunca se hubieran bajado.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "pausa": 1.8
+  },
+  {
+   "texto": "Y entonces vi el último asiento. El de la fila del fondo, junto a la ventanilla. Un hombre calvo, con bigote gris y el uniforme azul de conductor. Chorreando agua. Sonriéndome.",
+   "imagen": "back row of a dark night bus, rain-streaked window, dim green light, water dripping from the seat, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "julian",
+     "anim": "aparece",
+     "x": 0.66,
+     "y": 0.92,
+     "alto": 0.55,
+     "en": "Un hombre calvo"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "SONRIÉNDOME",
+     "en": "Sonriéndome"
+    }
+   ]
+  },
+  {
+   "texto": "Julián no había pedido el cambio. Julián conducía la N7 la noche de la tormenta. Y nunca había llegado a Los Almendros.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 2.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Ocho. La parada cuarenta y uno."
+  },
+  {
+   "texto": "La señora se levantó. Avanzó hasta la primera fila y se sentó justo detrás de mí. Sentí el frío del agua en el cuello. Y su mano, muy despacio, sobre mi hombro.",
+   "imagen": "view from just behind the driver seat of a bus at night, windshield with heavy rain and wipers, glowing dashboard, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "se_acerca",
+     "x": 0.6,
+     "alto": 0.8,
+     "en": "La señora"
+    }
+   ]
+  },
+  {
+   "texto": "Me pidió que parara. Que ellos solo querían volver a casa. Que llevaban tres años dando vueltas en un autobús que no se atrevía a llegar.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "pausa": 1.4
+  },
+  {
+   "texto": "Entonces vibró el móvil en el salpicadero. Un mensaje de Rosa, sobre Julián. Lo leí en el semáforo, con las manos temblando. Le escribí que ya lo sabía. Que estaba sentado al fondo.",
+   "imagen": "phone mounted on a bus dashboard glowing, heavy rain on the windshield, red traffic light ahead, no people",
+   "ambiente": "lluvia",
+   "pausa": 3.4,
+   "chat": {
+    "contacto": "Rosa Central",
+    "hora": "03:36",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Marcos, he buscado lo de Julián",
+      "en": "Un mensaje"
+     },
+     {
+      "de": "el",
+      "texto": "Murió en el accidente de la N7"
+     },
+     {
+      "de": "el",
+      "texto": "Hace tres años. Iba a Los Almendros",
+      "en": "Lo leí"
+     },
+     {
+      "de": "yo",
+      "texto": "Lo sé. Está sentado al fondo",
+      "en": "Le escribí"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Julián se levantó del último asiento. Caminaba por el pasillo hacia mí, entre los pasajeros, dejando un rastro de agua. Y el móvil volvió a vibrar. Era él.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "julian",
+     "anim": "se_acerca",
+     "x": 0.5,
+     "alto": 0.7,
+     "en": "Julián se levantó"
+    }
+   ]
+  },
+  {
+   "texto": "Leí sus mensajes uno detrás de otro, mientras por el espejo lo veía acercarse. No pares. Si se bajan, me quedo solo aquí. Quédate conmigo, Marcos.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "QUÉDATE",
+     "en": "Quédate conmigo"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Lo entendí todo de golpe. Las normas no eran para salvarme. Eran para que nadie bajara nunca de ese autobús. Para que Julián no tuviera que quedarse solo con lo que pasó aquella noche.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "LAS NORMAS",
+     "en": "Las normas"
+    }
+   ]
+  },
+  {
+   "texto": "Vi la marquesina bajo la farola, con el almendro detrás. Pisé el freno con todas mis fuerzas. Y abrí las puertas.",
+   "imagen": "view through the open front doors of a bus of an old bus shelter under a streetlamp in the rain, almond tree behind, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Pisé el freno"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Nueve. Cocheras."
+  },
+  {
+   "texto": "Fueron bajando uno a uno. El hombre del traje. Las chicas de la mochila. El abuelo de la boina. Al pisar la acera, se volvían niebla y se perdían calle abajo, hacia el río.",
+   "imagen": "misty street at night with low old houses and blooming almond trees, faint fading silhouettes dissolving into fog, warm streetlamp, peaceful",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "La señora fue la última. En el escalón se giró y me dio las gracias. Por primera vez, su abrigo verde estaba seco.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "senora",
+     "anim": "gira",
+     "x": 0.52,
+     "alto": 0.7,
+     "en": "En el escalón"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Cerré las puertas. El letrero se apagó. Por el espejo, el autobús estaba vacío. Respiré por primera vez en once noches.",
+   "imagen": "empty city bus interior with soft blue dawn light through the windows, quiet, no people",
+   "ambiente": "interior"
+  },
+  {
+   "texto": "Al llegar a cocheras, miré el contador de pasajeros por costumbre. No marcaba cero. Marcaba uno.",
+   "imagen": "=",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "UNO",
+     "en": "Marcaba uno"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "texto": "Entonces vibró el móvil. Un mensaje nuevo de Julián, enviado justo cuando apagué el motor. Leí la primera línea y no me atreví a girarme.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.2,
+   "chat": {
+    "contacto": "Julián",
+    "avatar": "?",
+    "hora": "04:15",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Ellos se han ido",
+      "en": "Un mensaje"
+     },
+     {
+      "de": "el",
+      "texto": "Yo no",
+      "en": "Leí"
+     },
+     {
+      "de": "el",
+      "texto": "Mañana salimos a las doce y media 🙂"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Esta noche vuelvo a sacar la N7. Rosa dice que en su pantalla voy vacío. Pero el contador sigue marcando uno. Y el asiento del fondo, el de la ventanilla, siempre está mojado.",
+   "imagen": "city night bus leaving a depot into the rain, headlights, wet asphalt, one dark shape visible in the back window, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 2.6
+  }
+ ],
+ "miniatura": {
+  "texto1": "NO PARES",
+  "texto2": "EN LA PARADA 41",
+  "bloque": 44
+ }
+}
