@@ -1,0 +1,246 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de Remain, lo nuevo de Shyamalan? 👻 #shorts",
+ "descripcion": "Shyamalan y Nicholas Sparks se unen en una historia de fantasmas con Jake Gyllenhaal. Nuevo tráiler y estreno en España el 5 de febrero como «Nunca olvides que te quiero». ¿La verás? 👇 #terror #shyamalan #remain #jakegyllenhaal #peliculasdeterror #shorts",
+ "fuentes": [
+  "https://consequence.net/2026/11/remain-trailer-m-night-shyamalan/",
+  "https://www.worldofreel.com/blog/2026/11/16/remain-trailer-m-night-shyamalan-and-nicholas-sparks-team-up-for-a-hitchcock-inspired-ghost-story",
+  "https://en.wikipedia.org/wiki/Remain_(film)",
+  "https://www.lahiguera.net/cinemania/pelicula/12520",
+  "https://www.espinof.com/trailers/m-night-shyamalan-presenta-impactante-trailer-su-nueva-pelicula-donde-hace-crossover-sorprendente-toda-su-carrera",
+  "https://culturageek.com.ar/remain-primeras-reacciones-m-night-shyamalan/"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "texto": "¿Por qué todo el mundo habla hoy de Remain? Porque este lunes salió su nuevo tráiler... y es una alianza que nadie esperaba. Shyamalan, el director de El sexto sentido, se ha unido a Nicholas Sparks, el autor de El diario de Noa. Jake Gyllenhaal es Tate, un arquitecto solitario que llega a un pueblo de la costa con un misterio mortal... y conoce a la misteriosa Wren. La venden como una historia de fantasmas al estilo Hitchcock. Shyamalan la proyectó por sorpresa en el Beyond Fest... en lugar de El sexto sentido. En España, Nunca olvides que te quiero llega a los cines el cinco de febrero. Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "fantasma": "pale translucent ghostly young woman in a long white vintage dress, long wet dark hair, standing still, sad hollow eyes, faint blue glow"
+ },
+ "escenas": [
+  {
+   "imagen": "lonely old wooden house on a foggy New England coastal cliff at night, crashing waves, lighthouse beam in the mist, eerie, no text",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar del terror · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos hablan de",
+     "tam": 118,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Remain?",
+     "color": "rojo",
+     "tam": 150,
+     "en": "Remain"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "remain shyamalan trailer",
+     "en": "Remain"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Remain"
+    }
+   ]
+  },
+  {
+   "desde": "Porque este lunes",
+   "etiqueta": "01 · EL TRÁILER",
+   "imagen": "old film projector in a dark empty projection booth casting a bright beam through dust, ominous shadows, no text, no logos",
+   "ambiente": "interior",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Nuevo tráiler",
+     "tam": 130,
+     "en": "Porque este lunes"
+    },
+    {
+     "tipo": "fecha",
+     "dia": 16,
+     "mes": "noviembre",
+     "etiqueta": "salió este lunes",
+     "en": "nuevo tráiler"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Alianza inesperada",
+     "en": "alianza"
+    }
+   ]
+  },
+  {
+   "desde": "Shyamalan, el director",
+   "etiqueta": "02 · LA ALIANZA",
+   "imagen": "candlelit antique writing desk with an old typewriter and a handwritten love letter, dark seaside study, rain on the window, eerie, no lettering",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Shyamalan",
+     "tam": 140,
+     "en": "Shyamalan"
+    },
+    {
+     "tipo": "tag",
+     "texto": "«El sexto sentido»",
+     "en": "El sexto sentido"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 480,
+     "en": "Shyamalan"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "+ Nicholas Sparks",
+     "en": "Nicholas Sparks"
+    },
+    {
+     "tipo": "tag",
+     "texto": "«El diario de Noa»",
+     "en": "El diario de Noa"
+    }
+   ]
+  },
+  {
+   "desde": "Jake Gyllenhaal",
+   "etiqueta": "03 · LA HISTORIA",
+   "imagen": "deserted foggy coastal village street at dusk, old clapboard houses, a single streetlamp, empty, no people, no speech bubbles, no lettering",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Jake Gyllenhaal",
+     "tam": 116,
+     "en": "Jake Gyllenhaal"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Tate · arquitecto solitario",
+     "en": "arquitecto"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 620,
+     "en": "pueblo de la costa",
+     "personajes": [
+      {
+       "quien": "fantasma",
+       "anim": "aparece",
+       "en": "misteriosa Wren",
+       "alto": 0.9
+      }
+     ]
+    },
+    {
+     "tipo": "desaparece",
+     "texto": "Misterio mortal",
+     "color": "rojo",
+     "tam": 112,
+     "en": "misterio mortal"
+    }
+   ]
+  },
+  {
+   "desde": "La venden",
+   "imagen": "spiral staircase in an old dark mansion seen from above, dizzying perspective, single candle, deep shadows, Hitchcock style suspense, no text",
+   "fondo": "bone",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "La venden como",
+     "en": "La venden"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Fantasmas",
+     "tam": 140,
+     "en": "fantasmas"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "…al estilo Hitchcock",
+     "color": "rojo",
+     "tam": 92,
+     "en": "Hitchcock"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "en": "Hitchcock"
+    }
+   ]
+  },
+  {
+   "desde": "Shyamalan la proyectó",
+   "etiqueta": "04 · LA SORPRESA",
+   "imagen": "empty dark cinema auditorium with red velvet seats, projector beam through dust, one seat occupied by a faint ghostly silhouette, eerie, no text",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "sello",
+     "texto": "Pase sorpresa",
+     "en": "por sorpresa"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Beyond Fest",
+     "tam": 130,
+     "en": "Beyond Fest"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "En lugar de…",
+     "texto": "«El sexto sentido»",
+     "en": "en lugar de"
+    }
+   ]
+  },
+  {
+   "desde": "En España",
+   "etiqueta": "05 · EN ESPAÑA",
+   "imagen": "old cinema facade at night with glowing red marquee lights and rain, wet empty street, mist, no text, no logos",
+   "ambiente": "lluvia",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "«Nunca olvides que te quiero»",
+     "tam": 84,
+     "en": "Nunca olvides"
+    },
+    {
+     "tipo": "fecha",
+     "dia": 5,
+     "mes": "febrero",
+     "etiqueta": "en cines",
+     "en": "cinco de febrero"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Estreno 2027",
+     "en": "cinco de febrero"
+    }
+   ]
+  }
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Para el terror del día",
+  "comentario": "¿la verás? 👇"
+ }
+}
