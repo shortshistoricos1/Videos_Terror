@@ -5,7 +5,13 @@ Formato: vídeo vertical 1080×1920 de **más de 1 minuto (65–80 s)**, porque 
 
 ## Pasos
 
-1. **Tema de hoy.** Busca con WebSearch qué es lo más buscado HOY en España: Google Trends España, tendencias de X y TikTok, noticias del día. Haz varias búsquedas en español. Elige el tema con más tirón que se pueda explicar en 45 s con datos claros (estreno, deporte, famoso, tecnología, curiosidad, fenómeno, fiesta, tiempo…). Mira `historias/HISTORIAL_RADAR_VIRAL.md` para no repetir. Comprueba cada dato en al menos 2 fuentes con fecha de hoy o de ayer.
+1. **Tema de hoy: SIEMPRE lo más buscado de verdad, comprobado en las tendencias del día** (no elijas un tema de las noticias por tu cuenta):
+   - **a) Tendencias de X en España:** WebFetch de `https://trends24.in/spain/index.html` (la última hora y la sección de lo que lleva más tiempo en tendencia).
+   - **b) Google España:** WebSearch «tendencias Google España hoy» y «lo más buscado hoy España» (modo `extended`). NO uses la página trends.google.*/trending con WebFetch: devuelve las tendencias de EE. UU., no las de España.
+   - **c) Noticias del día:** WebSearch del nombre de cada tendencia para saber POR QUÉ es tendencia hoy (fecha de hoy o de ayer).
+   - Haz una lista de las 10 primeras tendencias. Descarta las prohibidas (abajo) y elige la que esté **más arriba y en más fuentes a la vez** (p. ej. en X España y además en Google o en las noticias). Si es un hashtag de un programa de TV, sirve si se puede explicar con datos.
+   - No repitas temas de `historias/HISTORIAL_RADAR_VIRAL.md`. Comprueba cada dato en al menos 2 fuentes con fecha de hoy o de ayer.
+   - En el historial anota en `fuentes` también dónde salió como tendencia (p. ej. «trends24 X España n.º 2 + Google»).
    - **Evita** muertes y tragedias recientes, víctimas, crímenes, menores, suicidio, salud de personas concretas y rumores sin confirmar.
    - Con política, solo hechos verificables y neutrales, sin opinar ni tomar partido. Si dudas, elige otro tema.
 2. **Guion** (`texto`, **160–190 palabras**, para que el vídeo dure 65–80 s): empieza con una pregunta gancho («¿Por qué todo el mundo busca hoy…?», «¿Quién es…?», «¿Qué ha pasado con…?»). Siguen 8–10 datos concretos y verificados (contexto, cifras, quién, por qué importa, qué pasa ahora), con números y fechas escritos en letra, como se pronuncian. Termina SIEMPRE con: «Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.»
