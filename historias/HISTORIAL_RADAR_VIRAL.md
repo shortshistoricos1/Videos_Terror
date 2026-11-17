@@ -4,3 +4,5 @@ NNN | fecha | tema | fuentes
 --- | --- | --- | ---
 rv001 | 2026-11-16 | España 2-3 Inglaterra (Nations League, Metropolitano, 15-N) | vavel.com, periodistadigital.com, libero.pe
 rv002 | 2026-11-17 | Subida del salario mínimo 2027 (+5,3 %, 1.286 €/mes en 14 pagas) | infobae.com, cmmedia.es, catalunyapress.es, eldiariodemadrid.es
+rv003 | 2026-11-17 (extra) | Robert Pattinson, nuevo James Bond (Amazon MGM, 16-N) | trends24 X España n.º 2-4 (Robert Pattinson, James Bond) + Google; infobae.com, excelsior.com.mx
+rv004 | 2026-11-17 (extra) | Entrevista de Franganillo a Pedro Sánchez en Telecinco (16-N) | trends24 X España n.º 1 (Franganillo); formulatv.com, eldiario.es
