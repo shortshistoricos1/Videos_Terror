@@ -8,42 +8,179 @@
   "https://www.catalunyapress.es/articulo/politica/2026-11-17/6094301-gobierno-confirma-subida-smi-2027-cuanto-queda-salario-minimo",
   "https://www.eldiariodemadrid.es/articulo/politica/smi-2027-subida-1286-euros-14-pagas-consejo-ministros/20261117094026147091.html"
  ],
- "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
  "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
  "texto": "¿Cuánto sube el salario mínimo? Hoy el Consejo de Ministros aprueba la subida para dos mil veintisiete. Sube un cinco coma tres por ciento. Pasa de mil doscientos veintiún euros a mil doscientos ochenta y seis euros al mes, en catorce pagas. Son sesenta y cinco euros más cada mes y novecientos diez euros más al año. En total, dieciocho mil cuatro euros brutos anuales. Según el Gobierno, quien cobre el salario mínimo seguirá sin pagar IRPF. Los expertos proponían un cuatro coma nueve por ciento y los sindicatos pedían un siete. La patronal no apoyó la subida. Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
  "escenas": [
-  {"imagen": "stack of euro banknotes and coins on a desk with a payslip silhouette, upward arrow, modern office light", "fondo": "dark",
+  {
+   "imagen": "stack of euro banknotes and coins on a desk with a payslip silhouette, upward arrow, modern office light",
+   "fondo": "dark",
    "elementos": [
-    {"tipo": "tag", "texto": "Radar Viral · hoy", "en": "Cuánto"},
-    {"tipo": "titulo", "texto": "¿Cuánto sube", "tam": 140, "en": "Cuánto"},
-    {"tipo": "titulo", "texto": "el salario mínimo?", "color": "rojo", "tam": 120, "en": "salario mínimo"},
-    {"tipo": "busqueda", "texto": "salario mínimo 2027", "en": "salario mínimo"},
-    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "Consejo de Ministros"}]},
-  {"desde": "Sube un", "etiqueta": "01 · LA SUBIDA", "imagen": "upward growing bar chart made of coins, bright arrow pointing up, abstract", "fondo": "red",
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Cuánto"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Cuánto sube",
+     "tam": 140,
+     "en": "Cuánto"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "el salario mínimo?",
+     "color": "rojo",
+     "tam": 120,
+     "en": "salario mínimo"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "salario mínimo 2027",
+     "en": "salario mínimo"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Consejo de Ministros"
+    }
+   ]
+  },
+  {
+   "desde": "Sube un",
+   "etiqueta": "01 · LA SUBIDA",
+   "imagen": "upward growing bar chart made of coins, bright arrow pointing up, abstract",
+   "fondo": "red",
    "elementos": [
-    {"tipo": "titulo", "texto": "+5,3 %", "tam": 170, "en": "cinco coma tres"},
-    {"tipo": "subtitulo", "texto": "Salario mínimo 2027", "en": "por ciento"},
-    {"tipo": "imagen", "alto": 520, "en": "Pasa de"}]},
-  {"desde": "Pasa de", "etiqueta": "02 · LA CIFRA", "imagen": "open wallet with euro banknotes, calendar pages in the background, clean desk", "fondo": "dark",
+    {
+     "tipo": "titulo",
+     "texto": "+5,3 %",
+     "tam": 170,
+     "en": "cinco coma tres"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "Salario mínimo 2027",
+     "en": "por ciento"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "en": "Pasa de"
+    }
+   ]
+  },
+  {
+   "desde": "Pasa de",
+   "etiqueta": "02 · LA CIFRA",
+   "imagen": "open wallet with plain blank colored cards and gold coins, simple blank calendar with empty squares behind, clean desk, no writing",
+   "fondo": "dark",
    "elementos": [
-    {"tipo": "tarjeta", "titulo": "Antes", "texto": "1.221 € al mes", "en": "Pasa de"},
-    {"tipo": "tarjeta", "titulo": "Ahora", "texto": "1.286 € al mes", "en": "ochenta y seis"},
-    {"tipo": "sello", "texto": "14 pagas", "en": "catorce pagas"}]},
-  {"desde": "Son sesenta", "etiqueta": "03 · CUÁNTO MÁS", "imagen": "piggy bank with coins falling into it, soft glow, simple background", "fondo": "bone",
+    {
+     "tipo": "tarjeta",
+     "titulo": "Antes",
+     "texto": "1.221 € al mes",
+     "en": "Pasa de"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Ahora",
+     "texto": "1.286 € al mes",
+     "en": "ochenta y seis"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460
+    },
+    {
+     "tipo": "sello",
+     "texto": "14 pagas",
+     "en": "catorce pagas"
+    }
+   ]
+  },
+  {
+   "desde": "Son sesenta",
+   "etiqueta": "03 · CUÁNTO MÁS",
+   "imagen": "piggy bank with coins falling into it, soft glow, simple background",
+   "fondo": "bone",
    "elementos": [
-    {"tipo": "dato", "valor": 65, "sufijo": " €", "etiqueta": "más cada mes", "en": "sesenta y cinco"},
-    {"tipo": "sello", "texto": "+910 € al año", "en": "novecientos diez"},
-    {"tipo": "subtitulo", "texto": "18.004 € brutos al año", "en": "dieciocho mil"}]},
-  {"desde": "Según el Gobierno", "etiqueta": "04 · IMPUESTOS", "imagen": "tax form paper with a shield and a check mark, calculator next to it, clean flat scene", "fondo": "dark",
+    {
+     "tipo": "dato",
+     "valor": 65,
+     "sufijo": " €",
+     "etiqueta": "más cada mes",
+     "en": "sesenta y cinco"
+    },
+    {
+     "tipo": "sello",
+     "texto": "+910 € al año",
+     "en": "novecientos diez"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "18.004 € brutos al año",
+     "en": "dieciocho mil"
+    }
+   ]
+  },
+  {
+   "desde": "Según el Gobierno",
+   "etiqueta": "04 · IMPUESTOS",
+   "imagen": "blank white paper document with only grey lines, a shield with a check mark and a calculator next to it, clean flat scene, no writing",
+   "fondo": "dark",
    "elementos": [
-    {"tipo": "titulo", "texto": "Sin IRPF", "tam": 150, "en": "Según el Gobierno"},
-    {"tipo": "imagen", "alto": 520, "pie": "Según el Gobierno", "en": "seguirá sin pagar"}]},
-  {"desde": "Los expertos", "etiqueta": "05 · EL DEBATE", "imagen": "meeting table with empty chairs and documents, balance scale in the center, modern room", "fondo": "red",
+    {
+     "tipo": "titulo",
+     "texto": "Sin IRPF",
+     "tam": 150,
+     "en": "Según el Gobierno"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "pie": "Según el Gobierno",
+     "en": "seguirá sin pagar"
+    }
+   ]
+  },
+  {
+   "desde": "Los expertos",
+   "etiqueta": "05 · EL DEBATE",
+   "imagen": "meeting table with empty chairs and documents, balance scale in the center, modern room",
+   "fondo": "red",
    "elementos": [
-    {"tipo": "tarjeta", "titulo": "Expertos", "texto": "Proponían +4,9 %", "en": "Los expertos"},
-    {"tipo": "tarjeta", "titulo": "Sindicatos", "texto": "Pedían +7 %", "en": "sindicatos"},
-    {"tipo": "sello", "texto": "Patronal: no", "en": "La patronal"}]}
+    {
+     "tipo": "tarjeta",
+     "titulo": "Expertos",
+     "texto": "Proponían +4,9 %",
+     "en": "Los expertos"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Sindicatos",
+     "texto": "Pedían +7 %",
+     "en": "sindicatos"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450
+    },
+    {
+     "tipo": "sello",
+     "texto": "Patronal: no",
+     "en": "La patronal"
+    }
+   ]
+  }
  ],
  "cierre_desde": "Si quieres",
- "cierre": {"lema": "Lo más buscado de cada día", "comentario": "¿Te parece suficiente? 👇"}
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Te parece suficiente? 👇"
+ }
 }
