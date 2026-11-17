@@ -1,0 +1,200 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "La entrevista de Franganillo a Sánchez",
+ "titulo_youtube": "¿Por qué todo el mundo busca a Franganillo?",
+ "fuentes": [
+  "https://www.formulatv.com/noticias/insolito-pinchazo-entrevista-franganillo-sanchez-138780/",
+  "https://www.eldiario.es/vertele/noticias/carlos-franganillo-autocritica-tensa-entrevista-pedro-sanchez-telecinco-escapo-manos_1_13669892.html",
+  "https://trends24.in/spain/index.html"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy a Franganillo? Por su entrevista a Pedro Sánchez. Fue el lunes dieciséis de noviembre, en Informativos Telecinco, y duró unos treinta y cinco minutos. Hubo momentos de tensión, sobre todo al final, con preguntas y respuestas que se cruzaban. En un momento, Sánchez le pidió poder contestar: usted habla, yo también tengo derecho a hablar. Uno de los temas que más chocaron fue la entrada de migrantes en Ceuta, con versiones distintas sobre quién estaba bien informado. ¿Y la audiencia? Un siete coma ocho por ciento de cuota y algo menos de un millón de espectadores. Quedó tercera en su franja, por detrás de Antena tres y La uno. Este martes, Franganillo hizo autocrítica: dijo que la gestión del tiempo se le escapó de las manos, y definió la entrevista como tensa, enmarañada y muy reveladora. Y la semana sigue: el jueves diecinueve está previsto un debate en televisión entre Sánchez y Feijóo, moderado por María Casado. ¿La viste? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿La viste? Te leo 👇"
+ },
+ "escenas": [
+  {
+   "imagen": "empty television news studio with two chairs facing each other, studio lights and cameras, no people",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos buscan a",
+     "tam": 110,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Franganillo?",
+     "color": "rojo",
+     "tam": 140,
+     "en": "Franganillo"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "franganillo sánchez entrevista",
+     "en": "Franganillo"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Pedro Sánchez"
+    }
+   ]
+  },
+  {
+   "desde": "Fue el lunes",
+   "etiqueta": "01 · LA ENTREVISTA",
+   "imagen": "television camera pointed at a news desk with a blank screen behind, red recording light",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 16,
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Informativos Telecinco",
+     "en": "dieciséis de noviembre"
+    },
+    {
+     "tipo": "sello",
+     "texto": "≈ 35 minutos",
+     "en": "treinta y cinco"
+    }
+   ]
+  },
+  {
+   "desde": "Hubo momentos",
+   "etiqueta": "02 · LA TENSIÓN",
+   "imagen": "two empty microphones facing each other on a table with sparks of light between them, abstract tension",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Momentos de tensión",
+     "tam": 110,
+     "en": "Hubo momentos"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "en": "preguntas"
+    }
+   ]
+  },
+  {
+   "desde": "En un momento",
+   "etiqueta": "03 · LA FRASE",
+   "imagen": "speech bubble shapes without any text floating in a dark studio, abstract",
+   "fondo": "bone",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Pedro Sánchez",
+     "texto": "«Usted habla, yo también tengo derecho a hablar»",
+     "en": "usted habla"
+    }
+   ]
+  },
+  {
+   "desde": "Uno de los temas",
+   "etiqueta": "04 · CEUTA",
+   "imagen": "coastal city harbor at dusk with a lighthouse and calm sea, seen from afar, no people",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "El choque: Ceuta",
+     "en": "Ceuta"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 500,
+     "pie": "Versiones distintas",
+     "en": "versiones distintas"
+    }
+   ]
+  },
+  {
+   "desde": "¿Y la audiencia?",
+   "etiqueta": "05 · LA AUDIENCIA",
+   "imagen": "living room television glowing in the dark with an empty sofa, abstract audience chart shapes",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 7.8,
+     "sufijo": " %",
+     "etiqueta": "de cuota de pantalla",
+     "en": "siete coma ocho"
+    },
+    {
+     "tipo": "sello",
+     "texto": "< 1 millón de espectadores",
+     "en": "un millón"
+    },
+    {
+     "tipo": "subtitulo",
+     "texto": "3.ª en su franja",
+     "en": "Quedó tercera"
+    }
+   ]
+  },
+  {
+   "desde": "Este martes",
+   "etiqueta": "06 · LA AUTOCRÍTICA",
+   "imagen": "hourglass with sand running out on a desk next to a microphone, dramatic light",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Franganillo",
+     "texto": "«Se me escapó de las manos»",
+     "en": "se le escapó"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460
+    },
+    {
+     "tipo": "sello",
+     "texto": "Tensa y enmarañada",
+     "en": "enmarañada"
+    }
+   ]
+  },
+  {
+   "desde": "Y la semana sigue",
+   "etiqueta": "07 · LO QUE VIENE",
+   "imagen": "two empty podiums on a television debate stage with blue lights, no people",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 19,
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Debate Sánchez – Feijóo",
+     "en": "jueves diecinueve"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 420,
+     "pie": "Modera María Casado",
+     "en": "María Casado"
+    }
+   ]
+  }
+ ]
+}

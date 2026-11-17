@@ -1,0 +1,232 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "Robert Pattinson, nuevo James Bond",
+ "titulo_youtube": "¿Por qué todos hablan de Robert Pattinson? Es el nuevo James Bond",
+ "fuentes": [
+  "https://www.infobae.com/entretenimiento/2026/11/16/robert-pattinson-es-oficialmente-el-nuevo-james-bond/",
+  "https://www.excelsior.com.mx/espectaculos/robert-pattinson-es-nuevo-james-bond-amazon-mgm-confirma-sucesor-daniel-craig",
+  "https://cnnespanol.cnn.com/2026/11/16/entretenimiento/robert-pattinson-nuevo-james-bond-trax",
+  "https://trends24.in/spain/index.html"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo habla hoy de Robert Pattinson? Porque ya es oficial: es el nuevo James Bond. Amazon MGM lo anunció ayer, dieciséis de noviembre. Minutos antes, las cuentas oficiales de Bond borraron todo y solo publicaron dos palabras: identidad confirmada. Después llegó la primera imagen, con esmoquin. Pattinson tiene cuarenta años y será el séptimo actor oficial en ser cero cero siete, después de Sean Connery, George Lazenby, Roger Moore, Timothy Dalton, Pierce Brosnan y Daniel Craig. Se enteró el domingo por la mañana, con una llamada del director. La película será la número veintiséis de la saga y la primera hecha entera por Amazon. La dirige Denis Villeneuve, el de Dune, y la escribe Steven Knight, el creador de Peaky Blinders. En la carrera también sonaban Josh O'Connor, Callum Turner y Nicholas Hoult. Muchos le recuerdan como Edward en Crepúsculo o como Batman, y por eso hoy también son tendencia Crepúsculo y Tenet. Aún no hay título ni fecha de estreno. ¿Te convence como el nuevo agente secreto? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Te convence como 007? 👇"
+ },
+ "escenas": [
+  {
+   "imagen": "elegant black tuxedo jacket and bow tie on a hanger in a dark dressing room with a spotlight, cinematic",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos hablan de",
+     "tam": 110,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Robert Pattinson?",
+     "color": "rojo",
+     "tam": 118,
+     "en": "Robert Pattinson"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "robert pattinson james bond",
+     "en": "Robert Pattinson"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● N.º 1 en tendencias",
+     "en": "ya es oficial"
+    }
+   ]
+  },
+  {
+   "desde": "Amazon MGM",
+   "etiqueta": "01 · EL ANUNCIO",
+   "imagen": "smartphone screen glowing in the dark with blank social media posts disappearing, abstract digital particles",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 16,
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Anuncio oficial",
+     "en": "dieciséis de noviembre"
+    },
+    {
+     "tipo": "sello",
+     "texto": "«Identidad confirmada»",
+     "en": "identidad confirmada"
+    }
+   ]
+  },
+  {
+   "desde": "Después llegó",
+   "etiqueta": "02 · LA PRIMERA IMAGEN",
+   "imagen": "photo studio with a flash umbrella and a camera on a tripod aimed at an empty stool, dramatic light",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Primera imagen",
+     "tam": 120,
+     "en": "Después llegó"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 560,
+     "pie": "Con esmoquin",
+     "en": "primera imagen"
+    }
+   ]
+  },
+  {
+   "desde": "Pattinson tiene",
+   "etiqueta": "03 · EL SÉPTIMO",
+   "imagen": "seven empty director chairs in a row on a film set, one illuminated by a spotlight",
+   "fondo": "bone",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 7,
+     "sufijo": ".º",
+     "etiqueta": "actor oficial de 007",
+     "en": "séptimo actor"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Antes que él",
+     "texto": "Connery · Lazenby · Moore · Dalton · Brosnan · Craig",
+     "en": "Sean Connery"
+    }
+   ]
+  },
+  {
+   "desde": "Se enteró",
+   "etiqueta": "04 · LA LLAMADA",
+   "imagen": "vintage telephone ringing on a nightstand in soft morning light, cozy bedroom, no people",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "Se enteró el domingo",
+     "en": "Se enteró"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "pie": "Una llamada del director",
+     "en": "llamada"
+    }
+   ]
+  },
+  {
+   "desde": "La película será",
+   "etiqueta": "05 · LA PELÍCULA",
+   "imagen": "film clapperboard and a movie camera on a film set with spotlights, no writing",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 26,
+     "sufijo": "",
+     "etiqueta": "película de la saga",
+     "en": "veintiséis"
+    },
+    {
+     "tipo": "sello",
+     "texto": "La primera de Amazon",
+     "en": "primera hecha entera"
+    }
+   ]
+  },
+  {
+   "desde": "La dirige",
+   "etiqueta": "06 · EL EQUIPO",
+   "imagen": "desert dunes at sunset next to an industrial city street with old brick buildings, surreal split landscape",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Director",
+     "texto": "Denis Villeneuve (Dune)",
+     "en": "La dirige"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Guion",
+     "texto": "Steven Knight (Peaky Blinders)",
+     "en": "Steven Knight"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450
+    }
+   ]
+  },
+  {
+   "desde": "En la carrera",
+   "etiqueta": "07 · LOS RIVALES",
+   "imagen": "three empty spotlights on a dark stage, one brighter in the center",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "También sonaban",
+     "en": "En la carrera"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Finalistas",
+     "texto": "Josh O'Connor · Callum Turner · Nicholas Hoult",
+     "en": "Josh"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 430
+    }
+   ]
+  },
+  {
+   "desde": "Muchos le recuerdan",
+   "etiqueta": "08 · SUS PAPELES",
+   "imagen": "misty pine forest at twilight next to a dark gothic city skyline at night, cinematic",
+   "fondo": "bone",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Crepúsculo",
+     "texto": "Edward Cullen",
+     "en": "Crepúsculo"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "The Batman",
+     "texto": "2022",
+     "en": "Batman"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Aún sin fecha de estreno",
+     "en": "Aún no hay"
+    }
+   ]
+  }
+ ]
+}
