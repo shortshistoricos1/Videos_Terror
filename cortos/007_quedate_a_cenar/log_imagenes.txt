@@ -1,0 +1,11 @@
+Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (43a1ce17-ed02-4ce4-8aad-b980b5654d2f)","code":8007}],"success":false,"result":{},"messages":[]}
+personaje ok personaje_rider.png (421, 921)
+personaje ok personaje_sombra.png (619, 924)
+profundidad ok bloque_000_depth.png
+profundidad ok bloque_001_depth.png
+profundidad ok bloque_002_depth.png
+profundidad ok bloque_003_depth.png
+profundidad ok bloque_005_depth.png
+profundidad ok bloque_006_depth.png
+profundidad ok bloque_007_depth.png
