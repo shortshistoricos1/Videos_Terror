@@ -1,0 +1,936 @@
+{
+ "titulo": "LA LUZ DE SORNA",
+ "subtitulo": "Una historia de miedo",
+ "titulo_youtube": "Cuidé un faro 21 días… y mi propio número me escribía cada noche | Historia de terror",
+ "descripcion": "Iria pasa veintiún días sola en un faro de una isla gallega sin nadie. Cada noche, a las 2:14, le llega un mensaje desde su propio número con una norma: no bajes al muelle, que la luz no deje de girar, no abras la puerta. Y cada noche, alguien con su chubasquero amarillo sube un poco más desde el mar.\n\n¿Tú habrías subido a la barca? Te leo en comentarios.",
+ "tags": [
+  "historias de miedo",
+  "historia de terror",
+  "relatos de terror",
+  "terror español",
+  "creepypasta en español",
+  "faro",
+  "historias de fantasmas",
+  "Galicia",
+  "terror psicológico",
+  "historias de terror narradas",
+  "bucle temporal"
+ ],
+ "final": [
+  "¿Tú habrías subido a la barca?",
+  "Suscríbete para más historias de miedo"
+ ],
+ "comentario": "yo después de esto no duermo con el móvil cerca 😨",
+ "miniatura": {
+  "texto1": "NO LE ABRAS",
+  "texto2": "MI PROPIO NÚMERO ME ESCRIBE",
+  "bloque": 15
+ },
+ "voz": {
+  "voz": "es-ES-ElviraNeural",
+  "rate": "-6%",
+  "pitch": "-3Hz"
+ },
+ "reparto": {
+  "iria": "Spanish woman around 34 years old, shoulder-length dark brown hair tied back, pale tired face, grey wool fisherman sweater, dark work trousers, rubber boots, full body",
+  "manolo": "weathered Spanish fisherman around 65, white stubble, navy blue wool cap, dark blue fisherman jacket, grey trousers, full body",
+  "figura": "tall thin figure in a bright yellow hooded raincoat with the hood up hiding the face completely in shadow, soaking wet, dripping water, bare pale feet, standing, full body"
+ },
+ "bloques": [
+  {
+   "texto": "Durante veintiún días cuidé un faro en una isla gallega donde no vive nadie. Cada noche, mi propio número de móvil me escribía para decirme lo que no debía hacer. Y cada noche, alguien con mi chubasquero amarillo subía desde el mar.",
+   "imagen": "white lighthouse on a small rocky island at night, rotating beam cutting through sea fog, dark stormy ocean, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "figura",
+     "anim": "aparece",
+     "x": 0.66,
+     "y": 0.92,
+     "alto": 0.4,
+     "en": "alguien con mi chubasquero"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "MI NÚMERO",
+     "en": "mi propio número"
+    }
+   ]
+  },
+  {
+   "texto": "Obedecí todas las normas. Todas. Y aun así, el último día entendí que no me estaban salvando. Me estaban preparando para volver.",
+   "imagen": "a yellow raincoat hanging on an iron hook against a rough stone wall, dripping sea water onto the floor, dim lamp light, no people",
+   "ambiente": "interior",
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Uno. La isla de Sorna."
+  },
+  {
+   "texto": "Me llamo Iria. Soy técnica de mantenimiento de faros. En noviembre me mandaron a Sorna, una isla de roca frente a la costa de Lugo, a revisar la linterna antes de los temporales. Tres semanas. Sola.",
+   "imagen": "small fishing harbour in northern Spain at grey dawn, wooden and fiberglass boats, wet stone pier, low clouds, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "camina",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq",
+     "en": "Me llamo"
+    }
+   ]
+  },
+  {
+   "texto": "Me llevó Manolo, un marinero de Burela que hace la ruta una vez al mes. En todo el viaje no abrió la boca. Solo cuando ya estábamos atracando en el muelle de la isla, me miró y me dio un consejo.",
+   "imagen": "small motor boat crossing a grey choppy sea toward a rocky island with a white lighthouse on top, overcast sky, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.66,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "«Si de noche ves a alguien en el muelle, no bajes. Aquí no hay nadie más que tú». Me reí. Él no. Arrancó el motor y se fue sin despedirse.",
+   "imagen": "old concrete dock at the foot of a rocky cliff, waves breaking, overcast light, a rusty mooring ring, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "gira",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "pausa": 1.0
+  },
+  {
+   "texto": "La isla era poco más que una roca pelada. Arriba, el faro blanco y la casa del antiguo farero, de piedra, con dos habitaciones y una cocina de leña. Abajo, el muelle. Y entre los dos, ciento doce escalones de piedra pegados al acantilado.",
+   "imagen": "wide shot of a stone stairway carved along a sea cliff, climbing from a small dock up to a white lighthouse and a stone keeper's house, grey sky, no people",
+   "ambiente": "viento",
+   "impactos": [
+    {
+     "texto": "112",
+     "en": "ciento doce"
+    }
+   ]
+  },
+  {
+   "texto": "Había cobertura en un único sitio: la galería de arriba, alrededor de la linterna. Así que cada noche subía, comprobaba el giro de la luz y miraba el móvil con el viento en la cara.",
+   "imagen": "lighthouse gallery balcony with an iron railing at night, huge glowing lamp behind the lantern glass, wind and sea spray, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Dos. Un mensaje de mí misma."
+  },
+  {
+   "texto": "La primera noche, a las dos y catorce, el móvil vibró en mi bolsillo. Tenía un mensaje. El remitente era mi propio número. En la pantalla ponía, simplemente, «Yo».",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72,
+     "en": "El remitente"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "YO",
+     "en": "«Yo»"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Leí el mensaje dos veces. Le respondí preguntando quién era. Al momento, el contacto se puso en línea y escribió algo más. Luego escribió otra cosa, y se borró antes de que pudiera leerla entera.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Yo",
+    "avatar": "iria",
+    "hora": "02:14",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "No bajes al muelle de noche",
+      "en": "Leí el mensaje"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Quién eres?",
+      "en": "Le respondí"
+     },
+     {
+      "de": "el",
+      "texto": "Tú. Dentro de veinte días.",
+      "en": "escribió algo"
+     },
+     {
+      "de": "el",
+      "texto": "Hazme caso esta vez",
+      "en": "Luego escribió",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Pensé en un fallo de la compañía. Un mensaje rebotado, algo técnico. Apagué el móvil y bajé a la casa. Esa noche dormí mal. Desde la cama se oía el mar golpeando el muelle, abajo, muy abajo.",
+   "imagen": "small stone bedroom with an iron bed, tiny deep window, oil lamp on a chair, night, no people",
+   "ambiente": "viento"
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Tres. El chubasquero amarillo."
+  },
+  {
+   "texto": "Al tercer día me di cuenta de que mi chubasquero amarillo no estaba en el gancho de la entrada. Lo busqué por toda la casa. Por fuera, alrededor del faro. Nada. Una isla de roca no tiene muchos sitios donde perder algo.",
+   "imagen": "entrance of an old stone house with an empty iron coat hook on the wall, rubber boots on the floor, grey daylight through the door, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.65,
+     "y": 0.97,
+     "alto": 0.72,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "Esa noche, a las dos y catorce, la linterna dejó de girar. Se quedó quieta, con el haz fijo, apuntando hacia abajo. Hacia el muelle.",
+   "imagen": "lighthouse beam frozen and pointing straight down at a small dock at night, fog, black sea, no people",
+   "ambiente": "viento",
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "dejó de girar"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Me asomé a la barandilla. Abajo, en el borde del muelle, iluminada por la luz, había una figura de pie. Llevaba un chubasquero amarillo con la capucha puesta. Mi chubasquero. Y miraba hacia arriba. Hacia mí.",
+   "imagen": "high angle view from a lighthouse down to a concrete dock lit by a harsh spotlight at night, wet ground, waves, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "figura",
+     "anim": "aparece",
+     "x": 0.6,
+     "y": 0.9,
+     "alto": 0.42,
+     "en": "había una figura"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "MI CHUBASQUERO",
+     "en": "Mi chubasquero"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "Hacia mí"
+    }
+   ],
+   "pausa": 2.2
+  },
+  {
+   "texto": "Corrí a la consola y reinicié el motor de giro. La luz volvió a dar vueltas. Cuando el haz pasó otra vez por el muelle, allí no había nadie. Solo un charco de agua, brillando sobre el cemento.",
+   "imagen": "lighthouse machinery room, brass gears and an old electric control panel, red emergency light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "tiembla",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Entonces vibró el móvil. Otro mensaje de «Yo». Lo leí con las manos temblando. Le escribí que la había visto. Y la respuesta llegó enseguida, con dos normas.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Yo",
+    "avatar": "iria",
+    "hora": "02:21",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "¿La has visto ya?",
+      "en": "Otro mensaje"
+     },
+     {
+      "de": "yo",
+      "texto": "Está en el muelle. Con mi chubasquero",
+      "en": "Le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "Que la luz no deje de girar",
+      "en": "la respuesta"
+     },
+     {
+      "de": "el",
+      "texto": "Y si toca a la puerta, no abras",
+      "en": "dos normas"
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cuatro. El cuaderno de Tomás."
+  },
+  {
+   "texto": "Al día siguiente, buscando el manual del motor, encontré en un armario un cuaderno de bitácora. Tapas de cuero, hojas amarillentas. Era del último farero de verdad, un tal Tomás. Las anotaciones acababan en el invierno de mil novecientos setenta y nueve.",
+   "imagen": "old leather logbook open on a wooden table, yellowed pages with illegible faded handwriting, oil lamp, stone wall, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Al principio eran cosas normales. Viento del noroeste. Cambio de bombilla. Llegada del barco. Pero en noviembre la letra cambiaba. Se volvía apretada, nerviosa.",
+   "imagen": "=",
+   "ambiente": "interior"
+  },
+  {
+   "texto": "«Ha vuelto la del chubasquero amarillo. Ya no se queda en el muelle. Sube un poco más cada noche». Y debajo, una frase que releí muchas veces: «Encuentro notas con mi letra que no recuerdo haber escrito. Dicen que no le abra».",
+   "imagen": "extreme close up of shaky dark ink handwriting on a yellowed page, candle light, shadows, illegible text",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "NO LE ABRA",
+     "en": "no le abra"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Tomás también había recibido avisos de sí mismo. En papel, porque en mil novecientos setenta y nueve no había otra cosa. Busqué la última página del cuaderno. Estaba arrancada.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.6
+  },
+  {
+   "texto": "Esa noche bajé la escalera de piedra hasta la mitad, con la linterna en la mano, solo para comprobar algo. En los escalones de abajo había huellas mojadas. Pies descalzos. Subían desde el mar.",
+   "imagen": "wet barefoot footprints on stone steps along a cliff at night, lit by a flashlight beam, sea below, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "tiembla",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.72,
+     "espejo": true
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "DESCALZOS",
+     "en": "Pies descalzos"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "huellas mojadas"
+    }
+   ]
+  },
+  {
+   "texto": "Las conté. Llegaban hasta el escalón treinta. Allí se paraban. Como si alguien se hubiera quedado de pie, quieto, mirando hacia la casa. Esperando.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "pausa": 1.8
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cinco. Tres golpes."
+  },
+  {
+   "texto": "Los días siguientes trabajé sin parar. Cambié piezas del motor, revisé la óptica, pinté la barandilla. Quería tener la cabeza ocupada. Pero cada mañana las huellas llegaban un poco más alto. Cuarenta escalones. Sesenta. Noventa.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "camina",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "NOVENTA",
+     "en": "Noventa"
+    }
+   ]
+  },
+  {
+   "texto": "La noche nueve, a las dos y catorce, alguien tocó a la puerta de la casa. Tres golpes. Lentos. Separados.",
+   "imagen": "thick wooden door of a stone house seen from the inside at night, iron latch, warm lamp light, darkness, no people",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Tres golpes"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "TRES GOLPES",
+     "en": "Tres golpes"
+    }
+   ],
+   "pausa": 2.0
+  },
+  {
+   "texto": "Me quedé quieta en el pasillo. Por debajo de la puerta empezó a entrar agua. Agua de mar, fría, con un olor a algas que me llenó la boca. Y al otro lado alguien respiraba, despacio, pegado a la madera.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "tiembla",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.72,
+     "espejo": true
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "respiracion",
+     "en": "alguien respiraba"
+    }
+   ]
+  },
+  {
+   "texto": "El móvil vibró en mi mano. En la casa no había cobertura. Nunca la había habido. Pero el mensaje llegó igual. Le escribí suplicando qué hacer, y leí su respuesta letra a letra.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Yo",
+    "avatar": "iria",
+    "hora": "02:17",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "No abras. Aunque sepa tu nombre",
+      "en": "el mensaje llegó"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Qué hago? 😰",
+      "en": "Le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "Sube al faro. Que te vea la luz",
+      "en": "leí su respuesta"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Salí por la ventana de la cocina, la que da al faro, y subí los escalones de la torre de dos en dos. Me encerré arriba, junto a la linterna. Desde allí, cada vez que el haz giraba, la veía a ella, de pie frente a la puerta de la casa, con la capucha puesta, empapada.",
+   "imagen": "view from the top of a lighthouse down to the door of a small stone house at night, sweeping beam, heavy rain, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "figura",
+     "anim": "aparece",
+     "x": 0.55,
+     "y": 0.85,
+     "alto": 0.32,
+     "en": "la veía a ella"
+    }
+   ]
+  },
+  {
+   "texto": "Al amanecer se había ido. La puerta tenía tres marcas de nudillos hundidas en la madera. Y el chubasquero amarillo estaba otra vez colgado en su gancho. Chorreando.",
+   "imagen": "yellow raincoat hanging on an iron hook next to a wooden door, puddle of seawater under it, cold dawn light, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "CHORREANDO",
+     "en": "Chorreando"
+    }
+   ],
+   "pausa": 2.2
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Seis. La tormenta."
+  },
+  {
+   "texto": "El día catorce entró un temporal. Olas de seis metros, viento que hacía vibrar los cristales de la torre. Intenté avisar a Puertos, pero arriba, en la galería, no había forma de mantenerse en pie.",
+   "imagen": "massive storm waves crashing against a rocky island with a white lighthouse at night, spray and rain, no people",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "A las dos y catorce, un rayo cayó en la isla. Se fue la luz de la casa. Y, arriba, la linterna se apagó por completo. Era la primera vez en cuarenta años que el faro de Sorna se quedaba a oscuras.",
+   "imagen": "dark unlit lighthouse silhouetted by a lightning bolt over a stormy sea, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "un rayo"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "A OSCURAS",
+     "en": "a oscuras"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Tenía que subir a encender el generador de emergencia, en la sala de máquinas, debajo de la linterna. Cogí la linterna de mano y abrí la puerta de la torre.",
+   "imagen": "base of an iron spiral staircase inside a lighthouse tower, flashlight beam, pitch darkness above, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "camina",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq"
+    }
+   ]
+  },
+  {
+   "texto": "La escalera de caracol subía en la oscuridad. Ciento treinta peldaños de hierro. A mitad de camino, el haz de mi linterna alumbró algo amarillo.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "pausa": 1.2
+  },
+  {
+   "texto": "Estaba sentada en un peldaño, de espaldas a mí. La capucha puesta. El agua le caía por los bordes y goteaba hacia abajo, escalón a escalón, hasta mis pies.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "figura",
+     "anim": "respira",
+     "x": 0.6,
+     "y": 0.97,
+     "alto": 0.55,
+     "espejo": true
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "Estaba sentada"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Recordé el aviso que me había llegado esa tarde, el que no había entendido: pasa a su lado y no la mires a la cara. Pegué la espalda a la pared y empecé a subir.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Pasé a su lado con los ojos fijos en los peldaños. Olía a mar podrido. Cuando estaba justo a su altura, oí cómo giraba despacio la cabeza hacia mí. No miré. Seguí subiendo.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "respiracion",
+     "en": "Olía a mar"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Arranqué el generador. La linterna se encendió de golpe y el haz salió disparado hacia el mar. Cuando volví a bajar, la escalera estaba vacía. Solo había agua. Y en el último peldaño, algo que no era mío.",
+   "imagen": "lighthouse lantern blazing back to life in a storm, powerful beam shooting over the sea, no people",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "Era una hoja de papel, empapada, doblada en cuatro. La última página del cuaderno de Tomás. La que faltaba.",
+   "imagen": "a soaked folded sheet of old paper lying on an iron step, flashlight light, puddles, no people",
+   "ambiente": "interior",
+   "pausa": 1.6
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Siete. La última página."
+  },
+  {
+   "texto": "La desdoblé en la mesa de la cocina, junto a la estufa. La tinta se había corrido, pero se leía. No era la letra nerviosa de Tomás. Era mi letra. La reconocería en cualquier parte.",
+   "imagen": "rustic kitchen table beside a wood stove, a wet unfolded old paper drying under a lamp, illegible handwriting, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "MI LETRA",
+     "en": "Era mi letra"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "texto": "Decía: «Día veintiuno. Manolo no viene por la mañana. Si ves la barca al amanecer, no subas. Mírale los pies».",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 2.4
+  },
+  {
+   "texto": "Tomás había desaparecido en mil novecientos setenta y nueve. Lo leí después, en el registro del faro: la barca de relevo llegó un día antes de lo previsto, al amanecer, y él se marchó en ella. Nunca llegó a puerto. La barca tampoco.",
+   "imagen": "old wooden fishing boat drifting empty in thick fog at dawn, calm grey sea, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "NUNCA LLEGÓ",
+     "en": "Nunca llegó"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Ocho. La barca del amanecer."
+  },
+  {
+   "texto": "Los últimos días no pasó nada. Ni huellas, ni golpes, ni mensajes. El silencio era peor. Marqué las fechas en la pared de la cocina, una raya por día, para no perder la cuenta.",
+   "imagen": "chalk tally marks counting days scratched on a stone kitchen wall, grey window light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.65,
+     "y": 0.97,
+     "alto": 0.72,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "La mañana del día veintiuno me despertó el ruido de un motor. Salí corriendo. Abajo, en el muelle, estaba la barca de Manolo, atracada, con la niebla pegada al agua.",
+   "imagen": "small motor boat moored at a foggy concrete dock at dawn, seen from the top of a sea cliff, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "aparece",
+     "x": 0.6,
+     "y": 0.9,
+     "alto": 0.35,
+     "en": "la barca de Manolo"
+    }
+   ]
+  },
+  {
+   "texto": "Bajé la mitad de la escalera. Manolo me hacía gestos con la mano para que bajara rápido, que se acercaba otro temporal. Llevaba su chaqueta de siempre. Su gorra. Todo igual.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "respira",
+     "x": 0.6,
+     "y": 0.97,
+     "alto": 0.5
+    }
+   ]
+  },
+  {
+   "texto": "Entonces el móvil vibró. Sin cobertura, otra vez. Un mensaje de «Yo». Lo leí y bajé la vista despacio hacia sus pies. Le escribí lo que estaba viendo. Y leí la última norma.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Yo",
+    "avatar": "iria",
+    "hora": "07:42",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "No es él. Mírale los pies",
+      "en": "Un mensaje"
+     },
+     {
+      "de": "yo",
+      "texto": "Va descalzo. Y chorrea",
+      "en": "Le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "No subas. Vuelve arriba ya",
+      "en": "la última norma"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Manolo estaba descalzo. Tenía los pies blancos, hinchados, y alrededor de ellos el cemento estaba encharcado, como si acabara de salir del agua. Seguía haciéndome el mismo gesto con la mano. El mismo. Una y otra vez.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "respira",
+     "x": 0.55,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "DESCALZO",
+     "en": "estaba descalzo"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "Manolo estaba"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Di media vuelta y subí. No miré atrás. Cuando llegué arriba y me asomé, la barca se alejaba hacia la niebla. Sin ruido de motor. Y en la popa, de pie, había una figura con un chubasquero amarillo.",
+   "imagen": "small boat silently disappearing into thick sea fog, seen from high above on a cliff, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "figura",
+     "anim": "aparece",
+     "x": 0.5,
+     "y": 0.8,
+     "alto": 0.28,
+     "en": "había una figura"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "chubasquero amarillo"
+    }
+   ],
+   "pausa": 2.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Nueve. Volver."
+  },
+  {
+   "texto": "Esa tarde, cuando amainó, llegó otra barca. Manolo. El de verdad, con sus botas de goma y su mal humor. Me contó que por la mañana no había podido salir de Burela por el temporal. Que nadie más hace esa ruta.",
+   "imagen": "fishing boat arriving at a small island dock in warm afternoon light after a storm, calm sea, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "camina",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq"
+    }
+   ]
+  },
+  {
+   "texto": "Subí con él sin pensarlo. A mitad de camino saqué el móvil. Volvía a haber cobertura. Abrí la conversación con «Yo» para leerla entera otra vez.",
+   "imagen": "view from a small boat looking back at a rocky island with a white lighthouse at sunset, wake on the water, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "iria",
+     "anim": "respira",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Y entonces lo vi. Todos los mensajes que había recibido aparecían ahora a la derecha, como enviados por mí. Y en el cuadro de texto había uno a medio escribir, esperando. Lo envié. Al momento, al otro lado, alguien se puso en línea y respondió.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.2,
+   "chat": {
+    "contacto": "Yo",
+    "avatar": "iria",
+    "hora": "18:03",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "No es él. Mírale los pies",
+      "en": "aparecían ahora"
+     },
+     {
+      "de": "yo",
+      "texto": "No bajes al muelle de noche",
+      "en": "Lo envié"
+     },
+     {
+      "de": "el",
+      "texto": "¿Quién eres?",
+      "en": "respondió"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Me temblaban las manos. Subí la conversación hacia el principio. No acababa nunca. Los mismos mensajes, una y otra vez. Veintiún días. Y otros veintiún días antes. Y otros. Durante años.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "DURANTE AÑOS",
+     "en": "Durante años"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "texto": "Entendí lo que Tomás había entendido en su última noche. Los avisos no venían del futuro. Venían de la vez anterior. Y de la anterior. Siempre había una vez anterior.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.8
+  },
+  {
+   "texto": "Llegamos a Burela de noche. Manolo amarró, me ayudó a bajar y se quedó mirándome raro. Le pregunté qué pasaba. Me dijo: «Nada, mujer. Que mañana a las ocho te espero aquí. Para llevarte a Sorna».",
+   "imagen": "small Spanish fishing harbour at night, orange streetlights reflected on black water, moored boats, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "manolo",
+     "anim": "gira",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "iria",
+     "anim": "tiembla",
+     "x": 0.72,
+     "y": 0.97,
+     "alto": 0.66,
+     "espejo": true
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "MAÑANA",
+     "en": "mañana a las ocho"
+    }
+   ],
+   "pausa": 2.0
+  },
+  {
+   "texto": "Miré el móvil. En la pantalla de bloqueo ponía la fecha. Era el día antes de que me mandaran a la isla. El primero. Otra vez.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "Otra vez"
+    }
+   ],
+   "pausa": 2.6
+  },
+  {
+   "texto": "Esta noche escribo esto para que alguien lo lea. Porque mañana subiré a la barca y no recordaré nada. Y a las dos y catorce, en lo alto del faro, me llegará un mensaje de mi propio número.",
+   "imagen": "white lighthouse at night seen from the sea, rotating beam, dark rocky island, no people",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "Y abajo, en el muelle, con mi chubasquero amarillo, habrá alguien esperando. Mirando hacia arriba. Hacia mí. Creo que ya sé quién es.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "figura",
+     "anim": "aparece",
+     "x": 0.62,
+     "y": 0.9,
+     "alto": 0.4,
+     "en": "habrá alguien"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "Mirando hacia arriba"
+    }
+   ],
+   "pausa": 2.8
+  }
+ ]
+}
