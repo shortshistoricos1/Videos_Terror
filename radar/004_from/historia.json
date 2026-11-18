@@ -1,0 +1,93 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de From? 😱 La última temporada #shorts",
+ "descripcion": "La serie de terror del pueblo del que nadie puede salir termina de rodar su quinta y última temporada, tras ser número uno en streaming en EE. UU. ¿Te atrapó? 👇 #terror #from #seriesdeterror #haroldperrineau #shorts",
+ "fuentes": [
+  "https://ihorror.com/from-season-5-wraps-filming-netflix-nielsen/",
+  "https://www.darkhorizons.com/from-to-wrap-filming-on-its-final-season/",
+  "https://showsnob.com/from-season-5-finally-wraps-filming-paving-way-2027-premiere",
+  "https://www.whats-on-netflix.com/news/from-expands-to-more-netflix-regions-in-november-2026-and-wheres-season-4/"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "texto": "¿Por qué todo el mundo habla hoy de From? Porque la serie de terror del pueblo del que nadie puede salir está terminando de rodar su quinta temporada... y será la última. Se rueda en Halifax, en Canadá, desde el seis de julio, y el equipo ya ha celebrado la fiesta de fin de rodaje. Y en cuanto llegó a Netflix en Estados Unidos, fue la serie número uno de Nielsen: mil seiscientos cincuenta millones de minutos vistos en una sola semana. Harold Perrineau, el de Perdidos, vuelve como Boyd. Y cuando cae la noche... las criaturas salen del bosque. El final llegará en dos mil veintisiete. Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "criatura": "tall gaunt pale humanoid figure in an old-fashioned 1950s suit, unnaturally wide polite smile, empty dark eyes, standing very still, eerie"
+ },
+ "escenas": [
+  {
+   "imagen": "small isolated American town at dusk surrounded by a dark dense forest, a lonely road ending at a fallen tree, empty, mist, no people, no text",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos hablan de", "tam": 118, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "From?", "color": "rojo", "en": "From"},
+    {"tipo": "busqueda", "texto": "from serie", "en": "From"},
+    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "From"}
+   ]
+  },
+  {
+   "desde": "Porque la serie",
+   "etiqueta": "01 · EL FINAL",
+   "imagen": "empty two-lane road leading into a dark forest at night, abandoned car with headlights on, fog, ominous, no people, no text",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "subtitulo", "texto": "Nadie puede salir", "en": "nadie puede salir"},
+    {"tipo": "imagen", "alto": 520, "en": "nadie puede salir"},
+    {"tipo": "titulo", "texto": "Temporada 5", "tam": 130, "en": "quinta temporada"},
+    {"tipo": "sello", "texto": "La última", "en": "será la última"}
+   ]
+  },
+  {
+   "desde": "Se rueda en Halifax",
+   "etiqueta": "02 · EL RODAJE",
+   "imagen": "foggy Canadian harbor town at night with old wooden houses and a lighthouse, cold blue light, empty, no people, no text",
+   "fondo": "red",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Halifax", "en": "Halifax"},
+    {"tipo": "tag", "texto": "Canadá", "en": "Canadá"},
+    {"tipo": "fecha", "dia": 6, "mes": "julio", "etiqueta": "inicio del rodaje", "en": "seis de julio"},
+    {"tipo": "sello", "texto": "Fin de rodaje ✓", "en": "fiesta"}
+   ]
+  },
+  {
+   "desde": "Y en cuanto llegó",
+   "etiqueta": "03 · NÚMERO UNO",
+   "imagen": "dark living room lit only by a glowing old television screen, empty sofa, shadows on the wall, eerie, no people, no text",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "tag", "texto": "Netflix · EE. UU.", "en": "Netflix"},
+    {"tipo": "dato", "valor": 1650, "sufijo": " M", "etiqueta": "minutos en una semana", "en": "mil seiscientos"},
+    {"tipo": "sello", "texto": "Nº 1 en Nielsen", "en": "número uno"}
+   ]
+  },
+  {
+   "desde": "Harold Perrineau",
+   "etiqueta": "04 · EL SHERIFF",
+   "imagen": "old small-town sheriff office at night with a desk lamp, a worn cowboy hat and a flashlight on the desk, window to dark woods, no people, no text",
+   "fondo": "bone",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Harold Perrineau", "tam": 120, "en": "Harold Perrineau"},
+    {"tipo": "tag", "texto": "De «Perdidos»", "en": "Perdidos"},
+    {"tipo": "imagen", "alto": 520, "en": "Perdidos"},
+    {"tipo": "subtitulo", "texto": "Vuelve como Boyd", "color": "rojo", "en": "Boyd"}
+   ]
+  },
+  {
+   "desde": "Y cuando cae la noche",
+   "etiqueta": "05 · LA NOCHE",
+   "imagen": "edge of a dark forest at night next to a small house with a lit window, thick fog between the trees, no text, no speech bubbles",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "desaparece", "texto": "Cae la noche", "color": "rojo", "tam": 120, "en": "cae la noche"},
+    {"tipo": "imagen", "alto": 600, "en": "criaturas",
+     "personajes": [{"quien": "criatura", "anim": "se_acerca", "en": "criaturas", "alto": 0.9}]},
+    {"tipo": "tarjeta", "titulo": "El final", "texto": "Llegará en 2027", "en": "El final"}
+   ]
+  }
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Para el terror del día", "comentario": "¿te atrapó? 👇"}
+}
