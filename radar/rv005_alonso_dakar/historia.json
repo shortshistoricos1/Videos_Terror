@@ -90,7 +90,7 @@
      "tipo": "imagen",
      "alto": 540,
      "pie": "Preparado por Prodrive",
-     "en": "Prodrive"
+     "en": "Dreadnought"
     }
    ]
   },
@@ -128,9 +128,10 @@
      "en": "dos mil veinte"
     },
     {
-     "tipo": "imagen",
-     "alto": 460,
-     "en": "decimotercero"
+     "tipo": "tarjeta",
+     "titulo": "Con Marc Coma",
+     "texto": "Su primer Dakar juntos",
+     "en": "Ya formaron pareja"
     },
     {
      "tipo": "sello",
