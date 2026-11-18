@@ -58,7 +58,7 @@
    "fondo": "dark",
    "elementos": [
     {"tipo": "tag", "texto": "Netflix · EE. UU.", "en": "Netflix"},
-    {"tipo": "dato", "valor": 1650, "sufijo": " M", "etiqueta": "minutos en una semana", "en": "mil seiscientos"},
+    {"tipo": "dato", "valor": 1650, "sufijo": "", "etiqueta": "millones de minutos en una semana", "en": "mil seiscientos"},
     {"tipo": "sello", "texto": "Nº 1 en Nielsen", "en": "número uno"}
    ]
   },
