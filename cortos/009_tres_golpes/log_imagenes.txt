@@ -1,0 +1,14 @@
+Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (7ce6e93d-e86a-4e83-a845-717cf7155108)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (21f816fb-9d52-4e15-a35d-a5e90100c0da)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (ffe7668b-54d0-41d3-813e-fa7cd694b38f)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (6ecc2425-5f05-479c-87bb-aa3146ee2685)","code":8007}],"success":false,"result":{},"messages":[]}
+SIN PERSONAJE vecino
+personaje ok personaje_sombra.png (813, 960)
+profundidad ok bloque_000_depth.png
+profundidad ok bloque_001_depth.png
+profundidad ok bloque_003_depth.png
+profundidad ok bloque_004_depth.png
+profundidad ok bloque_005_depth.png
+profundidad ok bloque_006_depth.png
+profundidad ok bloque_007_depth.png
