@@ -1,0 +1,243 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "Fernando Alonso vuelve al Dakar",
+ "titulo_youtube": "¿Por qué todo el mundo busca hoy a Fernando Alonso?",
+ "fuentes": [
+  "https://www.astonmartinf1.com/en-GB/news/announcement/fernando-alonso-returns-to-the-dakar-with-aston-martin-dreadnought",
+  "https://www.dazn.com/es-ES/news/motor/las-esperanzadoras-palabras-fernando-alonso-anunciar-correra-rally-dakar-2027-queria-asumir-desafio-por-completo/1ko5o7m3dcotz1bj2cs2iqkisj",
+  "https://risbelmagazine.es/actualidad/fernando-alonso-dakar-2027-aston-martin-32-dias-formula-1",
+  "https://elespanol.com/deportes/motor/20261118/desafio-combinar-f1-desierto-dakar-empuja-alonso-retar-fisiologia-deportiva-anos/1003744461809_0.html"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy a Fernando Alonso? Porque vuelve al Dakar. Aston Martin lo confirmó este martes, diecisiete de noviembre. Correrá el Rally Dakar dos mil veintisiete con el Aston Martin Dreadnought, un todoterreno de raid preparado por Prodrive. Su copiloto será Marc Coma, cinco veces ganador del Dakar en motos. Ya formaron pareja en dos mil veinte, cuando Alonso terminó decimotercero con Toyota. La carrera será del nueve al veintitrés de enero. Sale de Portugal, cruza a Marruecos y termina en Marrakech, con doce etapas y más de cuatro mil kilómetros cronometrados. Alonso tendrá cuarenta y cinco años en la salida. Y no deja la Fórmula uno: tiene contrato con Aston Martin para dos mil veintisiete, y entre la meta del Dakar y los primeros test de pretemporada habrá poco más de un mes. Él lo resume así: la Fórmula uno sigue siendo mi prioridad, pero quería asumir el desafío por completo. En el equipo también estará Sébastien Loeb, nueve veces campeón del mundo de rallies. ¿Crees que puede ganarlo? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Puede ganarlo? Te leo 👇"
+ },
+ "escenas": [
+  {
+   "fondo": "dark",
+   "imagen": "rally raid off-road car racing across golden sand dunes at sunset, dust cloud, no people visible, no logos",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos buscan a",
+     "tam": 110,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Fernando Alonso?",
+     "color": "rojo",
+     "tam": 130,
+     "en": "Fernando Alonso"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "fernando alonso dakar",
+     "en": "Fernando Alonso"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Vuelve al Dakar",
+     "en": "vuelve al Dakar"
+    }
+   ]
+  },
+  {
+   "desde": "Aston Martin lo confirmó",
+   "etiqueta": "01 · EL ANUNCIO",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 17,
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Lo confirma Aston Martin",
+     "en": "diecisiete de noviembre"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Dakar 2027",
+     "en": "Aston Martin lo confirmó"
+    }
+   ]
+  },
+  {
+   "desde": "Correrá el Rally",
+   "etiqueta": "02 · EL COCHE",
+   "fondo": "dark",
+   "imagen": "dark green rugged off-road rally raid car parked in the desert, dramatic side light, no logos, no text",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "Aston Martin Dreadnought",
+     "en": "Dreadnought"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 540,
+     "pie": "Preparado por Prodrive",
+     "en": "Prodrive"
+    }
+   ]
+  },
+  {
+   "desde": "Su copiloto será",
+   "etiqueta": "03 · EL COPILOTO",
+   "fondo": "bone",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Marc Coma",
+     "texto": "5 Dakar ganados en motos",
+     "en": "Marc Coma"
+    },
+    {
+     "tipo": "dato",
+     "valor": 5,
+     "sufijo": "",
+     "etiqueta": "victorias en motos",
+     "en": "cinco veces"
+    }
+   ]
+  },
+  {
+   "desde": "Ya formaron pareja",
+   "etiqueta": "04 · EL PRECEDENTE",
+   "fondo": "dark",
+   "imagen": "rally car helmet resting on sand next to a paper roadbook map, desert at dusk, no text",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "2020",
+     "color": "rojo",
+     "tam": 150,
+     "en": "dos mil veinte"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460,
+     "en": "decimotercero"
+    },
+    {
+     "tipo": "sello",
+     "texto": "13.º con Toyota",
+     "en": "decimotercero"
+    }
+   ]
+  },
+  {
+   "desde": "La carrera será",
+   "etiqueta": "05 · LA RUTA",
+   "fondo": "dark",
+   "imagen": "stylized map illustration of Portugal and Morocco with a dotted route line crossing the sea, desert colors, no text, no labels",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 9,
+     "mes": "ENERO",
+     "etiqueta": "Salida · Loulé (Portugal)",
+     "en": "nueve al veintitrés"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460,
+     "pie": "Meta: Marrakech",
+     "en": "Marrakech"
+    },
+    {
+     "tipo": "sello",
+     "texto": "+4.000 km cronometrados",
+     "en": "cuatro mil kilómetros"
+    }
+   ]
+  },
+  {
+   "desde": "Alonso tendrá",
+   "etiqueta": "06 · LA EDAD",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 45,
+     "sufijo": " años",
+     "etiqueta": "en la salida del Dakar",
+     "en": "cuarenta y cinco"
+    }
+   ]
+  },
+  {
+   "desde": "Y no deja",
+   "etiqueta": "07 · Y LA F1",
+   "fondo": "dark",
+   "imagen": "formula one style race car on an empty track at night under floodlights, generic livery, no logos, no text",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "Sigue en F1 en 2027",
+     "en": "no deja"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 480,
+     "en": "contrato"
+    },
+    {
+     "tipo": "sello",
+     "texto": "≈ 1 mes de margen",
+     "en": "poco más de un mes"
+    }
+   ]
+  },
+  {
+   "desde": "Él lo resume",
+   "etiqueta": "08 · SUS PALABRAS",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Fernando Alonso",
+     "texto": "«La F1 sigue siendo mi prioridad»",
+     "en": "sigue siendo"
+    },
+    {
+     "tipo": "desaparece",
+     "texto": "Desafío completo",
+     "en": "desafío"
+    }
+   ]
+  },
+  {
+   "desde": "En el equipo",
+   "etiqueta": "09 · EL EQUIPO",
+   "fondo": "dark",
+   "imagen": "three off-road rally raid cars driving in formation through a rocky desert valley, dust trails, no logos",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "Sébastien Loeb",
+     "texto": "9 veces campeón del mundo de rallies",
+     "en": "Loeb"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460,
+     "en": "nueve veces"
+    }
+   ]
+  }
+ ]
+}
