@@ -1,0 +1,11 @@
+Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (76716b2e-de03-4833-8be8-e75254dbd7d9)","code":8007}],"success":false,"result":{},"messages":[]}
+personaje ok personaje_oficinista.png (307, 915)
+personaje ok personaje_senora.png (371, 899)
+profundidad ok bloque_000_depth.png
+profundidad ok bloque_001_depth.png
+profundidad ok bloque_003_depth.png
+profundidad ok bloque_004_depth.png
+profundidad ok bloque_005_depth.png
+profundidad ok bloque_006_depth.png
+profundidad ok bloque_007_depth.png
