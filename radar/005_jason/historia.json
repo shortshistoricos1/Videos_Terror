@@ -8,7 +8,11 @@
   "https://bloody-disgusting.com/movie/3976124/jason-13th-official-movie-will-release-in-theaters-august-13-2027-from-cineverse/",
   "https://www.cbr.com/friday-the-13th-jason-title-cast-release-date/"
  ],
- "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
  "texto": "¿Por qué todo el mundo habla hoy de Jason Voorhees? Porque el asesino de la máscara de hockey vuelve al cine... y su nueva película ya tiene título: Jason. Acaba de terminar su rodaje y llegará a los cines un viernes trece: el trece de agosto de dos mil veintisiete. Será la película número trece de la saga, y la primera en dieciocho años, desde el remake de dos mil nueve. La dirige Steve Miner, el mismo director de la segunda y la tercera parte. Y bajo la máscara estará Schuyler White, un gigante de casi dos metros. Así que ya sabes... no vayas solo al lago. Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
  "reparto": {
   "sombra": "very tall hulking man seen from behind in a dark worn work jacket, face not visible, standing perfectly still, silhouette, eerie"
@@ -19,11 +23,33 @@
    "ambiente": "viento",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
-    {"tipo": "titulo", "texto": "¿Por qué todos hablan de", "tam": 118, "en": "Por qué"},
-    {"tipo": "titulo", "texto": "Jason?", "color": "rojo", "en": "Jason"},
-    {"tipo": "busqueda", "texto": "jason pelicula 2027", "en": "Jason"},
-    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "Voorhees"}
+    {
+     "tipo": "tag",
+     "texto": "Radar del terror · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos hablan de",
+     "tam": 118,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Jason?",
+     "color": "rojo",
+     "en": "Jason"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "jason pelicula 2027",
+     "en": "Jason"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Voorhees"
+    }
    ]
   },
   {
@@ -33,20 +59,48 @@
    "ambiente": "viento",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "subtitulo", "texto": "Vuelve al cine", "en": "vuelve al cine"},
-    {"tipo": "imagen", "alto": 520, "en": "vuelve al cine"},
-    {"tipo": "titulo", "texto": "«Jason»", "color": "rojo", "en": "título"}
+    {
+     "tipo": "subtitulo",
+     "texto": "Vuelve al cine",
+     "en": "vuelve al cine"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "en": "vuelve al cine"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "«Jason»",
+     "color": "rojo",
+     "en": "título"
+    }
    ]
   },
   {
    "desde": "Acaba de terminar",
    "etiqueta": "02 · EL ESTRENO",
-   "imagen": "old paper wall calendar pinned on a wooden cabin wall lit by a flashlight, one day circled in red, dark, no readable text",
+   "imagen": "interior of an old dark wooden cabin at night, an oil lantern on a table, moonlight through a small window, shadows, empty, no people, no text, no letters, no numbers",
    "fondo": "red",
    "elementos": [
-    {"tipo": "sello", "texto": "Fin de rodaje ✓", "en": "terminar"},
-    {"tipo": "titulo", "texto": "Viernes 13", "tam": 140, "en": "viernes trece"},
-    {"tipo": "fecha", "dia": 13, "mes": "agosto", "etiqueta": "en cines · 2027", "en": "trece de agosto"}
+    {
+     "tipo": "sello",
+     "texto": "Fin de rodaje ✓",
+     "en": "terminar"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Viernes 13",
+     "tam": 140,
+     "en": "viernes trece"
+    },
+    {
+     "tipo": "fecha",
+     "dia": 13,
+     "mes": "agosto",
+     "etiqueta": "en cines · 2027",
+     "en": "trece de agosto"
+    }
    ]
   },
   {
@@ -55,8 +109,19 @@
    "imagen": "dark old cinema hall with empty red seats, a single projector beam cutting through dust, eerie, no people, no text",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "dato", "valor": 13, "sufijo": "ª", "etiqueta": "película de la saga", "en": "número trece"},
-    {"tipo": "tarjeta", "titulo": "18 años", "texto": "Desde el remake de 2009", "en": "dieciocho"}
+    {
+     "tipo": "dato",
+     "valor": 13,
+     "sufijo": "ª",
+     "etiqueta": "película de la saga",
+     "en": "número trece"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "18 años",
+     "texto": "Desde el remake de 2009",
+     "en": "dieciocho"
+    }
    ]
   },
   {
@@ -65,9 +130,22 @@
    "imagen": "vintage film camera on a tripod in a dark forest clearing at night, film lights and fog, empty director chair, no people, no text",
    "fondo": "bone",
    "elementos": [
-    {"tipo": "titulo", "texto": "Steve Miner", "tam": 130, "en": "Steve Miner"},
-    {"tipo": "imagen", "alto": 500, "en": "Steve Miner"},
-    {"tipo": "tag", "texto": "Partes 2 y 3", "en": "segunda"}
+    {
+     "tipo": "titulo",
+     "texto": "Steve Miner",
+     "tam": 130,
+     "en": "Steve Miner"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 500,
+     "en": "Steve Miner"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Partes 2 y 3",
+     "en": "segunda"
+    }
    ]
   },
   {
@@ -77,10 +155,30 @@
    "ambiente": "viento",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "titulo", "texto": "Schuyler White", "tam": 115, "en": "Schuyler"},
-    {"tipo": "imagen", "alto": 560, "en": "Schuyler",
-     "personajes": [{"quien": "sombra", "anim": "se_acerca", "en": "gigante", "alto": 0.9}]},
-    {"tipo": "sello", "texto": "Casi 2 metros", "en": "dos metros"}
+    {
+     "tipo": "titulo",
+     "texto": "Schuyler White",
+     "tam": 115,
+     "en": "Schuyler"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 560,
+     "en": "Schuyler",
+     "personajes": [
+      {
+       "quien": "sombra",
+       "anim": "se_acerca",
+       "en": "gigante",
+       "alto": 0.9
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "Casi 2 metros",
+     "en": "dos metros"
+    }
    ]
   },
   {
@@ -90,11 +188,24 @@
    "ambiente": "viento",
    "fondo": "dark",
    "elementos": [
-    {"tipo": "desaparece", "texto": "No vayas solo al lago", "color": "rojo", "tam": 115, "en": "no vayas"},
-    {"tipo": "imagen", "alto": 520, "en": "lago"}
+    {
+     "tipo": "desaparece",
+     "texto": "No vayas solo al lago",
+     "color": "rojo",
+     "tam": 115,
+     "en": "no vayas"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "en": "lago"
+    }
    ]
   }
  ],
  "cierre_desde": "Si quieres",
- "cierre": {"lema": "Para el terror del día", "comentario": "¿irás a verla? 👇"}
+ "cierre": {
+  "lema": "Para el terror del día",
+  "comentario": "¿irás a verla? 👇"
+ }
 }
