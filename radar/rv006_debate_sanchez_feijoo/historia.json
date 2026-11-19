@@ -1,0 +1,70 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "El cara a cara Sánchez–Feijóo",
+ "titulo_youtube": "¿Por qué todo el mundo busca hoy el debate de esta noche?",
+ "fuentes": [
+  "https://www.formulatv.com/noticias/donde-ver-debate-pedro-sanchez-feijoo-2026-138774/",
+  "https://www.formulatv.com/noticias/sanchez-feijoo-debate-19-noviembre-academia-tv-138759/",
+  "https://www.democrata.es/en/current-events/sanchez-feijoo-debate-of-november-19-time-and-where-to-watch/",
+  "https://www.infobae.com/espana/agencias/2026/11/19/hoy-sera-noticia-jueves-19-de-noviembre/",
+  "https://www.xatakamovil.com/tutoriales/como-pedir-voto-correo-para-elecciones-29n-paso-a-paso-plazos"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy el debate de esta noche? Porque Pedro Sánchez y Alberto Núñez Feijóo se ven hoy cara a cara, en el único debate entre los dos antes de las elecciones generales del veintinueve de noviembre. Empieza a las diez de la noche. Lo organiza la Academia de Televisión, con una señal abierta para cualquier cadena. Lo podrás ver en La uno, Antena tres, Telecinco, Cuatro, laSexta y La Séptima, y también gratis en RTVE Play. Lo modera María Casado, presidenta de la Academia, desde el plató A de Madrid Content City. Habrá cinco bloques: vivienda; economía y fiscalidad; políticas sociales y servicios públicos; corrupción y regeneración democrática; y migración y política exterior. El orden se decidió por sorteo: Feijóo abre el debate y Sánchez lo cierra. Y ojo, porque hoy también es el último día para pedir el voto por correo. Las papeletas se pueden enviar hasta el veinticinco de noviembre. La campaña termina el viernes veintisiete, el sábado es jornada de reflexión y el domingo se vota. ¿Lo vas a ver? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Lo más buscado de cada día", "comentario": "¿Lo vas a ver? Te leo 👇"},
+ "escenas": [
+  {"fondo": "dark",
+   "imagen": "two empty modern debate lecterns facing each other on a bright television studio stage, dramatic spotlights, cameras in the foreground, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar Viral · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos buscan", "tam": 110, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "el debate de hoy?", "color": "rojo", "tam": 125, "en": "debate"},
+    {"tipo": "busqueda", "texto": "debate sánchez feijóo", "en": "debate"},
+    {"tipo": "sello", "texto": "● Cara a cara", "en": "cara a cara"}]},
+  {"desde": "en el único debate", "etiqueta": "01 · EL ÚNICO", "fondo": "red",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Sánchez vs. Feijóo", "tam": 120, "en": "único"},
+    {"tipo": "fecha", "dia": 29, "mes": "NOVIEMBRE", "etiqueta": "Elecciones generales", "en": "veintinueve"}]},
+  {"desde": "Empieza a las", "etiqueta": "02 · LA HORA", "fondo": "dark",
+   "imagen": "a big modern wall clock showing ten o'clock at night above a glowing television screen in a dark living room, no text, no logos",
+   "elementos": [
+    {"tipo": "titulo", "texto": "22:00", "color": "rojo", "tam": 150, "en": "diez de la noche"},
+    {"tipo": "imagen", "alto": 520, "pie": "Esta noche, jueves 19", "en": "diez de la noche"},
+    {"tipo": "sello", "texto": "Academia de TV", "en": "Academia"}]},
+  {"desde": "Lo podrás ver", "etiqueta": "03 · DÓNDE VERLO", "fondo": "dark",
+   "elementos": [
+    {"tipo": "subtitulo", "texto": "En casi todas las cadenas", "en": "Lo podrás ver"},
+    {"tipo": "tarjeta", "titulo": "En directo", "texto": "La 1 · Antena 3 · Telecinco · Cuatro · laSexta · La Séptima", "en": "Antena tres"},
+    {"tipo": "sello", "texto": "Gratis en RTVE Play", "en": "RTVE Play"}]},
+  {"desde": "Lo modera", "etiqueta": "04 · EL PLATÓ", "fondo": "bone",
+   "imagen": "large empty television studio with a circular stage, blue and pink lighting rigs and camera cranes, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "tarjeta", "titulo": "María Casado", "texto": "Modera · presidenta de la Academia", "en": "María Casado"},
+    {"tipo": "imagen", "alto": 480, "pie": "Plató A · Madrid Content City", "en": "plató"}]},
+  {"desde": "Habrá cinco bloques", "etiqueta": "05 · LOS TEMAS", "fondo": "dark",
+   "imagen": "flat icons arranged in a row: a small house, a coin stack, a hospital cross, a balance scale and a globe, navy background, no text",
+   "elementos": [
+    {"tipo": "dato", "valor": 5, "sufijo": "", "etiqueta": "bloques de debate", "en": "cinco bloques"},
+    {"tipo": "imagen", "alto": 450, "pie": "Vivienda · economía · servicios · corrupción · migración", "en": "vivienda"}]},
+  {"desde": "El orden se decidió", "etiqueta": "06 · EL SORTEO", "fondo": "dark",
+   "imagen": "two hands drawing paper ballots from a glass bowl on a desk, soft studio light, no faces, no text",
+   "elementos": [
+    {"tipo": "sello", "texto": "Por sorteo", "en": "sorteo"},
+    {"tipo": "tarjeta", "titulo": "Abre: Feijóo", "texto": "Cierra: Sánchez", "en": "Feijóo abre"},
+    {"tipo": "imagen", "alto": 460, "en": "Sánchez lo cierra"}]},
+  {"desde": "Y ojo", "etiqueta": "07 · VOTO POR CORREO", "fondo": "red",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Último día", "tam": 140, "en": "último día"},
+    {"tipo": "subtitulo", "texto": "para pedir el voto por correo", "en": "voto por correo"},
+    {"tipo": "fecha", "dia": 25, "mes": "NOVIEMBRE", "etiqueta": "Límite para enviar la papeleta", "en": "veinticinco"}]},
+  {"desde": "La campaña termina", "etiqueta": "08 · EL CALENDARIO", "fondo": "dark",
+   "imagen": "a ballot box with an envelope going in, on a table in a school polling station, morning light, no text, no logos, no flags",
+   "elementos": [
+    {"tipo": "tarjeta", "titulo": "Viernes 27", "texto": "Fin de la campaña", "en": "La campaña termina"},
+    {"tipo": "sello", "texto": "Sábado: reflexión", "en": "reflexión"},
+    {"tipo": "imagen", "alto": 460, "pie": "Domingo 29: se vota", "en": "se vota"}]}
+ ]
+}
