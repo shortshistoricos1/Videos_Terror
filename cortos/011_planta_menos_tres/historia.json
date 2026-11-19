@@ -1,0 +1,189 @@
+{
+ "formato": "vertical",
+ "titulo": "Planta menos tres",
+ "titulo_youtube": "Me quedé atrapada en el ascensor… y el vigilante me preguntó quién iba conmigo 😨 #shorts",
+ "descripcion": "Atrapada sola en el ascensor de la oficina a medianoche, le escribe al vigilante. Él la ve por la cámara… y le pregunta quién es la señora que va con ella. ¿Tú habrías mirado al espejo? #terror #historiasdeterror #miedo #creepy #shorts",
+ "final": [
+  "¿Tú habrías mirado al espejo?",
+  "Sígueme para más"
+ ],
+ "comentario": "yo subo por las escaleras desde hoy 😨",
+ "voz": {
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+10%",
+  "pitch": "-3Hz"
+ },
+ "reparto": {
+  "oficinista": "woman around 30 years old, shoulder-length brown hair in a loose ponytail, white blouse, dark grey office trousers, lanyard with blank badge, tired frightened face, no logos",
+  "senora": "elderly woman, full body standing, grey old-fashioned cleaning uniform, long grey unkempt hair covering half of her face, very pale skin, one arm raised with a finger extended, slightly hunched, eerie stillness"
+ },
+ "bloques": [
+  {
+   "texto": "Me quedé encerrada en el ascensor del trabajo. Sola. A medianoche.",
+   "imagen": "interior of a modern office building elevator at night, brushed steel walls, large mirror on the back wall, button panel, cold flickering ceiling light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "oficinista",
+     "anim": "respira",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ]
+  },
+  {
+   "texto": "Se paró entre dos plantas. La alarma no funcionaba.",
+   "imagen": "close-up of an elevator button panel with a red alarm button, floor display frozen between 4 and 3, dim light, no people",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Se paró"
+    }
+   ],
+   "personajes": [
+    {
+     "quien": "oficinista",
+     "anim": "tiembla",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ]
+  },
+  {
+   "texto": "Le escribí al vigilante. Respondió que me veía por la cámara. Luego escribió otra cosa y la borró.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 2.4,
+   "chat": {
+    "contacto": "Vigilante Ramón",
+    "hora": "23:41",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Estoy atrapada en el ascensor 😰",
+      "en": "Le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "Tranquila, te veo por la cámara",
+      "en": "Respondió"
+     },
+     {
+      "de": "el",
+      "texto": "¿Quién es la señora que va contigo?",
+      "en": "Luego escribió",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Me dio tiempo a leerla. Preguntaba quién era la señora que iba conmigo.",
+   "imagen": "black and white security camera view from the ceiling corner of an elevator, fisheye, grainy, timestamp-free, mirror wall, no people",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "CONMIGO",
+     "en": "conmigo"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ]
+  },
+  {
+   "texto": "Miré a mi alrededor. Estaba sola.",
+   "imagen": "interior of a modern office elevator, empty corners, large mirror reflecting the empty cabin, cold light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "oficinista",
+     "anim": "gira",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.58,
+     "en": "Miré"
+    }
+   ]
+  },
+  {
+   "texto": "Entonces el ascensor empezó a bajar. Menos uno. Menos dos.",
+   "imagen": "elevator floor display glowing red showing a minus sign, dark steel panel, motion blur, no people",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "BAJANDO",
+     "en": "bajar"
+    }
+   ]
+  },
+  {
+   "texto": "Se encendió el menos tres. El edificio solo tiene dos sótanos.",
+   "imagen": "extreme close-up of an old elevator button labeled -3 glowing, below the -1 and -2 buttons, dust, red light, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "-3",
+     "en": "menos tres"
+    }
+   ]
+  },
+  {
+   "texto": "Se fue la luz. Y en el espejo la vi.",
+   "imagen": "dark elevator interior lit only by a dim red emergency light, large mirror on the back wall, deep shadows, no people",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "personajes": [
+    {
+     "quien": "oficinista",
+     "anim": "tiembla",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ]
+  },
+  {
+   "texto": "Una señora a mi espalda, con el dedo en el botón.",
+   "imagen": "=",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "oficinista",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.55
+    },
+    {
+     "quien": "senora",
+     "anim": "aparece",
+     "x": 0.68,
+     "y": 0.97,
+     "alto": 0.62,
+     "en": "señora"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 1.0
+  }
+ ]
+}
