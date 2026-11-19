@@ -30,7 +30,8 @@
      "y": 0.97,
      "alto": 0.55
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Se paró entre dos plantas. La alarma no funcionaba.",
@@ -50,13 +51,14 @@
      "y": 0.97,
      "alto": 0.55
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Le escribí al vigilante. Respondió que me veía por la cámara. Luego escribió otra cosa y la borró.",
    "imagen": "=",
    "ambiente": "interior",
-   "pausa": 2.4,
+   "pausa": 2.1,
    "chat": {
     "contacto": "Vigilante Ramón",
     "hora": "23:41",
@@ -94,7 +96,8 @@
     {
      "tipo": "latido"
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Miré a mi alrededor. Estaba sola.",
@@ -109,7 +112,8 @@
      "alto": 0.58,
      "en": "Miré"
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Entonces el ascensor empezó a bajar. Menos uno. Menos dos.",
@@ -125,7 +129,8 @@
      "texto": "BAJANDO",
      "en": "bajar"
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Se encendió el menos tres. El edificio solo tiene dos sótanos.",
@@ -136,7 +141,8 @@
      "texto": "-3",
      "en": "menos tres"
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Se fue la luz. Y en el espejo la vi.",
@@ -155,7 +161,8 @@
      "y": 0.97,
      "alto": 0.55
     }
-   ]
+   ],
+   "pausa": 0.3
   },
   {
    "texto": "Una señora a mi espalda, con el dedo en el botón.",
@@ -183,7 +190,7 @@
      "tipo": "golpe_final"
     }
    ],
-   "pausa": 1.0
+   "pausa": 0.8
   }
  ]
 }
