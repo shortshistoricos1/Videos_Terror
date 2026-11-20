@@ -3,70 +3,189 @@
  "titulo": "Huellas descalzas",
  "titulo_youtube": "Mi amigo me escribió desde su tienda: «está agachado en tu puerta» 😨 #shorts",
  "descripcion": "Primera noche de acampada: algo da vueltas a su tienda y su amigo, desde la tienda de al lado, le escribe que no haga ruido. Al amanecer, las huellas cuentan otra cosa. ¿Tú habrías salido de la tienda? #terror #historiasdeterror #miedo #camping #shorts",
- "final": ["¿Tú habrías salido de la tienda?", "Sígueme para más"],
+ "final": [
+  "¿Tú habrías salido de la tienda?",
+  "Sígueme para más"
+ ],
  "comentario": "yo no vuelvo a acampar en mi vida 😨",
- "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+8%", "pitch": "-4Hz"},
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+8%",
+  "pitch": "-4Hz"
+ },
  "reparto": {
-  "campista": "young man around 25 years old, short dark curly hair, grey beanie, dark green hooded outdoor jacket, scared pale face, no logos",
+  "campista": "man in his twenties, full body standing, short dark curly hair, grey wool beanie, dark green outdoor jacket, blue jeans, hiking boots, worried expression, no logos",
   "criatura": "very tall gaunt barefoot humanoid figure, full body, long thin limbs, ragged dark clothes, slightly crouching posture, face hidden in shadow, eerie stillness"
  },
  "bloques": [
-  {"texto": "La primera noche de acampada, algo empezó a dar vueltas alrededor de mi tienda.",
+  {
+   "texto": "La primera noche de acampada, algo empezó a dar vueltas alrededor de mi tienda.",
    "imagen": "inside a small dome tent at night, sleeping bag on the floor, warm lantern light, thin green fabric walls, forest shadows outside, no people",
    "ambiente": "viento",
-   "personajes": [{"quien": "campista", "anim": "respira", "x": 0.5, "y": 0.97, "alto": 0.55}],
-   "pausa": 0.3},
-  {"texto": "Pasos lentos sobre las hojas secas. Se paraban justo delante de la entrada.",
+   "personajes": [
+    {
+     "quien": "campista",
+     "anim": "respira",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Pasos lentos sobre las hojas secas. Se paraban justo delante de la entrada.",
    "imagen": "close-up of dry autumn leaves on the forest floor in front of the closed zipper entrance of a dome tent, night, cold moonlight, no people",
    "ambiente": "viento",
-   "sfx": [{"tipo": "respiracion"}],
-   "pausa": 0.3},
-  {"texto": "Vibró el móvil. Era Dani, desde la tienda de al lado. Me escribió que no hiciera ruido. Le pregunté qué era. Respondió que estaba agachado en mi puerta, y borró el mensaje.",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Vibró el móvil. Era Dani, desde la tienda de al lado. Me escribió que no hiciera ruido. Le pregunté qué era. Respondió que estaba agachado en mi puerta, y borró el mensaje.",
    "imagen": "=",
    "ambiente": "viento",
    "pausa": 2.2,
-   "chat": {"contacto": "Dani", "hora": "02:37",
-            "mensajes": [
-              {"de": "el", "texto": "No hagas ruido 🤫", "en": "Me escribió"},
-              {"de": "yo", "texto": "¿Qué es eso? 😰", "en": "Le pregunté"},
-              {"de": "el", "texto": "Está agachado en tu puerta", "en": "Respondió", "borrado": true}
-            ]}},
-  {"texto": "Contuve la respiración. A través de la tela, vi su sombra inclinarse hacia mí.",
+   "chat": {
+    "contacto": "Dani",
+    "hora": "02:37",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "No hagas ruido 🤫",
+      "en": "Me escribió"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Qué es eso? 😰",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "Está agachado en tu puerta",
+      "en": "Respondió",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Contuve la respiración. A través de la tela, vi su sombra inclinarse hacia mí.",
    "imagen": "inside a small dome tent at night, lantern light, thin glowing fabric wall, no people",
    "ambiente": "viento",
-   "sfx": [{"tipo": "latido"}],
-   "impactos": [{"texto": "SOMBRA", "en": "sombra"}],
-   "personajes": [
-     {"quien": "campista", "anim": "tiembla", "x": 0.3, "y": 0.97, "alto": 0.5},
-     {"quien": "criatura", "anim": "asoma", "desde": "der", "x": 0.75, "y": 0.97, "alto": 0.65, "silueta": true, "en": "vi su sombra"}
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
    ],
-   "pausa": 0.3},
-  {"texto": "Luego los pasos se alejaron, despacio, hacia la tienda de Dani.",
+   "impactos": [
+    {
+     "texto": "SOMBRA",
+     "en": "sombra"
+    }
+   ],
+   "personajes": [
+    {
+     "quien": "campista",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.5
+    },
+    {
+     "quien": "criatura",
+     "anim": "asoma",
+     "desde": "der",
+     "x": 0.75,
+     "y": 0.97,
+     "alto": 0.65,
+     "silueta": true,
+     "en": "vi su sombra"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Luego los pasos se alejaron, despacio, hacia la tienda de Dani.",
    "imagen": "two small dome tents in a dark forest clearing at night, the right tent glowing softly from a flashlight inside, fog between the trees, no people",
    "ambiente": "viento",
-   "personajes": [{"quien": "criatura", "anim": "camina", "desde": "izq", "x": 0.62, "y": 0.95, "alto": 0.42, "silueta": true}],
-   "pausa": 0.3},
-  {"texto": "Su linterna se apagó. Y ya no volvió a escribirme.",
+   "personajes": [
+    {
+     "quien": "criatura",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.62,
+     "y": 0.95,
+     "alto": 0.42,
+     "silueta": true
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Su linterna se apagó. Y ya no volvió a escribirme.",
    "imagen": "two small dome tents in a dark forest clearing at night, both completely dark, fog, cold moonlight, no people",
    "ambiente": "estatica",
-   "sfx": [{"tipo": "golpes", "en": "se apagó"}],
-   "impactos": [{"texto": "APAGADA", "en": "apagó"}],
-   "pausa": 0.4},
-  {"texto": "Al amanecer salí. Su tienda seguía cerrada con la cremallera por dentro. Estaba vacía.",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "se apagó"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "APAGADA",
+     "en": "apagó"
+    }
+   ],
+   "pausa": 0.4
+  },
+  {
+   "texto": "Al amanecer salí. Su tienda seguía cerrada con la cremallera por dentro. Estaba vacía.",
    "imagen": "dawn in a misty forest clearing, a small dome tent with its zipper entrance shut, grey cold light, no people",
    "ambiente": "viento",
-   "personajes": [{"quien": "campista", "anim": "camina", "desde": "izq", "x": 0.35, "y": 0.97, "alto": 0.55}],
-   "pausa": 0.3},
-  {"texto": "En el barro había huellas de pies descalzos rodeando mi tienda.",
+   "personajes": [
+    {
+     "quien": "campista",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "En el barro había huellas de pies descalzos rodeando mi tienda.",
    "imagen": "close-up of muddy ground with bare human footprints circling a dome tent, dawn light, mist, no people",
    "ambiente": "viento",
-   "sfx": [{"tipo": "latido"}],
-   "impactos": [{"texto": "DESCALZOS", "en": "descalzos"}],
-   "pausa": 0.3},
-  {"texto": "Y todas salían de la tienda de Dani.",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "DESCALZOS",
+     "en": "descalzos"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Y todas salían de la tienda de Dani.",
    "imagen": "a trail of bare muddy footprints leading out of the closed entrance of a dome tent, misty dawn forest, eerie silence, no people",
    "ambiente": "estatica",
-   "sfx": [{"tipo": "golpe_final"}],
-   "pausa": 1.0}
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 1.0
+  }
  ]
 }
