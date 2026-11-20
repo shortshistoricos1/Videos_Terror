@@ -1,6 +1,2 @@
 Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (d05ee1b4-d461-492d-9ce1-451ffa462cf2)","code":8007}],"success":false,"result":{},"messages":[]}
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (0352385a-fcef-43e6-9f43-bb99df22c8b1)","code":8007}],"success":false,"result":{},"messages":[]}
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (f923b8dd-7b71-4d82-aed5-265d7e3759b4)","code":8007}],"success":false,"result":{},"messages":[]}
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (34f78b12-c542-4eb5-9636-6b22d35f949f)","code":8007}],"success":false,"result":{},"messages":[]}
-SIN PERSONAJE campista
+personaje ok personaje_campista.png (434, 959)
