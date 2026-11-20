@@ -47,7 +47,7 @@
   {"desde": "Su misión", "etiqueta": "05 · EL MALETÍN", "fondo": "dark",
    "imagen": "a shiny metal briefcase open on a table full of euro banknotes under a spotlight, no text, no logos",
    "elementos": [
-    {"tipo": "dato", "valor": 100000, "sufijo": " €", "etiqueta": "premio final", "en": "cien mil"},
+    {"tipo": "dato", "valor": 100, "sufijo": "", "etiqueta": "mil euros de premio", "en": "cien mil"},
     {"tipo": "imagen", "alto": 460, "pie": "Su misión: protegerlo", "en": "maletín"},
     {"tipo": "sello", "texto": "Nominaciones falsas", "en": "nominaciones falsas"}]},
   {"desde": "Belén nominó", "etiqueta": "06 · NOMINADOS", "fondo": "red",
