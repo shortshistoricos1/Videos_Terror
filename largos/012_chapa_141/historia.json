@@ -1,0 +1,881 @@
+{
+ "titulo": "LA CHAPA 141",
+ "subtitulo": "Una historia de miedo",
+ "titulo_youtube": "Vigilé una mina cerrada 7 noches… y cada noche faltaban más chapas | Historia de terror",
+ "descripcion": "Marta acepta un turno de noche en el museo de una mina de carbón cerrada en Asturias. Solo tiene que cumplir tres normas: contar las chapas del tablero, no acercarse al pozo y no descolgar nunca la suya. Pero cada noche faltan más chapas, y la jaula, sin corriente, sube sola desde seiscientos metros.\n\n¿Tú habrías bajado a por tu chapa? Te leo en comentarios.",
+ "tags": [
+  "historias de miedo",
+  "historia de terror",
+  "relatos de terror",
+  "terror español",
+  "creepypasta en español",
+  "mina abandonada",
+  "Asturias",
+  "historias de fantasmas",
+  "terror psicológico",
+  "historias de terror narradas",
+  "normas de terror",
+  "vigilante nocturno"
+ ],
+ "final": [
+  "¿Tú habrías bajado a por tu chapa?",
+  "Suscríbete para más historias de miedo"
+ ],
+ "comentario": "yo no vuelvo a entrar en un museo de noche 😨",
+ "miniatura": {
+  "texto1": "NO LA DESCUELGUES",
+  "texto2": "FALTA LA CHAPA 141",
+  "bloque": 41
+ },
+ "voz": {
+  "voz": "es-ES-ElviraNeural",
+  "rate": "-6%",
+  "pitch": "-3Hz"
+ },
+ "reparto": {
+  "marta": "Spanish woman around 31 years old, long straight black hair in a low ponytail, pale face, dark eyes, navy blue security guard jacket with no logos, black trousers, black boots, holding a flashlight, full body",
+  "begona": "Spanish woman around 55 years old, short grey hair, glasses, beige wool coat over a dark sweater, serious face, full body",
+  "minero": "old-fashioned coal miner from the 1960s, face and clothes completely blackened with coal dust, white staring eyes, hard helmet with a dim headlamp, worn work overalls, heavy boots, standing still, full body"
+ },
+ "bloques": [
+  {
+   "texto": "Si estás escuchando esto, es que el mensaje ha salido. Durante siete noches vigilé un pozo minero cerrado en Asturias. Cada noche faltaban más chapas en el tablero. Y la última noche faltaba la mía.",
+   "imagen": "old coal mine headframe of rusted steel above a brick building in a green Asturian valley at night, fog, one yellow lamp, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "minero",
+     "anim": "aparece",
+     "x": 0.68,
+     "y": 0.97,
+     "alto": 0.42,
+     "silueta": true,
+     "en": "faltaban más chapas"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "LA MÍA",
+     "en": "faltaba la mía"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Me dieron una norma muy sencilla: no descuelgues nunca tu chapa hasta que salga el sol. La cumplí todas las noches. Y aun así, alguien la descolgó por mí.",
+   "imagen": "a single brass token with the number 141 engraved hanging on an iron hook, close-up, cold blue light, coal dust, no people",
+   "ambiente": "interior",
+   "pausa": 1.2
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Uno. El Pozo Ventana."
+  },
+  {
+   "texto": "Me llamo Marta. Tengo treinta y un años y trabajo de vigilante de seguridad. En noviembre me ofrecieron un turno de noche en un sitio raro: el museo del Pozo Ventana, una mina de carbón cerrada en el valle del Orrio.",
+   "imagen": "old coal mine headframe of rusted steel above a brick building in a green Asturian valley at night, fog, one yellow lamp, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "camina",
+     "x": 0.38,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq",
+     "en": "Me llamo"
+    }
+   ]
+  },
+  {
+   "texto": "Solo eran dos semanas, mientras instalaban las alarmas nuevas. Pagaban bien. Y yo pensé que vigilar un museo vacío sería lo más tranquilo que había hecho nunca.",
+   "imagen": "=",
+   "ambiente": "viento"
+  },
+  {
+   "texto": "La directora, Begoña, me enseñó el edificio la primera tarde. La sala de máquinas, la lampistería, el vestuario con las perchas de cadenas. Y al final, junto al pozo, el tablero de las chapas.",
+   "imagen": "large old miners changing room with clothes hanging from chains near the high ceiling, iron benches, grey afternoon light through tall windows, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "begona",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.68,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "Me explicó la costumbre. Cada minero tenía una chapa de latón con su número. Al bajar, la descolgaba y se la llevaba. Al subir, la volvía a colgar. Así, mirando el tablero, siempre se sabía quién seguía abajo.",
+   "imagen": "old wooden board on a brick wall covered in rows of small numbered brass tokens hanging on hooks, dim yellow light, mining museum, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "begona",
+     "anim": "respira",
+     "x": 0.32,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "En el tablero había ciento cuarenta chapas. Las del último relevo, el de mil novecientos sesenta y uno. Todas colgadas. Todos arriba.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "140",
+     "en": "ciento cuarenta"
+    }
+   ]
+  },
+  {
+   "texto": "Entonces Begoña sacó del bolsillo una chapa nueva, brillante, con el número ciento cuarenta y uno. «Es la de la vigilante. Cuélgala al entrar y no la quites hasta que salgas. Aquí siempre se ha sabido quién está dentro».",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "begona",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.68,
+     "espejo": true
+    }
+   ],
+   "pausa": 1.0
+  },
+  {
+   "texto": "Me pareció un detalle bonito. Una tradición para turistas. Colgué mi chapa en el último gancho, al lado de la ciento cuarenta, y Begoña se fue a casa.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Dos. Las normas de Ramiro."
+  },
+  {
+   "texto": "Antes de irse, Begoña me había dado un número. El de Ramiro, el vigilante que había cuidado el pozo durante treinta años. Se acababa de jubilar. «Si tienes cualquier duda, escríbele. Conoce esto mejor que nadie».",
+   "imagen": "security guard booth inside an old industrial brick building at night, desk with a thermos, old monitors, a notebook, small heater glowing, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.62,
+     "y": 0.97,
+     "alto": 0.72,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "A las once de la noche le escribí para presentarme. Me respondió enseguida, como si llevara horas esperando mi mensaje. Y me mandó una lista.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.2,
+   "chat": {
+    "contacto": "Ramiro",
+    "hora": "23:04",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Hola Ramiro, soy Marta, la nueva vigilante",
+      "en": "le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "Bienvenida. Apunta esto, hija",
+      "en": "Me respondió"
+     },
+     {
+      "de": "el",
+      "texto": "1. Cuenta las chapas a la una, a las tres y a las cinco"
+     },
+     {
+      "de": "el",
+      "texto": "2. Si falta una, no te acerques al pozo"
+     },
+     {
+      "de": "el",
+      "texto": "3. Tu chapa no se descuelga hasta que salga el sol"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Leí la lista dos veces. Pensé que era una broma para la novata. Le escribí si iba en serio. Tardó un rato en contestarme por escrito: «Muy en serio. Y si suena el timbre de la jaula, no abras la reja».",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.0
+  },
+  {
+   "texto": "La jaula es el ascensor del pozo. Una caja de hierro que bajaba a los mineros seiscientos metros. Llevaba desconectada desde que cerraron la mina. Los cables ni siquiera tenían corriente.",
+   "imagen": "old mine shaft elevator cage with a rusty iron folding gate, steel cables going up into darkness, brick shaft mouth, dim light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.28,
+     "y": 0.97,
+     "alto": 0.66
+    }
+   ]
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Tres. La cincuenta y siete."
+  },
+  {
+   "texto": "A la una en punto fui al tablero con la linterna. Conté despacio, fila por fila. Ciento treinta y nueve. Volví a contar. Ciento treinta y nueve. Faltaba la chapa número cincuenta y siete.",
+   "imagen": "old wooden board on a brick wall covered in rows of small numbered brass tokens hanging on hooks, dim yellow light, mining museum, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.7
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "57",
+     "en": "cincuenta y siete"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Me temblaban un poco las manos al escribirle. Me respondió enseguida, a la una y dos de la madrugada. Le pregunté quién se la había llevado. Su respuesta no tenía ningún sentido.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Ramiro",
+    "hora": "01:02",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Falta una chapa. La 57",
+      "en": "escribirle"
+     },
+     {
+      "de": "el",
+      "texto": "No te acerques al pozo",
+      "en": "Me respondió"
+     },
+     {
+      "de": "el",
+      "texto": "Vuelve a contar a las cinco"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Quién se la ha llevado?",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "El que bajó con ella 😔",
+      "en": "Su respuesta"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "«El que bajó con ella». Iba a escribirle otra vez cuando, al fondo de la nave, sonó el timbre de la jaula. Tres timbrazos largos. El código antiguo para avisar de que sube gente.",
+   "imagen": "old mine shaft elevator cage with a rusty iron folding gate, steel cables going up into darkness, brick shaft mouth, dim light, no people",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Tres timbrazos"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "SUBE GENTE",
+     "en": "sube gente"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Los cables empezaron a moverse. Sin corriente. Sin motor. Se oía el chirrido del hierro rozando la piedra, cada vez más cerca, desde seiscientos metros de oscuridad.",
+   "imagen": "steel cables of a mine shaft vibrating and moving in the dark, sparks of rust, looking down into a black shaft, no people",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "aranazos"
+    }
+   ]
+  },
+  {
+   "texto": "Me escondí detrás de la máquina de extracción. La jaula llegó arriba y se paró de golpe. Estaba vacía. Pero en el suelo había una lámpara de minero encendida. Y el casco, a su lado, chorreaba agua negra.",
+   "imagen": "inside an empty mine elevator cage, an old miners helmet with a glowing headlamp on the wet iron floor, black water dripping, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "asoma",
+     "x": 0.12,
+     "y": 0.97,
+     "alto": 0.7,
+     "desde": "izq"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "Estaba vacía"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "No abrí la reja. Esperé sentada en la garita hasta las cinco, sin quitar los ojos del monitor. A las cinco volví a contar. Ciento cuarenta. La cincuenta y siete estaba otra vez en su gancho. Mojada.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.2
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cuatro. Las huellas."
+  },
+  {
+   "texto": "Por la mañana se lo conté a Begoña. Se rio. Me dijo que el pozo hace ruidos, que el agua se filtra, que los turistas se dejan cosas. Pero no me miró a los ojos.",
+   "imagen": "old coal mine headframe of rusted steel above a brick building in a green Asturian valley at grey dawn, fog, one yellow lamp, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "begona",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.68,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "La segunda noche, a la una, faltaban dos chapas. La tercera noche, faltaban cinco. La cuarta, nueve. Y cada noche, a las cinco, volvían a aparecer en su sitio. Frías. Húmedas. Con olor a carbón.",
+   "imagen": "old wooden board on a brick wall covered in rows of small numbered brass tokens hanging on hooks, dim yellow light, mining museum, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.7
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "NUEVE",
+     "en": "La cuarta, nueve"
+    }
+   ]
+  },
+  {
+   "texto": "Y empecé a encontrar huellas. Pisadas negras de bota que salían del pozo, cruzaban la nave y entraban en la lampistería. Nunca había huellas de vuelta.",
+   "imagen": "black coal dust boot footprints on a pale concrete floor leading from a mine shaft gate toward a dark doorway, flashlight beam, night, no people",
+   "ambiente": "interior"
+  },
+  {
+   "texto": "En la lampistería, las lámparas que llevaban sesenta años apagadas estaban en los cargadores. Encendidas. Una al lado de otra. Como si alguien acabara de terminar el turno.",
+   "imagen": "old mine lamp room, rows of miners helmet lamps on chargers along a wall, some lamps glowing, dusty concrete floor, night, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "asoma",
+     "x": 0.15,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ],
+   "pausa": 1.0
+  },
+  {
+   "texto": "Esa noche le escribí a Ramiro un mensaje muy largo. Le conté lo de las huellas, las lámparas, las chapas. Su respuesta fue corta. Demasiado corta: «Están intentando subir. No es contigo. Tú cumple las normas».",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.2
+  },
+  {
+   "texto": "Revisé las grabaciones de las cámaras. Todas las noches, a la una menos un minuto, la imagen del tablero se llenaba de nieve durante unos segundos. Cuando volvía, ya faltaban chapas.",
+   "imagen": "old CRT security monitor in a dark booth showing static noise over a blurry image of a wall board, green glow, no people",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ],
+   "pausa": 1.0
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cinco. Los catorce."
+  },
+  {
+   "texto": "El quinto día no dormí. Me fui al archivo municipal a buscar qué había pasado en el Pozo Ventana. No me costó encontrarlo. Estaba en la portada de un periódico amarillento de mil novecientos sesenta y uno.",
+   "imagen": "small municipal archive room, old yellowed newspapers spread on a wooden table under a green desk lamp, shelves of folders, afternoon, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.65,
+     "y": 0.97,
+     "alto": 0.72,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "Una explosión de grisú en la planta quinta. Catorce mineros atrapados. Los buscaron durante seis días. Al séptimo, la empresa dio por terminado el rescate y selló la galería.",
+   "imagen": "dark collapsed mine tunnel with broken wooden beams and fallen rocks, thin dust in the air, a single old lamp on the ground, no people",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "CATORCE",
+     "en": "Catorce mineros"
+    }
+   ],
+   "pausa": 1.0
+  },
+  {
+   "texto": "Y había algo más. Para cerrar el expediente cuanto antes, alguien colgó en el tablero las catorce chapas que faltaban. Así, oficialmente, todos habían subido. Todos estaban arriba.",
+   "imagen": "old wooden board on a brick wall covered in rows of small numbered brass tokens hanging on hooks, dim yellow light, mining museum, no people",
+   "ambiente": "interior",
+   "pausa": 1.4
+  },
+  {
+   "texto": "El tablero llevaba sesenta y cinco años mintiendo. Y ahora, noche tras noche, se estaba corrigiendo solo.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Leí la lista de los catorce nombres. El penúltimo me dejó helada: Ramiro Llaneza, picador, treinta y dos años. Me dije que era una casualidad. En las cuencas hay muchos Ramiros.",
+   "imagen": "close-up of an old yellowed newspaper page with a column of printed names, blurred, a finger resting next to one line, desk lamp light, no readable text",
+   "ambiente": "interior",
+   "pausa": 1.0
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Seis. El número desconocido."
+  },
+  {
+   "texto": "La sexta noche, a la una, faltaban trece chapas. A las dos y diez vibró el móvil. Un número sin foto y sin nombre me preguntaba cuántas faltaban ya. Le pregunté quién era. Me respondió: «Somos catorce. Falta uno».",
+   "imagen": "security guard booth at night, a smartphone glowing on the desk next to a thermos, dark monitors, no people",
+   "ambiente": "interior",
+   "pausa": 3.2,
+   "chat": {
+    "contacto": "Número desconocido",
+    "avatar": "?",
+    "hora": "02:10",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "¿Cuántas faltan ya?",
+      "en": "vibró el móvil"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Quién eres?",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "Somos catorce. Falta uno 🕯️",
+      "en": "Me respondió",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "El mensaje se borró antes de que pudiera hacer una captura. Le escribí a Ramiro para preguntarle si me estaba gastando una broma. Leyó el mensaje. No me respondió.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.2
+  },
+  {
+   "texto": "A las tres conté otra vez. Trece. A las cinco, como siempre, las chapas habían vuelto. Pero esa noche, por primera vez, la mía, la ciento cuarenta y uno, estaba torcida. Como si alguien la hubiera tocado.",
+   "imagen": "a single brass token with the number 141 engraved hanging crooked on an iron hook, coal-black fingerprints on it, cold light, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "141",
+     "en": "ciento cuarenta y uno"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Siete. La última noche."
+  },
+  {
+   "texto": "La séptima noche era la última. Por la mañana llegaban los técnicos de las alarmas y yo me iba a casa. Colgué mi chapa al entrar, como siempre, y me quedé mirándola un buen rato.",
+   "imagen": "old wooden board on a brick wall covered in rows of small numbered brass tokens hanging on hooks, dim yellow light, mining museum, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "A la una fui al tablero. No tuve que contar. Se veía desde la puerta. Catorce huecos. Y uno más, al final de la fila. Mi chapa no estaba.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.7
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "NO ESTABA",
+     "en": "Mi chapa no estaba"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "Mi chapa no estaba"
+    }
+   ],
+   "pausa": 2.2
+  },
+  {
+   "texto": "Le escribí a Ramiro con los dedos temblando. Esta vez me respondió al momento. Tenía que bajar a por ella. Antes de que saliera el sol.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.4,
+   "chat": {
+    "contacto": "Ramiro",
+    "hora": "01:03",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Mi chapa no está. ¿Qué hago?",
+      "en": "Le escribí"
+     },
+     {
+      "de": "el",
+      "texto": "Tienes que bajar a por ella",
+      "en": "me respondió"
+     },
+     {
+      "de": "el",
+      "texto": "Si sale el sol sin tu chapa colgada, no sales"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Bajar? ¿Al pozo?"
+     },
+     {
+      "de": "el",
+      "texto": "La jaula ya te está esperando"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Cuando levanté la vista del móvil, la jaula estaba arriba. Con la reja abierta. Y la lámpara del casco del suelo apuntaba hacia mí.",
+   "imagen": "old mine shaft elevator cage with a rusty iron folding gate, steel cables going up into darkness, brick shaft mouth, dim light, no people",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "respira",
+     "x": 0.25,
+     "y": 0.97,
+     "alto": 0.66
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "No sé por qué entré. Quizás porque las normas siempre habían funcionado. Quizás porque no quería quedarme fuera para siempre. Cerré la reja. Y la jaula empezó a bajar sola.",
+   "imagen": "view from inside a descending mine elevator cage, the iron gate in front, rough wet rock wall rushing upward, a headlamp beam, darkness, no people",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "aranazos",
+     "en": "la jaula empezó a bajar"
+    }
+   ],
+   "pausa": 1.0
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Ocho. Planta quinta."
+  },
+  {
+   "texto": "Bajé durante minutos. El aire se volvía más pesado, más caliente. En la pared iban pasando los números pintados de las plantas. Primera. Segunda. Tercera. La jaula se paró en la quinta.",
+   "imagen": "=",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "QUINTA",
+     "en": "en la quinta"
+    }
+   ]
+  },
+  {
+   "texto": "Delante había una galería sellada con ladrillos. Pero los ladrillos estaban en el suelo, apilados con cuidado. Como si alguien los hubiera ido quitando, uno a uno, durante muchos años.",
+   "imagen": "underground mine gallery entrance, an old brick wall dismantled and the bricks stacked neatly on the ground, dark tunnel beyond, headlamp light, no people",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ]
+  },
+  {
+   "texto": "Al fondo de la galería había lámparas. Catorce lámparas encendidas, en fila. Y debajo de cada lámpara, un hombre de pie. Con la cara negra de carbón. Mirándome sin parpadear.",
+   "imagen": "long dark mine tunnel with old wooden supports, fourteen faint headlamps glowing in a row in the distance, coal dust, no people",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "minero",
+     "anim": "aparece",
+     "x": 0.62,
+     "y": 0.97,
+     "alto": 0.55,
+     "silueta": true,
+     "en": "un hombre de pie"
+    },
+    {
+     "quien": "minero",
+     "anim": "aparece",
+     "x": 0.8,
+     "y": 0.97,
+     "alto": 0.5,
+     "silueta": true,
+     "espejo": true,
+     "en": "Con la cara negra"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "CATORCE",
+     "en": "Catorce lámparas"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "El primero se acercó despacio. Llevaba algo en la mano. Me lo dio. Era mi chapa. La ciento cuarenta y uno. Estaba caliente, como si la hubiera tenido apretada mucho tiempo.",
+   "imagen": "=",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "minero",
+     "anim": "se_acerca",
+     "x": 0.55,
+     "y": 0.97,
+     "alto": 0.7,
+     "silueta": true,
+     "en": "El primero se acercó"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Cerré la mano sobre la chapa. Y en ese momento entendí la norma de verdad. No era para protegerme. Una chapa en la mano significa que estás abajo. Abajo, en la planta quinta.",
+   "imagen": "close-up of a womans hand closing around a brass token with the number 141 in the dark, headlamp light, coal dust, no people",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "ABAJO",
+     "en": "significa que estás abajo"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Detrás de mí oí la reja. Me di la vuelta. Los catorce estaban dentro de la jaula. Y uno más. Una mujer de mi altura, con mi chaqueta de vigilante y mi linterna. De espaldas a mí.",
+   "imagen": "old mine shaft elevator cage with a rusty iron folding gate, steel cables going up into darkness, brick shaft mouth, dim light, no people",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "marta",
+     "anim": "gira",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.6,
+     "en": "Una mujer de mi altura"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "oí la reja"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Corrí. La reja se cerró en mi cara. La jaula empezó a subir. Y desde arriba, muy lejos, se escucharon tres timbrazos largos. Sube gente.",
+   "imagen": "looking up a dark mine shaft from the bottom, an elevator cage rising away with a faint light, cables, falling dust, no people",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "Sube gente"
+    }
+   ],
+   "pausa": 2.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Nueve. Arriba."
+  },
+  {
+   "texto": "No sé cuánto tiempo llevo aquí. El móvil tiene una raya de cobertura que va y viene. Le escribí a mi madre. A las siete y media vibró. Era su respuesta. Decía que yo acababa de llegar a casa. Que estaba en su cocina, desayunando con ella.",
+   "imagen": "dark mine tunnel, a smartphone screen glowing on a rock, faint light on coal walls, no people",
+   "ambiente": "estatica",
+   "pausa": 3.4,
+   "chat": {
+    "contacto": "Mamá",
+    "hora": "07:31",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Mamá, estoy en la mina. Avisa a alguien",
+      "en": "Le escribí a mi madre"
+     },
+     {
+      "de": "el",
+      "texto": "¿Qué dices, hija? Si acabas de llegar 😊",
+      "en": "vibró"
+     },
+     {
+      "de": "el",
+      "texto": "Estás en la cocina desayunando conmigo",
+      "en": "Que estaba en su cocina"
+     },
+     {
+      "de": "el",
+      "texto": "Muy callada. Y con las uñas negras"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Después llegó otro mensaje. De Ramiro. El último. Solo ponía: «Lo siento, hija. Mi padre llevaba sesenta y cinco años esperando». Ramiro Llaneza. Picador. El penúltimo de la lista.",
+   "imagen": "=",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 2.0
+  },
+  {
+   "texto": "Arriba, en el tablero del Pozo Ventana, ahora hay ciento cuarenta y una chapas colgadas. Todas. Todos arriba. El tablero vuelve a mentir.",
+   "imagen": "old wooden board on a brick wall covered in rows of small numbered brass tokens hanging on hooks, morning daylight, mining museum, no people",
+   "ambiente": "interior",
+   "pausa": 1.6
+  },
+  {
+   "texto": "Así que, si algún día visitas el museo, cuenta las chapas. Y si falta la ciento cuarenta y uno, no es un error. Soy yo. Que sigo intentando subir.",
+   "imagen": "=",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "minero",
+     "anim": "aparece",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.45,
+     "silueta": true,
+     "en": "Soy yo"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "SOY YO",
+     "en": "Soy yo"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 2.6
+  }
+ ]
+}
