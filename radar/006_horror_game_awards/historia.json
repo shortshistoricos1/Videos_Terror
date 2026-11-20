@@ -1,0 +1,103 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de los Horror Game Awards? 😱 #shorts",
+ "descripcion": "Esta noche, a las 20:00 en España, Londres entrega los premios a los mejores videojuegos de terror del año, en directo y gratis. REANIMAL lidera con 10 nominaciones. ¿Quién crees que gana? 👇 #terror #horrorgameawards #reanimal #residentevil #silenthill #shorts",
+ "fuentes": [
+  "https://themagicrain.com/2026/11/the-horror-game-awards-2026-returns-for-fifth-anniversary-with-21-categories-and-20-game-reveals/",
+  "https://horrorobsessive.com/2026/11/05/horror-game-awards-2026-reanimal-leads-nominations/",
+  "https://www.keengamer.com/articles/news/the-horror-game-awards-2026-categories-nominees-and-where-to-watch/",
+  "https://www.dreadcentral.com/gaming/596126/horror-game-awards-2026-nominees-voting/"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "texto": "¿Por qué todo el mundo habla hoy de los Horror Game Awards? Porque esta misma noche, a las ocho en España, Londres entrega los Óscar de los videojuegos de terror. Y se emiten gratis, en directo, por YouTube, Twitch y TikTok. Hay veintiuna categorías, cinco de ellas nuevas, como el juego más terrorífico del año. Reanimal es el gran favorito, con diez nominaciones, y Resident Evil Requiem le sigue con nueve. Silent Hill Townfall y Hellraiser Revival suman ocho cada uno. Además, prometen más de veinte tráileres de juegos de terror que todavía no has visto. El año pasado ganó Silent Hill f. ¿Quién se lleva hoy el premio gordo? Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "criatura": "small hunched shadowy creature with a featureless white mask and long thin arms, ragged dark cloak, eerie, generic monster"
+ },
+ "escenas": [
+  {
+   "imagen": "empty gothic theater stage at night with heavy red velvet curtains, a single spotlight on an old trophy pedestal, fog on the floor, ominous, no people, no text",
+   "ambiente": "interior",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos hablan de los", "tam": 112, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "Horror Game Awards?", "color": "rojo", "tam": 124, "en": "Horror Game"},
+    {"tipo": "busqueda", "texto": "horror game awards", "en": "Horror Game"},
+    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "Awards"}
+   ]
+  },
+  {
+   "desde": "Porque esta misma noche",
+   "etiqueta": "01 · ESTA NOCHE",
+   "imagen": "foggy London street at night with gas lamps and a dark old brick tunnel glowing red inside, wet cobblestones, empty, no people, no text",
+   "ambiente": "lluvia",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Esta noche", "en": "esta misma noche"},
+    {"tipo": "fecha", "dia": 20, "mes": "noviembre", "etiqueta": "20:00 · Londres", "en": "a las ocho"},
+    {"tipo": "subtitulo", "texto": "Los Óscar del terror gamer", "tam": 84, "en": "Óscar"},
+    {"tipo": "sello", "texto": "Gratis y en directo", "en": "gratis"}
+   ]
+  },
+  {
+   "desde": "Hay veintiuna",
+   "etiqueta": "02 · LAS CATEGORÍAS",
+   "imagen": "rows of old dusty golden trophies in a dark abandoned museum hall lit by candles, cobwebs, eerie, no people, no text",
+   "fondo": "red",
+   "elementos": [
+    {"tipo": "dato", "valor": 21, "etiqueta": "categorías", "en": "veintiuna"},
+    {"tipo": "sello", "texto": "5 nuevas", "en": "cinco"},
+    {"tipo": "tag", "texto": "El juego más terrorífico", "en": "más terrorífico"}
+   ]
+  },
+  {
+   "desde": "Reanimal es",
+   "etiqueta": "03 · EL FAVORITO",
+   "imagen": "dark misty island with a half-sunken wooden boat on black water, distant ruined buildings, eerie twilight, no people, no text",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "titulo", "texto": "REANIMAL", "color": "rojo", "tam": 140, "en": "Reanimal"},
+    {"tipo": "imagen", "alto": 540, "en": "Reanimal",
+     "personajes": [{"quien": "criatura", "anim": "se_acerca", "en": "gran favorito", "alto": 0.85}]},
+    {"tipo": "sello", "texto": "10 nominaciones", "en": "diez"},
+    {"tipo": "tag", "texto": "Resident Evil Requiem · 9", "en": "Requiem"}
+   ]
+  },
+  {
+   "desde": "Silent Hill Townfall",
+   "etiqueta": "04 · LOS RIVALES",
+   "imagen": "small abandoned town street swallowed by thick grey fog, rusty street lamps, empty, ash falling, no people, no text, no signs",
+   "fondo": "bone",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Silent Hill Townfall", "tam": 112, "en": "Silent Hill"},
+    {"tipo": "subtitulo", "texto": "y Hellraiser Revival", "color": "rojo", "tam": 84, "en": "Hellraiser"},
+    {"tipo": "imagen", "alto": 480, "en": "Silent Hill"},
+    {"tipo": "sello", "texto": "8 cada uno", "en": "ocho"}
+   ]
+  },
+  {
+   "desde": "Además",
+   "etiqueta": "05 · ESTRENOS",
+   "imagen": "old CRT television glowing with static in a dark abandoned living room, flickering light, dust, creepy, no people, no text",
+   "ambiente": "interior",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "dato", "valor": 20, "sufijo": "+", "etiqueta": "tráileres nuevos", "en": "veinte"},
+    {"tipo": "imagen", "alto": 500, "en": "tráileres"}
+   ]
+  },
+  {
+   "desde": "El año pasado",
+   "etiqueta": "06 · EL TRONO",
+   "imagen": "a single tarnished golden trophy on a stone altar in a dark crypt, red light, mist, ominous, no people, no text",
+   "fondo": "red",
+   "elementos": [
+    {"tipo": "tarjeta", "titulo": "Ganó en 2025", "texto": "Silent Hill f", "en": "El año pasado"},
+    {"tipo": "titulo", "texto": "¿Y hoy?", "color": "rojo", "en": "Quién"}
+   ]
+  }
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Para el terror del día", "comentario": "¿quién gana hoy? 👇"}
+}
