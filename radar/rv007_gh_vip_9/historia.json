@@ -1,0 +1,71 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "Gran Hermano VIP 9",
+ "titulo_youtube": "¿Por qué todo el mundo busca hoy a los concursantes de GH VIP?",
+ "fuentes": [
+  "https://glyphsignal.com/fr/google-trends/es",
+  "https://www.hola.com/actualidad/20261113934828/concursantes-confirmados-gran-hermano-vip/",
+  "https://www.elpespunte.es/television-entretenimiento/cuantos-concursantes-gh-vip-9-quienes-son-lista-completa-participantes-gran-hermano-vip/20261119154459163340.html",
+  "https://www.eldiario.es/vertele/noticias/gh-vip-9-desvela-estreno-papel-real-belen-esteban-2-nuevos-concursantes-primeros-nominados_1_13675491.html",
+  "https://www.infobae.com/espana/2026/11/19/lo-mejor-del-estreno-de-gh-vip-9-el-tenso-cara-a-cara-de-jorge-javier-y-belen-esteban-el-ajuste-de-cuentas-con-karmele-y-una-sorpresa-que-nadie-esperaba/",
+  "https://vibrasencorte.es/television/realities/belen-esteban-gh-vip-9-mision-colaboradora-no-concursante-maletin/"
+ ],
+ "voz": {"voz": "es-ES-ElviraNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy a los concursantes de Gran Hermano VIP? Porque Telecinco estrenó el miércoles la novena edición, presentada por Jorge Javier Vázquez, y ya arrasa en Google. En la casa hay catorce concursantes. Están Karmele Marchante, Pipi Estrada, Raquel Mosquera, Raquel Bollo y Gianmarco Onestini. Y hubo sorpresa: Nacho de Borbón y Lía Romero entraron en plena gala. Pero el gran giro fue Belén Esteban. No entra como concursante, sino como colaboradora infiltrada. Su misión: proteger el maletín con el premio final, cien mil euros, y montar unas nominaciones falsas. Belén nominó a Raquel Bollo, a Karmele, a Pipi y a ella misma, y sus compañeros no saben que no valen. La noche dejó un reencuentro esperado: Jorge Javier y Belén se vieron por primera vez en unos tres años y acabaron con un abrazo. Con Karmele no hubo paz. Y el plan del programa es que Belén acabe siendo concursante oficial. Se puede seguir en Telecinco y, las veinticuatro horas, en Mediaset Infinity. ¿Quién crees que ganará? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Lo más buscado de cada día", "comentario": "¿Quién ganará? Te leo 👇"},
+ "escenas": [
+  {"fondo": "dark",
+   "imagen": "a modern glass reality show house at night with glowing windows, a garden and a small swimming pool, surveillance cameras on the walls, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar Viral · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos buscan", "tam": 110, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "GH VIP?", "color": "rojo", "tam": 150, "en": "Gran Hermano"},
+    {"tipo": "busqueda", "texto": "concursantes gran hermano vip", "en": "concursantes"},
+    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "VIP"}]},
+  {"desde": "Porque Telecinco", "etiqueta": "01 · EL ESTRENO", "fondo": "red",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Novena edición", "tam": 125, "en": "novena"},
+    {"tipo": "fecha", "dia": 18, "mes": "NOVIEMBRE", "etiqueta": "Estreno en Telecinco", "en": "miércoles"},
+    {"tipo": "sello", "texto": "Jorge Javier", "en": "Jorge Javier"}]},
+  {"desde": "En la casa hay", "etiqueta": "02 · LOS CONCURSANTES", "fondo": "dark",
+   "imagen": "a row of empty colorful armchairs in a bright modern living room of a reality show house, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "dato", "valor": 14, "sufijo": "", "etiqueta": "concursantes", "en": "catorce"},
+    {"tipo": "imagen", "alto": 460, "pie": "Karmele · Pipi · Raquel Mosquera · Raquel Bollo · Gianmarco", "en": "Karmele"}]},
+  {"desde": "Y hubo sorpresa", "etiqueta": "03 · SORPRESA", "fondo": "dark",
+   "elementos": [
+    {"tipo": "sello", "texto": "Entrada sorpresa", "en": "sorpresa"},
+    {"tipo": "tarjeta", "titulo": "Nacho de Borbón", "texto": "y Lía Romero, en plena gala", "en": "Nacho"}]},
+  {"desde": "Pero el gran giro", "etiqueta": "04 · EL GIRO", "fondo": "bone",
+   "imagen": "a mysterious figure silhouette hiding behind a half open door with a spotlight, flat style, no face, no text, no logos",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Belén Esteban", "tam": 125, "en": "Belén"},
+    {"tipo": "imagen", "alto": 480, "pie": "No es concursante: es infiltrada", "en": "infiltrada"}]},
+  {"desde": "Su misión", "etiqueta": "05 · EL MALETÍN", "fondo": "dark",
+   "imagen": "a shiny metal briefcase open on a table full of euro banknotes under a spotlight, no text, no logos",
+   "elementos": [
+    {"tipo": "dato", "valor": 100000, "sufijo": " €", "etiqueta": "premio final", "en": "cien mil"},
+    {"tipo": "imagen", "alto": 460, "pie": "Su misión: protegerlo", "en": "maletín"},
+    {"tipo": "sello", "texto": "Nominaciones falsas", "en": "nominaciones falsas"}]},
+  {"desde": "Belén nominó", "etiqueta": "06 · NOMINADOS", "fondo": "red",
+   "elementos": [
+    {"tipo": "subtitulo", "texto": "Nominados de mentira", "en": "nominó"},
+    {"tipo": "tarjeta", "titulo": "Bollo · Karmele · Pipi", "texto": "y la propia Belén", "en": "Raquel Bollo"},
+    {"tipo": "sello", "texto": "No lo saben", "en": "no saben"}]},
+  {"desde": "La noche dejó", "etiqueta": "07 · REENCUENTRO", "fondo": "dark",
+   "imagen": "two empty chairs facing each other in a cosy television studio room with warm light and a small table, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "subtitulo", "texto": "Jorge Javier y Belén", "en": "Jorge Javier"},
+    {"tipo": "imagen", "alto": 460, "pie": "Tres años después: abrazo", "en": "abrazo"},
+    {"tipo": "sello", "texto": "Con Karmele, no", "en": "Karmele"}]},
+  {"desde": "Y el plan del programa", "etiqueta": "08 · DÓNDE VERLO", "fondo": "dark",
+   "imagen": "a smartphone and a television screen both showing a glowing house icon with a camera, cosy living room at night, no text, no logos",
+   "elementos": [
+    {"tipo": "tarjeta", "titulo": "El plan", "texto": "Que Belén sea concursante oficial", "en": "plan"},
+    {"tipo": "imagen", "alto": 450, "pie": "Telecinco · Mediaset Infinity 24 h", "en": "Telecinco"},
+    {"tipo": "sello", "texto": "¿Quién ganará?", "en": "ganará"}]}
+ ]
+}
