@@ -1,15 +1,6 @@
 Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (a75fd2e6-35ec-45fb-8b47-3e30bcd1146c)","code":8007}],"success":false,"result":{},"messages":[]}
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (15563494-0bbf-4c92-b7d1-7d24b8bd4157)","code":8007}],"success":false,"result":{},"messages":[]}
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (8e07d52a-0e32-435e-803b-faf2259e8a1b)","code":8007}],"success":false,"result":{},"messages":[]}
-cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (a51aa0c7-6f25-4300-ae68-3c1fbb468666)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (d05ee1b4-d461-492d-9ce1-451ffa462cf2)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (0352385a-fcef-43e6-9f43-bb99df22c8b1)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (f923b8dd-7b71-4d82-aed5-265d7e3759b4)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (34f78b12-c542-4eb5-9636-6b22d35f949f)","code":8007}],"success":false,"result":{},"messages":[]}
 SIN PERSONAJE campista
-personaje ok personaje_criatura.png (260, 900)
-profundidad ok bloque_000_depth.png
-profundidad ok bloque_001_depth.png
-profundidad ok bloque_003_depth.png
-profundidad ok bloque_004_depth.png
-profundidad ok bloque_005_depth.png
-profundidad ok bloque_006_depth.png
-profundidad ok bloque_007_depth.png
-profundidad ok bloque_008_depth.png
