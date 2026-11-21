@@ -1,0 +1,102 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de Hellraiser Revival? 😱 #shorts",
+ "descripcion": "Anoche en Londres, Hellraiser: Revival ganó el premio a juego de terror del año en los Horror Game Awards 2026, pero Resident Evil Requiem fue el que más premios se llevó. ¿Era tu favorito? 👇 #terror #hellraiser #horrorgameawards #residentevil #silenthill #shorts",
+ "fuentes": [
+  "https://www.dreadcentral.com/gaming/598414/hellraiser-revival-horror-game-awards-doug-bradley/",
+  "https://fextralife.com/horror-game-awards-2026/",
+  "https://bloody-disgusting.com/video-games/3976498/hellraiser-revival-wins-game-of-the-year-at-the-horror-game-awards-2026/",
+  "https://www.escapistmagazine.com/hellraiser-revival-takes-horror-game-of-the-year-as-resident-evil-requiem-wins-the-most-awards/"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "texto": "¿Por qué todo el mundo habla hoy de Hellraiser Revival? Porque anoche, en Londres, ganó el premio al juego de terror del año en los Horror Game Awards. Superó a quince rivales, entre ellos Resident Evil Requiem y Reanimal. Y Doug Bradley, que vuelve a ser Pinhead, se llevó el premio a la mejor interpretación. Pero el que más premios ganó fue Resident Evil Requiem: cuatro, entre ellos el de juego más terrorífico del año y el del público. Reanimal se llevó dos, y Silent Hill Townfall, el premio de la crítica. Y el juego más esperado es el remake de Silent Hill. ¿Era el ganador que tú querías? Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "encapuchado": "tall gaunt hooded figure in a long black tattered robe, face hidden in shadow, pale bony hands, eerie, generic horror figure"
+ },
+ "escenas": [
+  {
+   "imagen": "dark gothic stone hall with rusty iron chains hanging from the ceiling, deep red light, mist on the floor, ominous, no people, no text",
+   "ambiente": "interior",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos hablan de", "tam": 112, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "Hellraiser Revival?", "color": "rojo", "tam": 124, "en": "Hellraiser"},
+    {"tipo": "busqueda", "texto": "hellraiser revival", "en": "Hellraiser"},
+    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "Revival"}
+   ]
+  },
+  {
+   "desde": "Porque anoche",
+   "etiqueta": "01 · EL GANADOR",
+   "imagen": "a single old golden trophy on a stone altar in a dark crypt, red candlelight, chains in the background, mist, ominous, no people, no text",
+   "fondo": "red",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Juego de terror del año", "tam": 116, "en": "anoche"},
+    {"tipo": "imagen", "alto": 520, "en": "Londres"},
+    {"tipo": "sello", "texto": "Horror Game Awards", "en": "Horror Game"}
+   ]
+  },
+  {
+   "desde": "Superó a",
+   "etiqueta": "02 · LOS RIVALES",
+   "imagen": "rows of dusty gravestones in a foggy cemetery at night, crooked trees, faint red moon, no people, no text",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "dato", "valor": 15, "etiqueta": "rivales vencidos", "en": "quince"},
+    {"tipo": "tag", "texto": "RE Requiem · Reanimal", "en": "Requiem"}
+   ]
+  },
+  {
+   "desde": "Y Doug Bradley",
+   "etiqueta": "03 · LA ACTUACIÓN",
+   "imagen": "empty dark theater stage with rusty hooks and chains hanging above, a single cold spotlight, fog, sinister, no people, no text",
+   "ambiente": "interior",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Doug Bradley", "tam": 130, "en": "Doug Bradley"},
+    {"tipo": "subtitulo", "texto": "vuelve a ser Pinhead", "color": "rojo", "tam": 84, "en": "Pinhead"},
+    {"tipo": "imagen", "alto": 500, "en": "Pinhead",
+     "personajes": [{"quien": "encapuchado", "anim": "se_acerca", "en": "Pinhead", "alto": 0.85}]},
+    {"tipo": "sello", "texto": "Mejor interpretación", "en": "mejor interpretación"}
+   ]
+  },
+  {
+   "desde": "Pero el que más",
+   "etiqueta": "04 · EL MÁS PREMIADO",
+   "imagen": "abandoned gothic mansion hallway at night, peeling wallpaper, flickering lamp, blood-red light at the end of the corridor, no people, no text",
+   "fondo": "bone",
+   "elementos": [
+    {"tipo": "titulo", "texto": "RE Requiem", "color": "rojo", "tam": 140, "en": "Resident Evil"},
+    {"tipo": "dato", "valor": 4, "etiqueta": "premios", "en": "cuatro"},
+    {"tipo": "imagen", "alto": 450, "en": "más terrorífico"},
+    {"tipo": "sello", "texto": "El más terrorífico", "en": "más terrorífico"}
+   ]
+  },
+  {
+   "desde": "Reanimal se llevó",
+   "etiqueta": "05 · EL RESTO",
+   "imagen": "small abandoned town street swallowed by thick grey fog, rusty street lamps, ash falling, empty, no people, no text, no signs",
+   "fondo": "dark",
+   "elementos": [
+    {"tipo": "tarjeta", "titulo": "Reanimal", "texto": "2 premios", "en": "Reanimal"},
+    {"tipo": "imagen", "alto": 480, "en": "Townfall"},
+    {"tipo": "tag", "texto": "Townfall · premio de la crítica", "en": "crítica"}
+   ]
+  },
+  {
+   "desde": "Y el juego más esperado",
+   "etiqueta": "06 · LO QUE VIENE",
+   "imagen": "dark foggy lake at dusk with an old wooden pier and a distant abandoned town, eerie grey light, no people, no text",
+   "fondo": "red",
+   "elementos": [
+    {"tipo": "tag", "texto": "El más esperado", "en": "más esperado"},
+    {"tipo": "titulo", "texto": "Silent Hill Remake", "tam": 120, "en": "remake"},
+    {"tipo": "titulo", "texto": "¿Y tu favorito?", "color": "rojo", "tam": 120, "en": "querías"}
+   ]
+  }
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Para el terror del día", "comentario": "¿merecía ganar? 👇"}
+}
