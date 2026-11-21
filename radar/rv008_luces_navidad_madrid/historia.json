@@ -55,7 +55,7 @@
     {"tipo": "sello", "texto": "3.er año seguido", "en": "tercer"},
     {"tipo": "tarjeta", "titulo": "Y por la moda", "texto": "Diseñadores españoles", "en": "diseñadores"}]},
   {"desde": "El horario", "etiqueta": "07 · EL HORARIO", "fondo": "dark",
-   "imagen": "a big glowing clock on a city building facade at night surrounded by christmas light decorations, no text, no numbers, no logos",
+   "imagen": "an elegant vintage street clock on a lamp post wrapped in glowing christmas light garlands in an empty plaza at night, plain clock face without numbers, no signs, no shops, no text, no logos",
    "elementos": [
     {"tipo": "titulo", "texto": "Desde las 18:00", "tam": 115, "en": "seis"},
     {"tipo": "imagen", "alto": 450, "pie": "Hasta 00:00 · viernes y sábados, 01:00", "en": "medianoche"},
