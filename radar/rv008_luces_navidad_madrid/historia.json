@@ -1,0 +1,68 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "Luces de Navidad de Madrid 2026",
+ "titulo_youtube": "¿Por qué todo el mundo busca hoy las luces de Navidad de Madrid?",
+ "fuentes": [
+  "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026/",
+  "https://www.que.es/2026/11/03/luces-navidad-madrid-2026/",
+  "https://www.timeout.es/madrid/es/noticias/luces-de-navidad-2026-en-madrid-fechas-horarios-mapa-novedades-y-todo-lo-que-debes-saber-111826",
+  "https://www.timeout.es/madrid/es/noticias/un-gran-arbol-en-cibeles-protagoniza-el-encendido-de-luces-de-navidad-en-madrid-fecha-y-todas-las-novedades-110326",
+  "https://vivirediciones.es/madrid-enciende-navidad-14-millones-luces-led/"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy las luces de Navidad de Madrid? Porque esta tarde, sábado veintiuno de noviembre, Madrid enciende su Navidad con una gran fiesta gratuita en la plaza de Cibeles, a partir de las siete de la tarde. Y las cifras impresionan: más de catorce millones de bombillas LED. Hay adornos en más de doscientas cincuenta ubicaciones, repartidas por los veintiún distritos de la ciudad. Se instalan ciento treinta y un cerezos luminosos y catorce grandes abetos de luz, además de más de siete mil cadenetas. En la Gran Vía brillan copos de nieve gigantes. Algunos diseños los han dibujado niños de primero y segundo de primaria, por tercer año seguido. Y otros llevan la firma de diseñadores de moda españoles. El horario: se encienden cada día a las seis de la tarde y se apagan a medianoche de domingo a jueves, y a la una los viernes y sábados. En Nochebuena y en la víspera de Reyes, hasta las tres. Y en Nochevieja, hasta las seis de la mañana. Estarán encendidas hasta el seis de enero. ¿Irás a verlas? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Lo más buscado de cada día", "comentario": "¿Irás a verlas? Te leo 👇"},
+ "escenas": [
+  {"fondo": "dark",
+   "imagen": "a grand european city avenue at night decorated with sparkling christmas light garlands hanging across the street, warm golden and cyan lights, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar Viral · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos buscan", "tam": 110, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "las luces de Madrid?", "color": "rojo", "tam": 120, "en": "luces"},
+    {"tipo": "busqueda", "texto": "luces navidad madrid", "en": "Navidad"},
+    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "Madrid"}]},
+  {"desde": "Porque esta tarde", "etiqueta": "01 · EL ENCENDIDO", "fondo": "red",
+   "elementos": [
+    {"tipo": "fecha", "dia": 21, "mes": "NOVIEMBRE", "etiqueta": "Encendido en Cibeles", "en": "sábado"},
+    {"tipo": "sello", "texto": "Gratis", "en": "gratuita"},
+    {"tipo": "tarjeta", "titulo": "Plaza de Cibeles", "texto": "Desde las 19:00", "en": "siete"}]},
+  {"desde": "Y las cifras impresionan", "etiqueta": "02 · LAS CIFRAS", "fondo": "dark",
+   "imagen": "close up of thousands of tiny glowing led christmas bulbs on strings forming a sparkling bokeh pattern, no text, no logos",
+   "elementos": [
+    {"tipo": "dato", "valor": 14, "sufijo": "M", "etiqueta": "bombillas LED", "en": "catorce"},
+    {"tipo": "imagen", "alto": 480, "pie": "Más de 14 millones de luces", "en": "bombillas"}]},
+  {"desde": "Hay adornos", "etiqueta": "03 · TODA LA CIUDAD", "fondo": "dark",
+   "elementos": [
+    {"tipo": "dato", "valor": 250, "sufijo": "+", "etiqueta": "ubicaciones", "en": "doscientas"},
+    {"tipo": "tarjeta", "titulo": "21 distritos", "texto": "Toda la ciudad iluminada", "en": "veintiún"}]},
+  {"desde": "Se instalan", "etiqueta": "04 · LOS ADORNOS", "fondo": "bone",
+   "imagen": "a row of glowing pink cherry blossom trees made of christmas lights next to tall cone shaped fir trees of light in a city square at night, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "titulo", "texto": "131 cerezos", "tam": 125, "en": "ciento treinta"},
+    {"tipo": "imagen", "alto": 470, "pie": "y 14 grandes abetos de luz", "en": "abetos"},
+    {"tipo": "sello", "texto": "+7.000 cadenetas", "en": "cadenetas"}]},
+  {"desde": "En la Gran Vía", "etiqueta": "05 · GRAN VÍA", "fondo": "dark",
+   "imagen": "giant glowing snowflake shaped christmas lights hanging high above a wide city street with classic buildings at night, no people, no text, no logos",
+   "elementos": [
+    {"tipo": "subtitulo", "texto": "Copos de nieve gigantes", "en": "copos"},
+    {"tipo": "imagen", "alto": 480, "pie": "Gran Vía", "en": "gigantes"}]},
+  {"desde": "Algunos diseños", "etiqueta": "06 · LOS DISEÑOS", "fondo": "red",
+   "elementos": [
+    {"tipo": "tarjeta", "titulo": "Diseñados por niños", "texto": "De 1.º y 2.º de primaria", "en": "niños"},
+    {"tipo": "sello", "texto": "3.er año seguido", "en": "tercer"},
+    {"tipo": "tarjeta", "titulo": "Y por la moda", "texto": "Diseñadores españoles", "en": "diseñadores"}]},
+  {"desde": "El horario", "etiqueta": "07 · EL HORARIO", "fondo": "dark",
+   "imagen": "a big glowing clock on a city building facade at night surrounded by christmas light decorations, no text, no numbers, no logos",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Desde las 18:00", "tam": 115, "en": "seis"},
+    {"tipo": "imagen", "alto": 450, "pie": "Hasta 00:00 · viernes y sábados, 01:00", "en": "medianoche"},
+    {"tipo": "sello", "texto": "Nochevieja: 06:00", "en": "Nochevieja"}]},
+  {"desde": "Estarán encendidas", "etiqueta": "08 · HASTA CUÁNDO", "fondo": "dark",
+   "elementos": [
+    {"tipo": "fecha", "dia": 6, "mes": "ENERO", "etiqueta": "Último día de luces", "en": "seis de enero"},
+    {"tipo": "sello", "texto": "¿Irás a verlas?", "en": "Irás"}]}
+ ]
+}
