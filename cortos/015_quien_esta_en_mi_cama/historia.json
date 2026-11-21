@@ -1,0 +1,165 @@
+{
+ "formato": "vertical",
+ "titulo": "¿Quién está en mi cama?",
+ "titulo_youtube": "Un paciente en coma me escribió: «¿quién está en mi cama?» 😨 #shorts",
+ "descripcion": "Una enfermera de noche recibe mensajes de un paciente que lleva meses en coma. Cuando va a taparlo, descubre que el de la cama no es él. ¿Tú habrías vuelto a la habitación? #terror #historiasdeterror #miedo #hospital #shorts",
+ "final": [
+  "¿Tú habrías vuelto a la habitación?",
+  "Sígueme para más"
+ ],
+ "comentario": "yo dejo el turno de noche mañana mismo 😨",
+ "voz": {
+  "voz": "es-ES-ElviraNeural",
+  "rate": "+10%",
+  "pitch": "-4Hz"
+ },
+ "reparto": {
+  "enfermera": "woman around 35 years old, short wavy auburn hair, light blue hospital scrubs, plain white cardigan, small penlight in breast pocket, tired frightened face, no logos, no name badge text"
+ },
+ "bloques": [
+  {
+   "texto": "Un paciente en coma me escribió a las tres de la mañana.",
+   "imagen": "long empty hospital corridor at night, dim greenish emergency lights, closed room doors on both sides, polished floor reflecting the light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "enfermera",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Soy enfermera de noche. Don Ernesto, el de la doscientos catorce, lleva meses dormido.",
+   "imagen": "dark hospital room at night, an elderly man with thin white hair lying motionless in a hospital bed with eyes closed, heart monitor glowing green beside him, window with cold moonlight",
+   "ambiente": "interior",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Vibró mi móvil. Un número desconocido me escribió que tenía frío. Le pregunté quién era. Respondió: Ernesto.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.8,
+   "chat": {
+    "contacto": "Desconocido",
+    "avatar": "?",
+    "hora": "03:04",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Enfermera, tengo mucho frío 🥶",
+      "en": "Un número desconocido"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Quién es?",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "Ernesto. El de la 214",
+      "en": "Respondió"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Fui a taparlo. La manta estaba en el suelo.",
+   "imagen": "hospital room at night, a blanket fallen on the floor beside the bed, an elderly man with thin white hair lying motionless and pale in the bed, cold blue moonlight from the window, heart monitor glow",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Lo tapé hasta el cuello y volví al control de enfermería.",
+   "imagen": "hospital nurses station at night, empty counter with a glowing computer screen, phone and paperwork, dark corridor behind, cold fluorescent light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "enfermera",
+     "anim": "respira",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Me llegó otro mensaje. Escribió: gracias. Y luego otro más: ¿quién es el que está en mi cama?",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 2.2,
+   "chat": {
+    "contacto": "Desconocido",
+    "avatar": "?",
+    "hora": "03:11",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Gracias 🙏",
+      "en": "Escribió"
+     },
+     {
+      "de": "el",
+      "texto": "¿Quién es el que está en mi cama?",
+      "en": "otro más",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Volví corriendo a la habitación.",
+   "imagen": "half-open hospital room door at the end of a dark corridor, faint green monitor light spilling out, flickering ceiling light, no people",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "enfermera",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.5
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Bajo la manta, el hombre de la cama abrió los ojos.",
+   "imagen": "close-up of a hospital bed in darkness, a figure covered by a blanket up to the chin, face in deep shadow, only two wide open staring eyes catching the green monitor light",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "LOS OJOS",
+     "en": "abrió"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "No era Ernesto. Y me estaba sonriendo.",
+   "imagen": "extreme close-up of a gaunt pale stranger lying on a hospital pillow, not an old man, black greasy hair, thin unnaturally wide smile, staring eyes, dark room lit only by green monitor light",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 1.0
+  }
+ ]
+}
