@@ -1,0 +1,71 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de The Body? 😱 #shorts",
+ "descripcion": "The Body, la serie de terror de Netflix sobre un ritual en un colegio católico, arrasa en el top 10… y una petición con más de 100.000 firmas pide retirarla. ¿La verías? 👇 #terror #thebody #netflix #seriesdeterror #shorts",
+ "fuentes": [
+  "https://rue-morgue.com/netflix-faces-petition-over-catholic-school-horror-series-the-body/",
+  "https://www.thepinknews.com/2026/11/17/the-body-petition-netflix/",
+  "https://www.aa.com.tr/en/world/over-100-000-sign-christian-group-s-petition-urging-netflix-to-drop-horror-series-the-body-/4130942",
+  "https://www.tvmaze.com/shows/87480/the-body",
+  "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-21-2026/"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "texto": "¿Por qué todo el mundo habla hoy de The Body? Porque es la serie de terror de Netflix que más se está viendo, y también la más polémica. Se estrenó el once de noviembre: ocho episodios creados por Quinn Shephard. En el año dos mil cuatro, unas chicas de un colegio católico hacen un ritual de iniciación que sale mal, y empiezan a tener visiones que desatan la histeria en todo el pueblo. Llegó al número dos en Estados Unidos. Pero un grupo cristiano ha lanzado una petición para que Netflix la retire, y ya supera las cien mil firmas. De momento, Netflix no la ha quitado. ¿Te atreverías a verla? Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "monja": "tall ghostly adult nun in a long black habit, face hidden in deep shadow, pale bony hands holding a rosary, eerie, generic horror figure"
+ },
+ "escenas": [
+  {"imagen": "dark empty gothic chapel at night, rows of old wooden pews, flickering red candles at the altar, mist on the floor, ominous, no people, no text",
+   "ambiente": "interior", "fondo": "dark",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos hablan de", "tam": 112, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "The Body?", "color": "rojo", "tam": 150, "en": "The Body"},
+    {"tipo": "busqueda", "texto": "the body netflix", "en": "The Body"},
+    {"tipo": "sello", "texto": "● Tendencia hoy", "en": "más polémica"}
+   ]},
+  {"desde": "Se estrenó", "etiqueta": "01 · EL ESTRENO", "fondo": "dark",
+   "imagen": "old television glowing red in a dark empty room, static on the screen, rain on the window, ominous, no people, no text",
+   "elementos": [
+    {"tipo": "fecha", "dia": 11, "mes": "noviembre", "etiqueta": "en Netflix", "en": "once"},
+    {"tipo": "dato", "valor": 8, "etiqueta": "episodios", "en": "ocho"},
+    {"tipo": "tag", "texto": "Creada por Quinn Shephard", "en": "Quinn"}
+   ]},
+  {"desde": "En el año", "etiqueta": "02 · LA HISTORIA", "fondo": "red",
+   "imagen": "old catholic school building at night in heavy fog, gothic arched windows faintly lit, iron gate, dead leaves, no people, no text, no signs",
+   "ambiente": "viento",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Año 2004", "tam": 140, "en": "dos mil cuatro"},
+    {"tipo": "imagen", "alto": 520, "en": "colegio", "personajes": [{"quien": "monja", "anim": "aparece", "en": "ritual", "alto": 0.85}]},
+    {"tipo": "sello", "texto": "Un ritual que sale mal", "en": "sale mal"}
+   ]},
+  {"desde": "y empiezan a tener", "etiqueta": "03 · LA HISTERIA", "fondo": "dark",
+   "imagen": "small american town street at night, flickering street lamps, candles and wax melting on the sidewalk, red sky, empty, no people, no text, no signs",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Visiones", "color": "rojo", "tam": 150, "en": "visiones"},
+    {"tipo": "imagen", "alto": 500, "en": "histeria"},
+    {"tipo": "tag", "texto": "Histeria en todo el pueblo", "en": "pueblo"}
+   ]},
+  {"desde": "Llegó al número", "etiqueta": "04 · EL ÉXITO", "fondo": "bone",
+   "imagen": "dark living room lit only by the red glow of a screen, empty sofa, shadows on the wall, eerie, no people, no text",
+   "elementos": [
+    {"tipo": "dato", "valor": 2, "etiqueta": "en EE. UU.", "en": "número dos"},
+    {"tipo": "sello", "texto": "Top 10 Netflix", "en": "Estados Unidos"}
+   ]},
+  {"desde": "Pero un grupo", "etiqueta": "05 · LA POLÉMICA", "fondo": "red",
+   "imagen": "stacks of old papers and a burning candle on a wooden desk in a dark church office, wax dripping, red light, ominous, no people, no text",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Piden retirarla", "tam": 124, "en": "petición"},
+    {"tipo": "dato", "valor": 100, "sufijo": "K", "etiqueta": "firmas", "en": "cien mil"},
+    {"tipo": "imagen", "alto": 460, "en": "firmas"}
+   ]},
+  {"desde": "De momento", "etiqueta": "06 · ¿Y NETFLIX?", "fondo": "dark",
+   "imagen": "dark gothic chapel altar with a single tall candle burning, red stained glass glow, fog, ominous, no people, no text",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Sigue en Netflix", "tam": 124, "en": "De momento"},
+    {"tipo": "titulo", "texto": "¿Te atreves?", "color": "rojo", "tam": 130, "en": "atreverías"}
+   ]}
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Para el terror del día", "comentario": "¿la verías? 👇"}
+}
