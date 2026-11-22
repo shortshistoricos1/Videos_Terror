@@ -154,6 +154,11 @@
      "tipo": "sello",
      "texto": "Top 10 Netflix",
      "en": "Estados Unidos"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 340,
+     "en": "Estados Unidos"
     }
    ]
   },
@@ -175,11 +180,6 @@
      "sufijo": "K",
      "etiqueta": "firmas",
      "en": "cien mil"
-    },
-    {
-     "tipo": "imagen",
-     "alto": 460,
-     "en": "firmas"
     }
    ]
   },
