@@ -136,7 +136,7 @@
    "desde": "Hoy hay veinticinco",
    "etiqueta": "04 · EN JUEGO",
    "fondo": "bone",
-   "imagen": "a long empty racetrack straight at sunset with grandstands and a start finish gantry without signs, no people, no text, no logos",
+   "imagen": "a long empty curving racetrack seen from a low angle at sunset with grassy hills and red and white kerbs, no buildings, no banners, no signs, no people, no text, no letters, no logos",
    "elementos": [
     {
      "tipo": "titulo",
@@ -175,7 +175,7 @@
    "desde": "Márquez sale segundo",
    "etiqueta": "06 · LA PARRILLA",
    "fondo": "dark",
-   "imagen": "aerial view of an empty motorcycle racing starting grid with painted white grid boxes on asphalt, no people, no text, no logos",
+   "imagen": "aerial top-down view of an empty asphalt racetrack starting straight with diagonal painted white grid lines and a red and white kerb along the side, no people, no text, no letters, no logos",
    "elementos": [
     {
      "tipo": "titulo",
