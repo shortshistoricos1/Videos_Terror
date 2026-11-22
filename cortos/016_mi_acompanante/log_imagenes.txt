@@ -1,8 +1,2 @@
 Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
-personaje ok personaje_viajero.png (486, 940)
-profundidad ok bloque_000_depth.png
-profundidad ok bloque_001_depth.png
 profundidad ok bloque_003_depth.png
-profundidad ok bloque_005_depth.png
-profundidad ok bloque_006_depth.png
-profundidad ok bloque_007_depth.png
