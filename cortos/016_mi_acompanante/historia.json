@@ -1,0 +1,169 @@
+{
+ "formato": "vertical",
+ "titulo": "Mi acompañante",
+ "titulo_youtube": "El hotel me escribió que mi acompañante quería otra almohada. Viajaba solo 😨 #shorts",
+ "descripcion": "Un hombre de viaje de trabajo recibe mensajes de recepción sobre una acompañante que subió con él a la habitación. Él estaba solo. ¿Tú habrías mirado debajo de la sábana? #terror #historiasdeterror #miedo #hotel #shorts",
+ "final": [
+  "¿Tú habrías mirado debajo de la sábana?",
+  "Sígueme para más"
+ ],
+ "comentario": "yo duermo en el coche a partir de hoy 😨",
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+10%",
+  "pitch": "-4Hz"
+ },
+ "reparto": {
+  "viajero": "man around 40 years old, short dark hair with grey temples, light stubble, white shirt with rolled sleeves and loosened dark tie, dark trousers, tired frightened face, no logos"
+ },
+ "bloques": [
+  {
+   "texto": "En el hotel me cobraron una cena para dos. Yo viajaba solo.",
+   "imagen": "empty hotel lobby at night, wooden reception desk with a small brass bell and a dim lamp, marble floor, elevator doors in the background, warm dim light and long shadows, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "viajero",
+     "anim": "camina",
+     "desde": "izq",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Viaje de trabajo. Habitación cuatrocientos doce. Una sola cama.",
+   "imagen": "hotel room at night, one neatly made double bed with two pillows, bedside lamp on, heavy curtains, bathroom door open on the side, dark carpet, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "viajero",
+     "anim": "respira",
+     "x": 0.35,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "412",
+     "en": "Habitación"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "A medianoche vibró el móvil. Recepción me escribió que mi acompañante pedía otra almohada. Le respondí que estaba solo. Insistieron: una señora había subido conmigo.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 2.0,
+   "chat": {
+    "contacto": "Recepción Hotel",
+    "hora": "00:07",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Buenas noches 🙂 Su acompañante pide otra almohada",
+      "en": "Recepción me escribió"
+     },
+     {
+      "de": "yo",
+      "texto": "Estoy solo en la habitación",
+      "en": "Le respondí"
+     },
+     {
+      "de": "el",
+      "texto": "La señora subió con usted 🙂",
+      "en": "Insistieron"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "La puerta del baño, que dejé abierta, estaba cerrada. Con la luz encendida.",
+   "imagen": "closed white bathroom door inside a dark hotel room, a thin strip of bright light under the door, carpet in shadow, ominous atmosphere, no people",
+   "ambiente": "interior",
+   "sfx": [
+    {
+     "tipo": "latido"
+    }
+   ],
+   "personajes": [
+    {
+     "quien": "viajero",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Me llegó otro mensaje. Ya no hacía falta la almohada. Ella dormiría en mi lado.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 2.2,
+   "chat": {
+    "contacto": "Recepción Hotel",
+    "hora": "00:12",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Ya no hace falta la almohada",
+      "en": "Ya no"
+     },
+     {
+      "de": "el",
+      "texto": "Dice que dormirá en su lado 😊",
+      "en": "Ella dormiría",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "En el baño, alguien apagó la luz. Me giré hacia la cama.",
+   "imagen": "dark hotel room seen from the doorway, double bed in deep shadow, bedside lamp flickering, closed bathroom door now dark, cold blue light from the curtains gap, no people",
+   "ambiente": "estatica",
+   "personajes": [
+    {
+     "quien": "viajero",
+     "anim": "gira",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.55
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Mi lado estaba abierto. Sobre la almohada, un pelo largo, negro y mojado.",
+   "imagen": "close-up of a white hotel pillow with the sheet turned down, a long strand of wet black hair lying across it, damp stain on the fabric, dim lamp light, no people",
+   "ambiente": "estatica",
+   "impactos": [
+    {
+     "texto": "MOJADO",
+     "en": "mojado"
+    }
+   ],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Y bajo la sábana, algo respiraba.",
+   "imagen": "hotel bed in darkness, the white sheet covering a long thin human shape lying on its side, wet black hair spilling from under the sheet onto the pillow, faint lamp light, terrifying",
+   "ambiente": "estatica",
+   "sfx": [
+    {
+     "tipo": "respiracion"
+    },
+    {
+     "tipo": "golpe_final"
+    }
+   ],
+   "pausa": 1.0
+  }
+ ]
+}
