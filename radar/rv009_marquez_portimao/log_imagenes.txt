@@ -1,11 +1,4 @@
-voz Edge TTS ok es-ES-AlvaroNeural 466560 bytes
-escena ok escena_0.jpg
-escena ok escena_2.jpg
 escena ok escena_4.jpg
 escena ok escena_6.jpg
-escena ok escena_7.jpg
-profundidad ok escena_0_depth.png
-profundidad ok escena_2_depth.png
 profundidad ok escena_4_depth.png
 profundidad ok escena_6_depth.png
-profundidad ok escena_7_depth.png
