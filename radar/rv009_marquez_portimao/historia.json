@@ -1,0 +1,239 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "Marc Márquez puede ser campeón hoy en Portimão",
+ "titulo_youtube": "¿Por qué todo el mundo busca hoy a Marc Márquez?",
+ "fuentes": [
+  "https://grandepremio.com/es/motogp/clasificacion-motogp-2026-portugal-sprint-pilotos-equipos-constructores/",
+  "https://grandepremio.com/es/motogp/bezzecchi-domina-sprint-motogp-portimao-marc-marquez-cae-no-campeon/",
+  "https://grandepremio.com/es/motogp/bezzecchi-supera-a-marquez-en-portugal-parrilla-de-salida-completa-de-motogp/",
+  "https://www.motor16.com/deportes/marquez-titulo-motogp-portimao",
+  "https://cita.news/en/marc-marquez-crash-portimao-sprint-motogp-title.html"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy a Marc Márquez? Porque hoy, a las dos de la tarde, puede ser campeón del mundo por décima vez. La carrera es en el circuito de Portimão, en Portugal, el penúltimo Gran Premio de la temporada. Ayer lo tenía casi hecho. En el sprint iba tercero, y ese podio le bastaba para coronarse. Pero a falta de vuelta y media se cayó en la curva siete. El sprint lo ganó Marco Bezzecchi, y la fiesta se aplazó. Aun así, Márquez sigue líder del Mundial con cuatrocientos treinta y un puntos. Jorge Martín, segundo, está a cincuenta y cinco. Y Bezzecchi, tercero, a sesenta y dos. Hoy hay veinticinco puntos en juego, y en Valencia, la última carrera, otros treinta y siete. La cuenta es sencilla: si sale de Portugal con más de treinta y siete puntos de ventaja, el título es suyo. Márquez sale segundo en la parrilla, detrás de Bezzecchi, que hizo la pole con récord del circuito. Martín sale séptimo. Si lo consigue, sería su décimo título mundial, el octavo en MotoGP. ¿Lo conseguirá hoy? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Será campeón hoy? Te leo 👇"
+ },
+ "escenas": [
+  {
+   "fondo": "dark",
+   "imagen": "a motorcycle racing circuit at dusk seen from above, curving asphalt track with red and white kerbs, empty grandstands, no people, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos buscan",
+     "tam": 110,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "a Marc Márquez?",
+     "color": "rojo",
+     "tam": 125,
+     "en": "Marc"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "marc marquez campeon",
+     "en": "Márquez"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Márquez"
+    }
+   ]
+  },
+  {
+   "desde": "Porque hoy",
+   "etiqueta": "01 · HOY",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 22,
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Carrera a las 14:00",
+     "en": "dos de la tarde"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Décimo título",
+     "en": "décima"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Portimão, Portugal",
+     "texto": "Penúltimo Gran Premio",
+     "en": "penúltimo"
+    }
+   ]
+  },
+  {
+   "desde": "Ayer lo tenía",
+   "etiqueta": "02 · EL SPRINT",
+   "fondo": "dark",
+   "imagen": "a wet asphalt racetrack corner under light drizzle with a gravel trap and red and white kerbs, grey sky, empty, no people, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "Iba 3.º y le bastaba",
+     "en": "tercero"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 480,
+     "pie": "Caída en la curva 7",
+     "en": "cayó"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Fiesta aplazada",
+     "en": "aplazó"
+    }
+   ]
+  },
+  {
+   "desde": "Aun así",
+   "etiqueta": "03 · EL MUNDIAL",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 431,
+     "sufijo": "",
+     "etiqueta": "puntos · líder",
+     "en": "cuatrocientos"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Martín, a 55",
+     "texto": "Segundo del Mundial",
+     "en": "cincuenta"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Bezzecchi, a 62",
+     "texto": "Tercero del Mundial",
+     "en": "sesenta"
+    }
+   ]
+  },
+  {
+   "desde": "Hoy hay veinticinco",
+   "etiqueta": "04 · EN JUEGO",
+   "fondo": "bone",
+   "imagen": "a long empty racetrack straight at sunset with grandstands and a start finish gantry without signs, no people, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "25 + 37",
+     "tam": 140,
+     "en": "veinticinco"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460,
+     "pie": "Portimão hoy · Valencia, 27-29 nov.",
+     "en": "Valencia"
+    }
+   ]
+  },
+  {
+   "desde": "La cuenta es sencilla",
+   "etiqueta": "05 · LA CUENTA",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "+37 puntos",
+     "tam": 140,
+     "en": "más de"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Si sale con esa ventaja",
+     "texto": "Campeón hoy",
+     "en": "título"
+    }
+   ]
+  },
+  {
+   "desde": "Márquez sale segundo",
+   "etiqueta": "06 · LA PARRILLA",
+   "fondo": "dark",
+   "imagen": "aerial view of an empty motorcycle racing starting grid with painted white grid boxes on asphalt, no people, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Sale 2.º",
+     "tam": 140,
+     "en": "segundo"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450,
+     "pie": "Pole de Bezzecchi, con récord",
+     "en": "pole"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Martín, 7.º",
+     "en": "séptimo"
+    }
+   ]
+  },
+  {
+   "desde": "Si lo consigue",
+   "etiqueta": "07 · LA HISTORIA",
+   "fondo": "dark",
+   "imagen": "a shiny generic golden trophy cup on a pedestal under spotlights with confetti, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 10,
+     "sufijo": "",
+     "etiqueta": "títulos mundiales",
+     "en": "décimo"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450,
+     "pie": "El 8.º en MotoGP",
+     "en": "octavo"
+    }
+   ]
+  },
+  {
+   "desde": "¿Lo conseguirá",
+   "etiqueta": "08 · A LAS 14:00",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "¿Lo conseguirá hoy?",
+     "tam": 120,
+     "en": "conseguirá"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Carrera: 14:00",
+     "en": "hoy"
+    }
+   ]
+  }
+ ]
+}
