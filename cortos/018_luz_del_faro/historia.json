@@ -1,0 +1,90 @@
+{
+ "formato": "vertical",
+ "titulo": "La luz del faro",
+ "titulo_youtube": "Vivo solo en un faro. Esa noche alguien encendió la luz de arriba 😨 #shorts",
+ "descripcion": "Un farero que vive solo en una isla recibe mensajes de un pescador: alguien le saluda desde lo alto del faro. ¿Tú habrías abierto la puerta? #terror #historiasdeterror #miedo #faro #shorts",
+ "final": ["¿Tú habrías abierto la puerta?", "Sígueme para más"],
+ "comentario": "yo me tiro al mar antes de abrir 😨",
+ "voz": {"voz": "es-MX-JorgeNeural", "rate": "+10%", "pitch": "-4Hz"},
+ "reparto": {
+  "farero": "man around 55 years old, short grey beard, thick dark navy wool fisherman sweater, open yellow oilskin jacket, dark trousers and boots, weathered frightened face, no logos",
+  "andres": "old fisherman around 65 years old, white stubble, dark wool cap, dark blue raincoat, weathered kind face, no logos"
+ },
+ "bloques": [
+  {
+   "texto": "En la isla del faro solo vivo yo. Esa noche, alguien encendió la luz de arriba.",
+   "imagen": "tall white lighthouse on a lonely rocky island at night seen from below, its lamp room at the very top glowing bright, stormy black sea and heavy clouds, small stone keeper's house at its base with one lit window, no people",
+   "ambiente": "viento",
+   "impactos": [{"texto": "LUZ", "en": "luz"}],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Vibró el móvil. Andrés, el pescador, me preguntó quién saludaba desde lo alto. Le escribí que yo estaba en la cocina.",
+   "imagen": "small rustic stone kitchen inside a lighthouse keeper's house at night, wooden table with a half-eaten dinner and an oil lamp, small window showing the dark sea, no people",
+   "ambiente": "viento",
+   "pausa": 1.6,
+   "chat": {
+    "contacto": "Andrés",
+    "avatar": "andres",
+    "hora": "02:14",
+    "mensajes": [
+     {"de": "el", "texto": "¿Quién te saluda desde arriba? 👋", "en": "me preguntó"},
+     {"de": "yo", "texto": "Estoy abajo, en la cocina", "en": "Le escribí"}
+    ]
+   }
+  },
+  {
+   "texto": "Arriba, la luz dejó de girar. Se quedó fija en mi ventana.",
+   "imagen": "small rustic stone kitchen at night, a blinding white beam of lighthouse light shining straight through the small window and across the wooden table with an oil lamp, hard shadows, no people",
+   "ambiente": "interior",
+   "sfx": [{"tipo": "latido"}],
+   "personajes": [{"quien": "farero", "anim": "tiembla", "x": 0.35, "y": 0.97, "alto": 0.55}],
+   "impactos": [{"texto": "FIJA", "en": "fija"}],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Oí pasos bajando la escalera de caracol.",
+   "imagen": "looking up an old iron spiral staircase inside a lighthouse tower, darkness above, faint cold white light coming from the top, wet marks on the metal steps, no people",
+   "ambiente": "interior",
+   "personajes": [{"quien": "farero", "anim": "asoma", "desde": "der", "x": 0.7, "y": 0.97, "alto": 0.55}],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Me llegó otro mensaje. Ya no saludaba. Ahora bajaba, y quería que le abriera.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 1.8,
+   "chat": {
+    "contacto": "Andrés",
+    "avatar": "andres",
+    "hora": "02:17",
+    "mensajes": [
+     {"de": "el", "texto": "Ya no saluda", "en": "Ya no"},
+     {"de": "el", "texto": "Ahora baja. Quiere que le abras 🙂", "en": "Ahora bajaba", "borrado": true}
+    ]
+   }
+  },
+  {
+   "texto": "Algo arañó la puerta de la cocina.",
+   "imagen": "old closed wooden kitchen door seen from inside a stone room, iron latch, warm oil lamp light, fresh deep scratches on the wood, no people",
+   "ambiente": "interior",
+   "sfx": [{"tipo": "aranazos", "en": "arañó"}],
+   "personajes": [{"quien": "farero", "anim": "tiembla", "x": 0.75, "y": 0.97, "alto": 0.55, "espejo": true}],
+   "pausa": 0.3
+  },
+  {
+   "texto": "Pero Andrés se ahogó hace tres inviernos.",
+   "imagen": "small wooden fishing boat wrecked and broken on dark rocks under a violent stormy sea at night, lighthouse beam in the distance, no people",
+   "ambiente": "viento",
+   "impactos": [{"texto": "AHOGADO", "en": "ahogó"}],
+   "pausa": 0.4
+  },
+  {
+   "texto": "Y bajo la puerta empezó a entrar agua salada.",
+   "imagen": "dark seawater with strands of seaweed seeping under a closed old wooden door across a stone kitchen floor, oil lamp light reflected in the water, terrifying, no people",
+   "ambiente": "estatica",
+   "sfx": [{"tipo": "golpe_final"}],
+   "pausa": 1.0
+  }
+ ]
+}
