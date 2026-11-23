@@ -1,0 +1,57 @@
+Motor de imágenes: cloudflare | account id: 32 caracteres | token: 53 caracteres
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (432e5226-bf31-4236-9338-7d733c6c2cf1)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (1f29ec79-bac4-4be7-b6c4-168762232dbe)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (6851853a-85ea-4a1f-ad0b-886f84a09a5f)","code":8007}],"success":false,"result":{},"messages":[]}
+personaje ok personaje_ivan.png (427, 977)
+personaje ok personaje_pili.png (718, 972)
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (6823be6c-562b-4588-95d4-26aa53342e6b)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (053e1f62-71d1-489b-aa76-a12752a7e6d7)","code":8007}],"success":false,"result":{},"messages":[]}
+cloudflare 400 {"errors":[{"message":"AiError: AiError: Input prompt contains NSFW content. (a881a390-3d88-42b1-bbf3-e7edf6792b3a)","code":8007}],"success":false,"result":{},"messages":[]}
+personaje ok personaje_elena.png (514, 944)
+profundidad ok bloque_000_depth.png
+profundidad ok bloque_001_depth.png
+profundidad ok bloque_003_depth.png
+profundidad ok bloque_004_depth.png
+profundidad ok bloque_005_depth.png
+profundidad ok bloque_008_depth.png
+profundidad ok bloque_010_depth.png
+profundidad ok bloque_011_depth.png
+profundidad ok bloque_012_depth.png
+profundidad ok bloque_013_depth.png
+profundidad ok bloque_015_depth.png
+profundidad ok bloque_017_depth.png
+profundidad ok bloque_019_depth.png
+profundidad ok bloque_020_depth.png
+profundidad ok bloque_021_depth.png
+profundidad ok bloque_022_depth.png
+profundidad ok bloque_023_depth.png
+profundidad ok bloque_024_depth.png
+profundidad ok bloque_026_depth.png
+profundidad ok bloque_027_depth.png
+profundidad ok bloque_028_depth.png
+profundidad ok bloque_029_depth.png
+profundidad ok bloque_030_depth.png
+profundidad ok bloque_032_depth.png
+profundidad ok bloque_033_depth.png
+profundidad ok bloque_034_depth.png
+profundidad ok bloque_035_depth.png
+profundidad ok bloque_036_depth.png
+profundidad ok bloque_038_depth.png
+profundidad ok bloque_039_depth.png
+profundidad ok bloque_040_depth.png
+profundidad ok bloque_041_depth.png
+profundidad ok bloque_042_depth.png
+profundidad ok bloque_044_depth.png
+profundidad ok bloque_045_depth.png
+profundidad ok bloque_046_depth.png
+profundidad ok bloque_047_depth.png
+profundidad ok bloque_049_depth.png
+profundidad ok bloque_050_depth.png
+profundidad ok bloque_052_depth.png
+profundidad ok bloque_053_depth.png
+profundidad ok bloque_054_depth.png
+profundidad ok bloque_055_depth.png
+profundidad ok bloque_056_depth.png
+profundidad ok bloque_057_depth.png
+profundidad ok bloque_058_depth.png
+profundidad ok bloque_059_depth.png
