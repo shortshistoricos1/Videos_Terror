@@ -1,0 +1,878 @@
+{
+ "titulo": "KILÓMETRO 247",
+ "subtitulo": "Una historia de miedo",
+ "titulo_youtube": "Soy gruista de noche y un coche vuelve solo cada noche más cerca de mi casa | Historia de terror",
+ "descripcion": "Iván conduce una grúa de noche por Despeñaperros. Un martes de tormenta recoge un coche gris abandonado en el kilómetro 247: motor caliente, asiento empapado y nadie dentro. A la mañana siguiente el coche ya no está en la base… y esa noche vuelve a aparecer, cinco kilómetros más cerca de su casa. Y un número desconocido le escribe: «Solo quiero ir a casa».\n\n¿Tú habrías parado en el kilómetro 247? Te leo en comentarios.",
+ "tags": [
+  "historias de miedo",
+  "historia de terror",
+  "relatos de terror",
+  "terror español",
+  "creepypasta en español",
+  "Despeñaperros",
+  "carretera de noche",
+  "historias de fantasmas",
+  "terror psicológico",
+  "historias de terror narradas",
+  "chat de terror",
+  "gruista"
+ ],
+ "final": [
+  "¿Tú habrías parado en el kilómetro 247?",
+  "Suscríbete para más historias de miedo"
+ ],
+ "comentario": "yo ya no paro en ningún arcén de noche 😨",
+ "miniatura": {
+  "texto1": "NO PARES",
+  "texto2": "KILÓMETRO 247",
+  "bloque": 46
+ },
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "-8%",
+  "pitch": "-5Hz"
+ },
+ "reparto": {
+  "ivan": "Spanish man around 41 years old, short dark hair greying at the temples, stubble, tired eyes, orange high-visibility work jacket with reflective stripes and no logos over a dark hoodie, dark work trousers, black boots, full body",
+  "pili": "Spanish woman around 55 years old, curly dyed red hair, reading glasses hanging on a cord, grey wool cardigan over a dark blouse, tired serious face, full body",
+  "elena": "young woman from the 1990s, around 30 years old, long soaking wet dark hair covering half of her pale face, beige raincoat dripping water, bare feet, standing very still, full body"
+ },
+ "bloques": [
+  {
+   "texto": "Llevo once años conduciendo una grúa de noche por Despeñaperros. He recogido coches volcados, camiones sin frenos, motos partidas en dos. Pero solo una vez recogí un coche que volvía solo. Cada noche, un poco más cerca de mi casa.",
+   "imagen": "mountain motorway winding through a deep rocky gorge at night in southern Spain, wet asphalt, rain, a few distant truck lights, pine trees on the cliffs, no people",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "MI CASA",
+     "en": "más cerca de mi casa"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Si alguna vez pasas de noche por el kilómetro doscientos cuarenta y siete y ves un coche gris con los cuatro intermitentes puestos, quiero que hagas algo por mí. Pero antes tienes que saber por qué.",
+   "imagen": "old grey 1990s hatchback car with no badges stopped on the hard shoulder of a mountain motorway at night, four hazard lights blinking orange, heavy rain, a white kilometre marker post beside it, no people",
+   "ambiente": "lluvia",
+   "pausa": 1.6
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Uno. El aviso del doscientos cuarenta y siete."
+  },
+  {
+   "texto": "Me llamo Iván. Tengo cuarenta y un años, estoy separado y vivo solo en Santa Elena, el primer pueblo de Jaén cuando bajas el puerto. Compré allí una casa vieja hace tres años. Barata. Demasiado barata.",
+   "imagen": "small old two-storey whitewashed house on a narrow sloping street in an Andalusian mountain village at night, one streetlamp, pine trees behind, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "camina",
+     "x": 0.38,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq",
+     "en": "Me llamo"
+    }
+   ]
+  },
+  {
+   "texto": "Trabajo para una empresa pequeña de grúas. De noche estamos solos la grúa siete y yo. Los avisos me llegan por mensaje desde la central, donde Pili, la de guardia, se pasa la noche con un termo de café y la radio puesta.",
+   "imagen": "small cluttered dispatch office of a towing company at night, desk with an old computer, a radio, coffee cups, a road map pinned on the wall, fluorescent light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "pili",
+     "anim": "respira",
+     "x": 0.34,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Aquel martes llovía como no recuerdo haber visto llover. A las dos y diez me vibró el móvil en el soporte. Era Pili. Un servicio en la autovía, sentido Andalucía.",
+   "imagen": "inside the cab of a tow truck at night, green dashboard lights, rain on the windscreen, a phone glowing in a holder, dark mountain road ahead, no people",
+   "ambiente": "lluvia",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Pili Central",
+    "avatar": "pili",
+    "hora": "02:10",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Servicio km 247, sentido Andalucía",
+      "en": "Era Pili"
+     },
+     {
+      "de": "el",
+      "texto": "Turismo gris averiado. Avisó una mujer"
+     },
+     {
+      "de": "yo",
+      "texto": "Voy para allá 👍"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Le pregunté por el móvil si la mujer seguía dentro del coche. Tardó en responderme. Luego escribió algo que me hizo reír, porque pensé que era una broma.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Pili Central",
+    "avatar": "pili",
+    "hora": "02:13",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "¿La mujer espera dentro?",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "No sé. El aviso no tiene número",
+      "en": "Luego escribió"
+     },
+     {
+      "de": "el",
+      "texto": "Ni hora. Me ha salido solo en la pantalla 🤷‍♀️"
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Dos. El coche gris."
+  },
+  {
+   "texto": "El coche estaba justo al lado del poste del doscientos cuarenta y siete. Un utilitario gris de los noventa, de esos que ya no se ven. Con los cuatro intermitentes encendidos, parpadeando bajo la lluvia.",
+   "imagen": "old grey 1990s hatchback car with no badges stopped on the hard shoulder of a mountain motorway at night, four hazard lights blinking orange, heavy rain, a white kilometre marker post beside it, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "camina",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72,
+     "desde": "izq",
+     "en": "Con los cuatro"
+    }
+   ]
+  },
+  {
+   "texto": "No había nadie. Ni dentro, ni en el arcén, ni en la mediana. Grité un par de veces. Solo se oía el agua bajando por las rocas del desfiladero.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "gira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Abrí la puerta del conductor. El motor estaba caliente. La radio, muy bajita, sonaba una cinta. Y el asiento estaba empapado, como si alguien acabara de levantarse después de horas sentado bajo la lluvia.",
+   "imagen": "interior of an old 1990s car seen from the back seat at night, damp fabric seats, foggy windows, dim orange light blinking, a cassette tape on the passenger seat, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "El motor"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "EMPAPADO",
+     "en": "empapado"
+    }
+   ],
+   "pausa": 1.2
+  },
+  {
+   "texto": "Había pelos largos y oscuros pegados a la tela. Muchos. Pensé que la conductora habría bajado andando a buscar cobertura. Y pensé que, con aquella lluvia, no llegaría muy lejos.",
+   "imagen": "close-up of a soaking wet car seat with a few long dark hairs on it, dim interior light, water drops on the fabric, no people",
+   "ambiente": "lluvia"
+  },
+  {
+   "texto": "Lo enganché, lo subí y me lo llevé a la base. Es lo que se hace. Dejé una nota en el parabrisas con el teléfono de la empresa, por si volvía la dueña.",
+   "imagen": "close-up of the tow hook and chains of a tow truck lifting the front of an old grey hatchback car, rain, orange flashing light, night, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Lo enganché"
+    }
+   ]
+  },
+  {
+   "texto": "Mientras conducía, me pareció que el cinturón del asiento de al lado estaba abrochado. Juraría que no lo estaba cuando salí de la base. Lo desabroché sin mirar mucho. Y seguí conduciendo.",
+   "imagen": "rear-view mirror inside a tow truck cab at night reflecting the empty passenger seat with its seatbelt fastened, dim green dashboard light, rain, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "respiracion",
+     "en": "Lo desabroché"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Tres. Un número sin nombre."
+  },
+  {
+   "texto": "Dejé el coche gris en la base, al fondo, junto a la valla. Eran casi las cuatro cuando volví a la grúa. Y entonces me vibró el móvil. Un mensaje de un número que no tenía guardado.",
+   "imagen": "small tow truck depot yard at night in a Spanish mountain village, chain-link fence, one floodlight, several old cars parked in a row, an orange tow truck with no logos, wet ground, no people",
+   "ambiente": "lluvia",
+   "pausa": 3.2,
+   "chat": {
+    "contacto": "Desconocido",
+    "avatar": "?",
+    "hora": "03:52",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "¿Por qué me has dejado aquí?",
+      "en": "Un mensaje"
+     },
+     {
+      "de": "yo",
+      "texto": "¿Quién eres?"
+     },
+     {
+      "de": "el",
+      "texto": "Yo solo quiero ir a casa"
+     },
+     {
+      "de": "el",
+      "texto": "Tengo mucho frío",
+      "borrado": true
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Leí el último mensaje justo antes de que se borrara. Pensé que era la dueña del coche, enfadada. Le escribí que podía recogerlo por la mañana en la base. No volvió a responder.",
+   "imagen": "=",
+   "ambiente": "lluvia",
+   "pausa": 2.4,
+   "chat": {
+    "contacto": "Desconocido",
+    "avatar": "?",
+    "hora": "03:54",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Tu coche está en la base de grúas",
+      "en": "Le escribí"
+     },
+     {
+      "de": "yo",
+      "texto": "Puedes pasar a por él a las 9"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Llegué a casa a las cinco. Me dormí vestido. Y por la mañana, al levantarme, vi que mis botas estaban junto a la cama. Llenas de barro. Yo siempre las dejo en la entrada.",
+   "imagen": "small bedroom at dawn, unmade bed, muddy work boots on the tiled floor next to the bed, grey cold light through the window, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "BARRO",
+     "en": "Llenas de barro"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cuatro. Otra vez en la autovía."
+  },
+  {
+   "texto": "Por la tarde pasé por la base. El coche gris no estaba. La valla seguía cerrada con candado, y nadie había firmado la salida. Pensé que alguien de la empresa lo habría movido. Nadie lo había movido.",
+   "imagen": "small tow truck depot yard at night in a Spanish mountain village, chain-link fence, one floodlight, several old cars parked in a row, an orange tow truck with no logos, wet ground, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "respira",
+     "x": 0.36,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Esa noche, a las dos y diez, el mismo aviso. Mismo coche gris. Pero esta vez no estaba en el doscientos cuarenta y siete. Estaba cinco kilómetros más abajo. Más cerca del pueblo.",
+   "imagen": "motorway exit at night in heavy rain, empty road with a blank green exit sign, orange hazard lights reflecting on the wet asphalt, pine forest, no people",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "MÁS CERCA",
+     "en": "Más cerca del pueblo"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Lo encontré igual. Intermitentes puestos. Motor caliente. Asiento empapado. Y la misma cinta sonando muy bajito. Esta vez la escuché bien. Una canción lenta de los noventa, de esas de verbena.",
+   "imagen": "old car cassette radio glowing in the dark, a cassette inserted, dashboard close-up, rain drops on the window behind, no people",
+   "ambiente": "lluvia",
+   "pausa": 1.2
+  },
+  {
+   "texto": "Me quedé quieto en el arcén mirando hacia el monte. No sé por qué, pero tuve la sensación de que alguien me miraba a mí también. Desde muy cerca.",
+   "imagen": "old grey 1990s hatchback car with no badges stopped on the hard shoulder of a mountain motorway at night, four hazard lights blinking orange, heavy rain, a white kilometre marker post beside it, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "tiembla",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "elena",
+     "anim": "aparece",
+     "x": 0.8,
+     "y": 0.97,
+     "alto": 0.5,
+     "silueta": true,
+     "en": "Desde muy cerca"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "Me quedé"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "texto": "Lo enganché otra vez. Y otra vez, de camino a la base, el cinturón del asiento de al lado se oyó encajar. Clic. Miré por el retrovisor. El asiento estaba vacío. Pero hundido.",
+   "imagen": "rear-view mirror inside a tow truck cab at night reflecting the empty passenger seat with its seatbelt fastened, dim green dashboard light, rain, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Clic"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "CLIC",
+     "en": "Clic"
+    }
+   ],
+   "pausa": 2.0
+  },
+  {
+   "texto": "Esa noche lo dejé en la base con el freno de mano echado, la rueda calzada y las llaves en mi bolsillo. A las cuatro me vibró el móvil otra vez. El mismo número. Solo ponía: ya casi estoy en casa. Gracias por acercarme.",
+   "imagen": "small tow truck depot yard at night in a Spanish mountain village, chain-link fence, one floodlight, several old cars parked in a row, an orange tow truck with no logos, wet ground, no people",
+   "ambiente": "lluvia",
+   "pausa": 1.8
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Cinco. Cada noche más abajo."
+  },
+  {
+   "texto": "La tercera noche el coche estaba en la salida de Santa Elena. La cuarta, en la entrada del pueblo, junto al lavadero viejo. Siempre a las dos y diez. Siempre con los intermitentes. Siempre con el asiento mojado.",
+   "imagen": "old stone village washhouse at night with still dark water, a streetlamp reflected, pine trees, no people",
+   "ambiente": "lluvia"
+  },
+  {
+   "texto": "Y cada mañana el coche había desaparecido de la base. Y cada mañana yo me despertaba con las botas llenas de barro al lado de la cama. Y con un cansancio que no se me quitaba con nada.",
+   "imagen": "small bedroom at dawn, unmade bed, muddy work boots on the tiled floor next to the bed, grey cold light through the window, no people",
+   "ambiente": "interior",
+   "pausa": 1.2
+  },
+  {
+   "texto": "Empecé a dormir mal. A tomar café en el bar de la autovía a las seis de la mañana, sin ganas de volver a casa. El camarero me preguntó si me pasaba algo. Le dije que no. Mentí.",
+   "imagen": "roadside truck stop bar at dawn in southern Spain, neon sign switched off, empty terrace with plastic chairs, mist on the mountains, no people",
+   "ambiente": "viento",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "respira",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Esa cuarta noche fui yo el que escribió primero al número desconocido. Le pregunté qué quería de mí. Tardó un minuto en responder. Solo puso dónde vivía.",
+   "imagen": "inside the cab of a tow truck at night, green dashboard lights, rain on the windscreen, a phone glowing in a holder, dark mountain road ahead, no people",
+   "ambiente": "lluvia",
+   "pausa": 3.2,
+   "chat": {
+    "contacto": "Desconocido",
+    "avatar": "?",
+    "hora": "04:12",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "¿Qué quieres de mí?",
+      "en": "Le pregunté"
+     },
+     {
+      "de": "el",
+      "texto": "Que me lleves a casa",
+      "en": "Tardó un minuto"
+     },
+     {
+      "de": "el",
+      "texto": "Calle del Pinar, 9",
+      "en": "Solo puso"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Calle del Pinar, número nueve. Leí la dirección tres veces. Esa es mi calle. Ese es mi número. Esa es mi casa.",
+   "imagen": "narrow village street with whitewashed houses at night going downhill, wet cobblestones shining, a single streetlamp, no people",
+   "ambiente": "viento",
+   "impactos": [
+    {
+     "texto": "MI CASA",
+     "en": "Esa es mi casa"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "Esa es mi casa"
+    }
+   ],
+   "pausa": 2.6
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Seis. El GPS."
+  },
+  {
+   "texto": "A la mañana siguiente fui a la central. Pili me esperaba con cara de no haber dormido. Me dijo que llevaba días queriendo preguntarme algo, pero que no se atrevía.",
+   "imagen": "small cluttered dispatch office of a towing company at night, desk with an old computer, a radio, coffee cups, a road map pinned on the wall, fluorescent light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "pili",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    },
+    {
+     "quien": "ivan",
+     "anim": "respira",
+     "x": 0.7,
+     "y": 0.97,
+     "alto": 0.7,
+     "espejo": true
+    }
+   ]
+  },
+  {
+   "texto": "Giró la pantalla del ordenador. Era el registro del GPS de la grúa siete. Cada noche, a las tres y doce, la grúa salía sola de la base. Bajaba hasta Santa Elena. Paraba media hora en mi calle. Y volvía.",
+   "imagen": "small cluttered dispatch office of a towing company at night, desk with an old computer, a radio, coffee cups, a road map pinned on the wall, fluorescent light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "pili",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "3:12",
+     "en": "a las tres y doce"
+    }
+   ]
+  },
+  {
+   "texto": "Le dije que yo a esa hora estaba durmiendo. Ella no contestó. Solo abrió las grabaciones de la cámara de la base. Y en la imagen, a las tres y doce, salía yo.",
+   "imagen": "grainy black and white security camera view of a tow truck depot at night, fence, floodlight, an empty parking space, no people",
+   "ambiente": "interior",
+   "pausa": 1.6
+  },
+  {
+   "texto": "Era yo. Con mi chaqueta naranja. Subía a la grúa, enganchaba el coche gris y salía por la puerta. Andaba despacio, con los ojos abiertos, como si alguien me llevara de la mano.",
+   "imagen": "grainy black and white security camera view of a tow truck depot at night, fence, floodlight, an empty parking space, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "camina",
+     "x": 0.45,
+     "y": 0.97,
+     "alto": 0.55,
+     "desde": "izq",
+     "silueta": true,
+     "en": "Era yo"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "Era yo"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Y en el asiento de al lado, en la grabación, el cinturón estaba abrochado. Sobre nada. Sobre nadie. Pero abrochado.",
+   "imagen": "rear-view mirror inside a tow truck cab at night reflecting the empty passenger seat with its seatbelt fastened, dim green dashboard light, rain, no people",
+   "ambiente": "interior",
+   "impactos": [
+    {
+     "texto": "SOBRE NADIE",
+     "en": "Sobre nadie"
+    }
+   ],
+   "pausa": 2.2
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Siete. Elena."
+  },
+  {
+   "texto": "Pili es de Santa Elena de toda la vida. Le pregunté si sabía quién había vivido antes en mi casa. Se quedó callada mucho rato. Luego sacó del cajón una hoja de periódico, amarilla, de mil novecientos noventa y seis.",
+   "imagen": "old yellowed 1996 newspaper page lying on a desk with a black and white photo of a small car on a mountain road, text blurred and unreadable, desk lamp light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "pili",
+     "anim": "respira",
+     "x": 0.3,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "Una mujer de treinta años, Elena, volvía de una verbena en Madrid. Una noche de tormenta se le averió el coche en el puerto. Llamó desde una cabina para pedir una grúa. La grúa nunca subió. Por la tormenta.",
+   "imagen": "old yellowed 1996 newspaper page lying on a desk with a black and white photo of a small car on a mountain road, text blurred and unreadable, desk lamp light, no people",
+   "ambiente": "lluvia"
+  },
+  {
+   "texto": "Encontraron el coche al día siguiente en el kilómetro doscientos cuarenta y siete. Con los cuatro intermitentes puestos. El motor caliente. El asiento empapado. A ella no la encontraron nunca.",
+   "imagen": "old grey 1990s hatchback car with no badges stopped on the hard shoulder of a mountain motorway at night, four hazard lights blinking orange, heavy rain, a white kilometre marker post beside it, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "elena",
+     "anim": "aparece",
+     "x": 0.74,
+     "y": 0.97,
+     "alto": 0.55,
+     "silueta": true,
+     "en": "A ella no la encontraron"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "NUNCA",
+     "en": "nunca"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "texto": "Su madre la esperó en casa veinte años, con la puerta sin echar la llave. Por si volvía. La casa estaba en la calle del Pinar, número nueve. Cuando murió la madre, la vendieron los sobrinos. Me la vendieron a mí.",
+   "imagen": "small old two-storey whitewashed house on a narrow sloping street in an Andalusian mountain village at night, one streetlamp, pine trees behind, no people",
+   "ambiente": "viento",
+   "pausa": 1.6
+  },
+  {
+   "texto": "Pili me miró por encima de las gafas. Me dijo que el coche gris no volvía solo. Que no buscaba una grúa cualquiera. Que llevaba treinta años esperando la grúa que no subió. Y que esa grúa ahora era yo.",
+   "imagen": "small cluttered dispatch office of a towing company at night, desk with an old computer, a radio, coffee cups, a road map pinned on the wall, fluorescent light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "pili",
+     "anim": "se_acerca",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Ocho. La calle del Pinar."
+  },
+  {
+   "texto": "Esa noche no fui a trabajar. Dejé las llaves de la grúa en la central, en el cajón de Pili. Cerré la puerta de casa con dos vueltas y me senté en la cocina con todas las luces encendidas.",
+   "imagen": "humble Spanish kitchen at night, single hanging bulb, wooden table with a coffee cup and a bunch of keys, window to a dark street, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "respira",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ]
+  },
+  {
+   "texto": "A las dos y diez no pasó nada. A las tres tampoco. A las tres y doce escuché un motor en la calle. Un motor grande. Y el pitido de una grúa dando marcha atrás.",
+   "imagen": "humble Spanish kitchen at night, single hanging bulb, wooden table with a coffee cup and a bunch of keys, window to a dark street, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "tiembla",
+     "x": 0.4,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "A las tres y doce"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Me asomé a la ventana. La grúa siete estaba en mi puerta. Con el coche gris enganchado detrás. El motor en marcha. Los intermitentes puestos. Y el asiento del conductor, vacío.",
+   "imagen": "an orange tow truck with an old grey hatchback hooked on the back parked in front of a small whitewashed house at night, exhaust fumes, hazard lights blinking, narrow village street, no people",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "VACÍO",
+     "en": "vacío"
+    }
+   ],
+   "pausa": 1.8
+  },
+  {
+   "texto": "Entonces me vibró el móvil sobre la mesa. Dos mensajes. Uno de Pili, que no dormía. Y otro del número desconocido, que ya no necesitaba presentarse.",
+   "imagen": "humble Spanish kitchen at night, single hanging bulb, wooden table with a coffee cup and a bunch of keys, window to a dark street, no people",
+   "ambiente": "interior",
+   "pausa": 3.4,
+   "chat": {
+    "contacto": "Pili Central",
+    "avatar": "pili",
+    "hora": "03:13",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Iván, las llaves de la grúa no están",
+      "en": "Uno de Pili"
+     },
+     {
+      "de": "el",
+      "texto": "El cajón está cerrado. Yo no me he movido"
+     },
+     {
+      "de": "el",
+      "texto": "No salgas, por favor 🙏"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Leí el otro mensaje con el móvil temblándome en la mano. Estaba escrito desde la calle. Desde mi puerta.",
+   "imagen": "=",
+   "ambiente": "interior",
+   "pausa": 3.0,
+   "chat": {
+    "contacto": "Desconocido",
+    "avatar": "?",
+    "hora": "03:14",
+    "mensajes": [
+     {
+      "de": "el",
+      "texto": "Ya he llegado a casa",
+      "en": "Leí el otro"
+     },
+     {
+      "de": "el",
+      "texto": "Gracias por traerme"
+     },
+     {
+      "de": "el",
+      "texto": "Ábreme. Mamá siempre me dejaba abierto",
+      "borrado": true,
+      "en": "Desde mi puerta"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Me acerqué a la puerta. No la abrí. Lo juro. Pero escuché girar la cerradura. Una vuelta. Dos vueltas. Desde fuera. Con una llave que yo no tenía.",
+   "imagen": "front door of an old whitewashed village house half open at night, warm light inside, wet doorstep, rain, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpes",
+     "en": "Una vuelta"
+    }
+   ],
+   "pausa": 1.4
+  },
+  {
+   "texto": "Luego lo entendí. La madre de Elena nunca cambió la cerradura. Y Elena siempre tuvo su llave. La llevaba en la guantera del coche gris, con un llavero de madera, desde mil novecientos noventa y seis.",
+   "imagen": "open glove compartment of an old car lit by a flashlight beam, a yellowed paper receipt and an old set of house keys with a wooden keyring inside, no people",
+   "ambiente": "interior",
+   "pausa": 1.4
+  },
+  {
+   "tipo": "capitulo",
+   "texto": "Nueve. La grúa que no subió."
+  },
+  {
+   "texto": "La puerta se abrió. Entró el frío. Y un olor a tierra mojada y a carretera. En el suelo del pasillo aparecieron huellas de barro, pequeñas, de pies descalzos, que pasaban a mi lado sin pararse.",
+   "imagen": "muddy wet footprints on the old tiled floor of a narrow hallway leading to a front door, night, dim light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "elena",
+     "anim": "camina",
+     "x": 0.5,
+     "y": 0.97,
+     "alto": 0.62,
+     "silueta": true,
+     "desde": "der",
+     "en": "que pasaban a mi lado"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "respiracion",
+     "en": "Entró el frío"
+    }
+   ],
+   "pausa": 1.6
+  },
+  {
+   "texto": "Subieron por la escalera hasta el cuarto de arriba. El que yo nunca uso. El que tiene la cama pequeña con la colcha de ganchillo. Y oí cómo alguien se acostaba en ella, despacio, con un suspiro muy largo.",
+   "imagen": "small whitewashed house seen from the street at night, one upstairs window lit with a pale curtain, rain falling, no people",
+   "ambiente": "lluvia",
+   "pausa": 2.0
+  },
+  {
+   "texto": "Yo me quedé en el pasillo, empapado de repente, temblando. Con los pies llenos de barro. Y con una prisa terrible por salir. No sabía adónde. Pero mis piernas sí lo sabían.",
+   "imagen": "muddy wet footprints on the old tiled floor of a narrow hallway leading to a front door, night, dim light, no people",
+   "ambiente": "interior",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "tiembla",
+     "x": 0.42,
+     "y": 0.97,
+     "alto": 0.72
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "latido",
+     "en": "empapado de repente"
+    }
+   ]
+  },
+  {
+   "texto": "No recuerdo cómo llegué al coche gris. Solo recuerdo sentarme al volante. El asiento mojado. La cinta sonando muy bajito. Y la grúa siete alejándose calle abajo, sin nadie dentro, hacia la base.",
+   "imagen": "interior of an old 1990s car seen from the back seat at night, damp fabric seats, foggy windows, dim orange light blinking, a cassette tape on the passenger seat, no people",
+   "ambiente": "lluvia",
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "sin nadie dentro"
+    }
+   ],
+   "impactos": [
+    {
+     "texto": "SIN NADIE",
+     "en": "sin nadie dentro"
+    }
+   ],
+   "pausa": 2.4
+  },
+  {
+   "texto": "Desde entonces estoy aquí. En el kilómetro doscientos cuarenta y siete. Con los cuatro intermitentes puestos. Llueve siempre. El motor nunca se enfría. Y la puerta del coche no se abre por dentro.",
+   "imagen": "view from the driver's seat of an old car at night, heavy rain on the windscreen, orange hazard lights ticking, dark mountain motorway, faraway truck lights, no people",
+   "ambiente": "lluvia",
+   "impactos": [
+    {
+     "texto": "247",
+     "en": "doscientos cuarenta y siete"
+    }
+   ],
+   "pausa": 2.0
+  },
+  {
+   "texto": "Me queda un tres por ciento de batería. Le escribo a Pili cada noche, a las dos y diez. Los mensajes salen con un solo check. Nunca le llegan.",
+   "imagen": "view from the driver's seat of an old car at night, heavy rain on the windscreen, orange hazard lights ticking, dark mountain motorway, faraway truck lights, no people",
+   "ambiente": "lluvia",
+   "pausa": 3.4,
+   "chat": {
+    "contacto": "Pili Central",
+    "avatar": "pili",
+    "hora": "02:10",
+    "mensajes": [
+     {
+      "de": "yo",
+      "texto": "Pili, servicio km 247",
+      "en": "Le escribo"
+     },
+     {
+      "de": "yo",
+      "texto": "Turismo gris. Avisa a la grúa"
+     },
+     {
+      "de": "yo",
+      "texto": "Por favor. Tengo mucho frío"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Y en Santa Elena, en la calle del Pinar, número nueve, todas las noches se enciende la luz del cuarto de arriba. Los vecinos dicen que por fin ha vuelto alguien a esa casa.",
+   "imagen": "small whitewashed house seen from the street at night, one upstairs window lit with a pale curtain, rain falling, no people",
+   "ambiente": "lluvia",
+   "pausa": 2.0
+  },
+  {
+   "texto": "Así que si pasas de noche por Despeñaperros y ves un coche gris con los intermitentes puestos, para. Por favor. No te pido que me lleves a casa. Ya no tengo casa. Solo te pido que no me dejes aquí. Llevo esperando desde el martes.",
+   "imagen": "old grey 1990s hatchback car with no badges stopped on the hard shoulder of a mountain motorway at night, four hazard lights blinking orange, heavy rain, a white kilometre marker post beside it, no people",
+   "ambiente": "lluvia",
+   "personajes": [
+    {
+     "quien": "ivan",
+     "anim": "aparece",
+     "x": 0.62,
+     "y": 0.97,
+     "alto": 0.5,
+     "silueta": true,
+     "en": "para"
+    }
+   ],
+   "sfx": [
+    {
+     "tipo": "golpe_final",
+     "en": "desde el martes"
+    }
+   ],
+   "pausa": 2.6
+  }
+ ]
+}
