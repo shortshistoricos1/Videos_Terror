@@ -1,0 +1,59 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de Longlegs? 😱 #shorts",
+ "descripcion": "Longlegs vuelve: Nicolas Cage regresa, Sterling K. Brown negocia para unirse y Osgood Perkins dirige otra vez. Estreno el 14 de enero de 2028. ¿La irás a ver? 👇 #terror #longlegs #nicolascage #peliculasdeterror #shorts",
+ "fuentes": [
+  "https://www.dreadcentral.com/news/598405/sterling-k-brown-longlegs-nicolas-cage-new-movie/",
+  "https://www.joblo.com/sterling-k-brown-longlegs/",
+  "https://theplaylist.net/longlegs-sterling-k-brown-nicolas-cage-osgood-perkins-20261120/",
+  "https://www.worldofreel.com/blog/2026/11/20/sterling-k-brown-to-join-nicolas-cage-in-osgood-perkins-new-longlegs-movie",
+  "https://bloody-disgusting.com/movie/3976469/longlegs-2-sterling-k-brown-in-talks-to-join-nicolas-cage-in-osgood-perkins-horror-movie/"
+ ],
+ "voz": {"voz": "es-ES-AlvaroNeural", "rate": "+0%", "pitch": "-2Hz"},
+ "texto": "¿Por qué todo el mundo habla hoy de Longlegs? Porque vuelve. Paramount prepara una nueva película en el universo de Longlegs, y Nicolas Cage regresa como el siniestro personaje del título. Además, Sterling K. Brown está en conversaciones para protagonizarla junto a él. La escribe, la dirige y la produce otra vez Osgood Perkins. No será una secuela directa, y Maika Monroe no volverá como la agente Lee Harker. La original, de dos mil veinticuatro, costó solo diez millones de dólares y recaudó ciento veintiocho millones en todo el mundo. El estreno en cines está fijado para el catorce de enero de dos mil veintiocho. ¿La irás a ver? Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "sombra": "tall gaunt shadowy figure in a long dark coat, pale skin, face hidden in deep shadow, long stringy white hair, eerie, generic horror figure"
+ },
+ "escenas": [
+  {"fondo": "dark", "imagen": "lonely farmhouse at night in a snowy field, a single window glowing red, bare trees, fog, ominous, no people, no text", "ambiente": "viento",
+   "elementos": [
+    {"tipo": "tag", "texto": "Radar del terror · hoy", "en": "Por qué"},
+    {"tipo": "titulo", "texto": "¿Por qué todos hablan de", "tam": 112, "en": "Por qué"},
+    {"tipo": "titulo", "texto": "Longlegs?", "color": "rojo", "tam": 150, "en": "Longlegs"},
+    {"tipo": "busqueda", "texto": "longlegs 2", "en": "Longlegs"},
+    {"tipo": "sello", "texto": "● Vuelve", "en": "vuelve"}
+   ]},
+  {"desde": "Paramount prepara", "etiqueta": "01 · LA NOTICIA", "fondo": "dark", "imagen": "dark empty basement with an old wooden workbench, strange handmade dolls silhouettes on shelves, single bare bulb, red shadows, ominous, no people, no text",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Nueva película", "tam": 130, "en": "nueva"},
+    {"tipo": "imagen", "alto": 540, "en": "universo", "personajes": [{"quien": "sombra", "anim": "aparece", "en": "Nicolas", "alto": 0.85}]},
+    {"tipo": "sello", "texto": "Vuelve Nicolas Cage", "en": "regresa"}
+   ]},
+  {"desde": "Además", "etiqueta": "02 · EL FICHAJE", "fondo": "red", "imagen": "dark rainy road at night with a lone car's headlights in fog, red sky, forest, ominous, no people, no text, no signs",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Sterling K. Brown", "tam": 120, "color": "rojo", "en": "Sterling"},
+    {"tipo": "tarjeta", "titulo": "En conversaciones", "texto": "Para protagonizarla junto a Cage", "en": "conversaciones"}
+   ]},
+  {"desde": "La escribe", "etiqueta": "03 · EL DIRECTOR", "fondo": "dark", "imagen": "old typewriter on a desk in a dark room lit by a red lamp, scattered blank polaroid photos, shadows, ominous, no people, no text, no letters",
+   "elementos": [
+    {"tipo": "titulo", "texto": "Osgood Perkins", "tam": 124, "en": "Osgood"},
+    {"tipo": "imagen", "alto": 480, "en": "Perkins"},
+    {"tipo": "sello", "texto": "No es secuela directa", "en": "secuela"},
+    {"tipo": "tag", "texto": "Sin Maika Monroe", "en": "Maika"}
+   ]},
+  {"desde": "La original", "etiqueta": "04 · EL ÉXITO", "fondo": "bone", "imagen": "abandoned old movie theater at night, rows of empty red seats, dusty projector beam, eerie, no people, no text",
+   "elementos": [
+    {"tipo": "dato", "valor": 10, "sufijo": "M$", "etiqueta": "costó", "en": "diez millones"},
+    {"tipo": "dato", "valor": 128, "sufijo": "M$", "etiqueta": "recaudó", "en": "ciento veintiocho"},
+    {"tipo": "tag", "texto": "Longlegs · 2024", "en": "dos mil veinticuatro"}
+   ]},
+  {"desde": "El estreno", "etiqueta": "05 · EL ESTRENO", "fondo": "dark", "imagen": "snowy small town street at night, flickering street lamp, snow falling, red glow from a distant house, empty, no people, no text, no signs",
+   "elementos": [
+    {"tipo": "fecha", "dia": 14, "mes": "enero", "etiqueta": "2028 · en cines", "en": "catorce"},
+    {"tipo": "imagen", "alto": 450, "en": "enero"},
+    {"tipo": "titulo", "texto": "¿La irás a ver?", "color": "rojo", "tam": 120, "en": "irás"}
+   ]}
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {"lema": "Para el terror del día", "comentario": "¿la irás a ver? 👇"}
+}
