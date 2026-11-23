@@ -1,0 +1,242 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "El Gran Wyoming se jubila y Gonzo deja Salvados para relevarle",
+ "titulo_youtube": "¿Qué pasa con El Gran Wyoming?",
+ "fuentes": [
+  "https://www.eldiario.es/vertele/noticias/gonzo-aprovecha-visita-pedro-sanchez-despedirse-salvados-volver-intermedio_1_13684833.html",
+  "https://www.eldiario.es/vertele/noticias/gran-wyoming-jubila-deja-intermedio-lasexta-manos-gonzo_1_13642004.html",
+  "https://www.eldebate.com/cine-tv-series/20261105/wyoming-deja-television-sexta-tiene-sustituto-como-presentador-intermedio_477830.html",
+  "https://elperiodicodeceuta.es/audiencias-tv-22-de-noviembre-de-2026",
+  "https://glyphsignal.com/fr/google-trends/es"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Qué pasa con El Gran Wyoming? ¿Por qué todo el mundo le busca hoy? Porque su relevo ya está en marcha. Anoche, Gonzo se despidió de Salvados, en laSexta. Al final de su entrevista a Pedro Sánchez, que tuvo un nueve coma cuatro por ciento de cuota. Dijo: esta es la última grabación que hago al frente de Salvados. Y: han sido siete años maravillosos. ¿Por qué se va? Porque Gonzo será el nuevo presentador de El Intermedio. Wyoming, de nombre real José Miguel Monzón, tiene setenta y un años y se jubila. Presenta El Intermedio desde su nacimiento, en dos mil seis. Y está en la tele desde mil novecientos ochenta y cuatro. Será poco a poco. En enero de dos mil veintisiete, Gonzo empezará a presentar junto a Wyoming hasta quedarse solo. Gonzo fue reportero en el equipo de Wyoming nueve años, y en dos mil diecinueve sustituyó a Jordi Évole en Salvados. ¿Y ahora quién presentará Salvados? El programa sigue, y Atresmedia busca presentador o presentadora. Aún sin nombre. ¿A quién pondrías tú? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Quién debería presentar Salvados? 👇"
+ },
+ "escenas": [
+  {
+   "fondo": "dark",
+   "imagen": "a modern empty television studio at night with a sleek presenter desk, studio cameras and colorful stage lights, no people, no screens with text, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Qué pasa"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Qué pasa con",
+     "tam": 115,
+     "en": "Qué pasa"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "El Gran Wyoming?",
+     "color": "rojo",
+     "tam": 120,
+     "en": "Wyoming"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "el gran wyoming",
+     "en": "busca"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "relevo"
+    }
+   ]
+  },
+  {
+   "desde": "Anoche",
+   "etiqueta": "01 · ANOCHE",
+   "fondo": "dark",
+   "imagen": "two empty armchairs facing each other in a dim television interview set with soft spotlights and a small table, no people, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "subtitulo",
+     "texto": "Gonzo se despide de Salvados",
+     "en": "despidió"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 480,
+     "pie": "Su última entrevista: Pedro Sánchez",
+     "en": "entrevista"
+    },
+    {
+     "tipo": "dato",
+     "valor": 9.4,
+     "sufijo": "%",
+     "etiqueta": "de cuota",
+     "en": "nueve coma"
+    }
+   ]
+  },
+  {
+   "desde": "Dijo: esta",
+   "etiqueta": "02 · LA DESPEDIDA",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "«La última grabación»",
+     "texto": "al frente de Salvados",
+     "en": "última"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "7 años",
+     "tam": 150,
+     "en": "siete años"
+    },
+    {
+     "tipo": "sello",
+     "texto": "«Maravillosos»",
+     "en": "maravillosos"
+    }
+   ]
+  },
+  {
+   "desde": "¿Por qué se va",
+   "etiqueta": "03 · EL MOTIVO",
+   "fondo": "dark",
+   "imagen": "a vintage studio microphone on a desk being passed between two hands in a relay gesture, warm spotlight, navy background, no faces, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Nuevo presentador",
+     "tam": 115,
+     "en": "nuevo"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 480,
+     "pie": "Gonzo, a El Intermedio",
+     "en": "Intermedio"
+    }
+   ]
+  },
+  {
+   "desde": "Wyoming, de nombre",
+   "etiqueta": "04 · WYOMING",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "José Miguel Monzón",
+     "texto": "Su nombre real",
+     "en": "nombre real"
+    },
+    {
+     "tipo": "dato",
+     "valor": 71,
+     "sufijo": "",
+     "etiqueta": "años",
+     "en": "setenta"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Se jubila",
+     "en": "jubila"
+    }
+   ]
+  },
+  {
+   "desde": "Presenta El Intermedio",
+   "etiqueta": "05 · SU HISTORIA",
+   "fondo": "bone",
+   "imagen": "a retro television set from the eighties next to a modern flat screen on a shelf, both screens glowing blank blue, cozy living room, no text, no letters, no logos",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Desde 2006",
+     "tam": 140,
+     "en": "dos mil seis"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 470,
+     "pie": "En la tele desde 1984",
+     "en": "mil novecientos"
+    }
+   ]
+  },
+  {
+   "desde": "Será poco a poco",
+   "etiqueta": "06 · EL RELEVO",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 1,
+     "mes": "ENERO 2027",
+     "etiqueta": "Empieza la transición",
+     "en": "enero"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Juntos al principio",
+     "texto": "Después, Gonzo solo",
+     "en": "solo"
+    }
+   ]
+  },
+  {
+   "desde": "Gonzo fue reportero",
+   "etiqueta": "07 · GONZO",
+   "fondo": "dark",
+   "imagen": "a reporter's handheld microphone and a press badge lying on a city street bench at dusk, blurred city lights, no people, no text, no logos",
+   "elementos": [
+    {
+     "tipo": "dato",
+     "valor": 9,
+     "sufijo": "",
+     "etiqueta": "años de reportero",
+     "en": "nueve años"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450,
+     "pie": "Desde 2019, en Salvados",
+     "en": "diecinueve"
+    }
+   ]
+  },
+  {
+   "desde": "¿Y ahora quién",
+   "etiqueta": "08 · ¿Y SALVADOS?",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "¿Quién presentará",
+     "tam": 115,
+     "en": "quién"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Salvados?",
+     "color": "rojo",
+     "tam": 130,
+     "en": "Salvados"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Sin nombre aún",
+     "en": "Aún sin"
+    }
+   ]
+  }
+ ]
+}
