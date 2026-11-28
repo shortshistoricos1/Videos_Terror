@@ -1,0 +1,207 @@
+{
+ "formato": "radar",
+ "titulo_youtube": "¿Por qué todo el mundo habla de Day Drinker? 😱 #shorts",
+ "descripcion": "La nueva película de Johnny Depp, Day Drinker, acaba de recibir la clasificación R por violencia sangrienta muy intensa y llega a los cines el 26 de marzo de 2027. ¿La verás? 👇 #terror #daydrinker #johnnydepp #shorts",
+ "fuentes": [
+  "https://horrorfuel.com/2026/11/25/johnny-depps-supernatural-thriller-day-drinker-earns-a-hard-r-rating-for-bloody-violence/",
+  "https://ihorror.com/day-drinker-rated-r-johnny-depp-lionsgate/",
+  "https://www.dreadcentral.com/trailer/589943/day-drinker-trailer-johnny-depp-seeks-revenge-in-ghost-story-from-lionsgate/",
+  "https://www.dreadcentral.com/box-office/598848/day-drinker-r-rating/"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "texto": "¿Por qué todo el mundo habla hoy de Day Drinker? Porque la nueva película de Johnny Depp acaba de recibir la clasificación R por violencia sangrienta intensa. La dirige Marc Webb, el director de The Amazing Spider-Man, y Lionsgate la estrena el veintiséis de marzo de dos mil veintisiete. Una camarera de un yate de lujo conoce a un huésped misterioso, interpretado por Depp... y los dos acaban en un lío mortal con una criminal que encarna Penélope Cruz. Hay fantasmas de por medio, y su inspiración es El cabo del miedo. Y lo más raro: todavía nadie sabe qué es su personaje. Si quieres el terror del que todo el mundo habla, sígueme. Esto es Shorts Terror España.",
+ "reparto": {
+  "camarera": "young woman bartender on a luxury yacht, white shirt with black vest, hair tied back, wary uneasy expression, standing, generic fictional character"
+ },
+ "escenas": [
+  {
+   "imagen": "luxury white yacht drifting on a black foggy sea at night, one lit cabin window, ominous mist, moonlight, vertical, no people, no text, no lettering",
+   "ambiente": "viento",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar del terror · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos hablan de",
+     "tam": 118,
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Day Drinker?",
+     "color": "rojo",
+     "tam": 132,
+     "en": "Day Drinker"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "day drinker",
+     "en": "Day Drinker"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "Day Drinker"
+    }
+   ]
+  },
+  {
+   "desde": "Porque la nueva película",
+   "etiqueta": "01 · LA NOTICIA",
+   "fondo": "dark",
+   "imagen": "empty dark cinema auditorium with red velvet seats, projector beam cutting through dust, eerie, no people, no text, no lettering",
+   "ambiente": "interior",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Nueva película de Johnny Depp",
+     "en": "Johnny Depp"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Clasificación",
+     "tam": 120,
+     "en": "clasificación R"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "R",
+     "color": "rojo",
+     "tam": 190,
+     "en": "clasificación R"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Violencia sangrienta",
+     "en": "violencia sangrienta"
+    }
+   ]
+  },
+  {
+   "desde": "La dirige Marc Webb",
+   "etiqueta": "02 · EL DIRECTOR",
+   "fondo": "red",
+   "imagen": "dark empty director's chair on a fog-covered movie set at night, spotlight, cables on the floor, no people, no text, no lettering",
+   "ambiente": "interior",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Marc Webb",
+     "tam": 130,
+     "en": "Marc Webb"
+    },
+    {
+     "tipo": "tag",
+     "texto": "Director de «The Amazing Spider-Man»",
+     "en": "Amazing Spider-Man"
+    },
+    {
+     "tipo": "fecha",
+     "dia": 26,
+     "mes": "marzo",
+     "etiqueta": "Lionsgate · 2027",
+     "en": "veintiséis de marzo"
+    }
+   ]
+  },
+  {
+   "desde": "Una camarera",
+   "etiqueta": "03 · EL YATE",
+   "fondo": "dark",
+   "imagen": "dark mysterious luxury yacht deck at night, empty bar with glasses, foggy ocean, ominous mood, no people, no speech bubbles, no text, no lettering",
+   "ambiente": "viento",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Un yate de lujo",
+     "tam": 112,
+     "en": "yate de lujo"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 640,
+     "en": "camarera",
+     "personajes": [
+      {
+       "quien": "camarera",
+       "anim": "aparece",
+       "en": "camarera",
+       "alto": 0.9
+      }
+     ]
+    },
+    {
+     "tipo": "sello",
+     "texto": "Huésped misterioso",
+     "en": "huésped misterioso"
+    }
+   ]
+  },
+  {
+   "desde": "Hay fantasmas",
+   "etiqueta": "04 · EL TONO",
+   "fondo": "bone",
+   "imagen": "pale ghostly figure shape dissolving into sea mist at the end of a dark pier, moonlight, no face visible, no text, no lettering",
+   "ambiente": "viento",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Hay fantasmas",
+     "tam": 118,
+     "en": "fantasmas"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 520,
+     "en": "fantasmas"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Su inspiración",
+     "texto": "«El cabo del miedo»",
+     "en": "El cabo del miedo"
+    }
+   ]
+  },
+  {
+   "desde": "Y lo más raro",
+   "etiqueta": "05 · EL MISTERIO",
+   "fondo": "dark",
+   "imagen": "dark silhouette of a tall figure standing at the far end of a foggy yacht deck at night, face hidden in shadow, ominous, no text, no lettering",
+   "ambiente": "viento",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "¿Qué es",
+     "tam": 120,
+     "en": "qué es"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "su personaje?",
+     "color": "rojo",
+     "tam": 124,
+     "en": "su personaje"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Nadie lo sabe aún",
+     "en": "nadie sabe"
+    }
+   ]
+  }
+ ],
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Para el terror del día",
+  "comentario": "¿la verás? 👇"
+ }
+}
