@@ -66,8 +66,8 @@
     {
      "tipo": "fecha",
      "dia": 29,
-     "mes": "NOVIEMBRE 2026",
-     "etiqueta": "Elecciones generales",
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Elecciones generales 2026",
      "en": "veintinueve de noviembre"
     },
     {
@@ -237,8 +237,8 @@
     {
      "tipo": "dato",
      "valor": 38.7,
-     "sufijo": " M",
-     "etiqueta": "de electores",
+     "sufijo": "",
+     "etiqueta": "millones de electores",
      "en": "treinta y ocho"
     },
     {
@@ -263,11 +263,6 @@
      "tipo": "sello",
      "texto": "Resultados · 21:00",
      "en": "nueve de la noche"
-    },
-    {
-     "tipo": "sello",
-     "texto": "¿Conocías estas normas?",
-     "en": "Conocías"
     }
    ]
   }
