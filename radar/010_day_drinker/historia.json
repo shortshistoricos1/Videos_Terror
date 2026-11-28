@@ -180,21 +180,21 @@
    "elementos": [
     {
      "tipo": "titulo",
-     "texto": "¿Qué es",
-     "tam": 120,
-     "en": "qué es"
+     "texto": "Todavía nadie sabe",
+     "tam": 104,
+     "en": "todavía nadie"
     },
     {
      "tipo": "titulo",
-     "texto": "su personaje?",
+     "texto": "qué es su personaje",
      "color": "rojo",
-     "tam": 124,
-     "en": "su personaje"
+     "tam": 104,
+     "en": "qué es"
     },
     {
      "tipo": "sello",
-     "texto": "Nadie lo sabe aún",
-     "en": "nadie sabe"
+     "texto": "● Misterio",
+     "en": "su personaje"
     }
    ]
   }
