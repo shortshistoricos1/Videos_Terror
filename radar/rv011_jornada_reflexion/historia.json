@@ -1,0 +1,275 @@
+{
+ "formato": "radar",
+ "marca": "radar_viral",
+ "titulo": "Jornada de reflexión del 29-N: qué se puede y qué no se puede hacer",
+ "titulo_youtube": "¿Por qué todos buscan hoy la jornada de reflexión?",
+ "fuentes": [
+  "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/guia-dudas-elecciones-generales-29n.aspx",
+  "https://www.eldiariodemadrid.es/politica/que-puede-hacer-jornada-reflexion-prohibiciones-sanciones/20261128101746148222.html",
+  "https://www.catalunyapress.es/articulo/politica-nacional/2026-11-28/6112037-ni-propaganda-ni-encuestas-actividades-prohibidas-jornada-reflexion-29-n",
+  "https://www.ultimahora.es/noticias/elecciones-29n/2026/11/28/2739083/jornada-reflexion-esta-permitido-prohibe-ley.html",
+  "https://www.infobae.com/espana/agencias/2026/10/06/el-boe-publica-el-decreto-que-convoca-las-elecciones-generales-para-el-29-de-noviembre/"
+ ],
+ "voz": {
+  "voz": "es-ES-AlvaroNeural",
+  "rate": "+0%",
+  "pitch": "-2Hz"
+ },
+ "estilo_imagen": ", bold flat vector editorial illustration, clean geometric shapes, navy blue background with cyan and pink accents, soft gradients, modern explainer style, no text, no letters, no logos, no watermark",
+ "texto": "¿Por qué todo el mundo busca hoy qué se puede hacer en la jornada de reflexión? Porque mañana, domingo veintinueve de noviembre, España vota en las elecciones generales. La campaña terminó anoche, a medianoche, y hoy toca parar. Está prohibido pedir el voto, hacer mítines y difundir propaganda electoral, también en redes sociales. Lo dice el artículo cincuenta y tres de la ley electoral. Las encuestas no se pueden publicar desde el martes veinticuatro, cinco días antes de votar, hasta que cierren los colegios. Las multas para particulares van de cien a mil euros. Y publicar sondeos fuera de plazo se paga con entre tres mil y treinta mil euros. Sí puedes hablar de política con tus amigos, y los medios pueden informar. Mañana, los colegios abren a las nueve de la mañana y cierran a las ocho de la tarde. Hay más de treinta y ocho millones de electores, para elegir trescientos cincuenta diputados. Lleva tu DNI, pasaporte o carné de conducir. Y los resultados provisionales llegan desde las nueve de la noche. ¿Conocías estas normas? Si quieres saber lo más buscado de cada día, sígueme. Soy Radar Viral.",
+ "cierre_desde": "Si quieres",
+ "cierre": {
+  "lema": "Lo más buscado de cada día",
+  "comentario": "¿Conocías estas normas? 👇"
+ },
+ "escenas": [
+  {
+   "fondo": "dark",
+   "imagen": "a quiet empty town square at dawn with a lone plain ballot box on a small table, soft navy and cyan light, no people, no text, no letters, no logos",
+   "elementos": [
+    {
+     "tipo": "tag",
+     "texto": "Radar Viral · hoy",
+     "en": "Por qué"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Por qué todos buscan",
+     "tam": 105,
+     "en": "todo el mundo"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "la jornada de reflexión?",
+     "color": "rojo",
+     "tam": 100,
+     "en": "jornada de reflexión"
+    },
+    {
+     "tipo": "busqueda",
+     "texto": "jornada de reflexión",
+     "en": "qué se puede"
+    },
+    {
+     "tipo": "sello",
+     "texto": "● Tendencia hoy",
+     "en": "busca hoy"
+    }
+   ]
+  },
+  {
+   "desde": "Porque mañana",
+   "etiqueta": "01 · MAÑANA SE VOTA",
+   "fondo": "dark",
+   "imagen": "a simple ballot box with a slot and a blank paper envelope beside it on a table, navy background with cyan and pink accents, no people, no text, no letters, no logos",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 29,
+     "mes": "NOVIEMBRE 2026",
+     "etiqueta": "Elecciones generales",
+     "en": "veintinueve de noviembre"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 470,
+     "pie": "Mañana, domingo, se vota",
+     "en": "España vota"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Elecciones generales",
+     "en": "generales"
+    }
+   ]
+  },
+  {
+   "desde": "La campaña terminó",
+   "etiqueta": "02 · FIN DE CAMPAÑA",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Campaña cerrada",
+     "tam": 125,
+     "en": "terminó anoche"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Viernes 27, medianoche",
+     "texto": "Termina la campaña electoral",
+     "en": "a medianoche"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Hoy: reflexión",
+     "en": "toca parar"
+    }
+   ]
+  },
+  {
+   "desde": "Está prohibido",
+   "etiqueta": "03 · LO PROHIBIDO",
+   "fondo": "dark",
+   "imagen": "a vintage megaphone on a stand in a quiet empty street at night with a soft pink spotlight, no people, no text, no letters, no logos",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Prohibido",
+     "color": "rojo",
+     "tam": 140,
+     "en": "Está prohibido"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 460,
+     "pie": "Pedir el voto, mítines y propaganda",
+     "en": "mítines"
+    },
+    {
+     "tipo": "sello",
+     "texto": "También en redes",
+     "en": "redes sociales"
+    }
+   ]
+  },
+  {
+   "desde": "Lo dice el artículo",
+   "etiqueta": "04 · LA LEY",
+   "fondo": "bone",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Artículo 53",
+     "tam": 140,
+     "en": "cincuenta y tres"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "Ley electoral",
+     "texto": "Prohíbe la propaganda tras la campaña",
+     "en": "ley electoral"
+    }
+   ]
+  },
+  {
+   "desde": "Las encuestas",
+   "etiqueta": "05 · ENCUESTAS",
+   "fondo": "dark",
+   "imagen": "a simple colorful bar chart with blank unlabeled bars on a clean desk, no numbers, no text, no letters, no logos",
+   "elementos": [
+    {
+     "tipo": "fecha",
+     "dia": 24,
+     "mes": "NOVIEMBRE",
+     "etiqueta": "Desde el martes, sin encuestas",
+     "en": "martes veinticuatro"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450,
+     "pie": "Prohibido publicarlas",
+     "en": "cinco días"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Hasta cerrar las urnas",
+     "en": "cierren los colegios"
+    }
+   ]
+  },
+  {
+   "desde": "Las multas",
+   "etiqueta": "06 · LAS MULTAS",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "100 a 1.000 €",
+     "texto": "Multa para particulares",
+     "en": "cien a mil"
+    },
+    {
+     "tipo": "tarjeta",
+     "titulo": "3.000 a 30.000 €",
+     "texto": "Sondeos fuera de plazo",
+     "en": "entre tres mil"
+    }
+   ]
+  },
+  {
+   "desde": "Sí puedes",
+   "etiqueta": "07 · LO PERMITIDO",
+   "fondo": "dark",
+   "imagen": "two coffee cups on a small cafe table next to a window with warm light, no people, no text, no letters, no logos",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "texto": "Sí puedes",
+     "color": "rojo",
+     "tam": 140,
+     "en": "Sí puedes"
+    },
+    {
+     "tipo": "imagen",
+     "alto": 450,
+     "pie": "Hablar de política con tus amigos",
+     "en": "tus amigos"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Los medios informan",
+     "en": "medios"
+    }
+   ]
+  },
+  {
+   "desde": "Mañana, los colegios",
+   "etiqueta": "08 · MAÑANA",
+   "fondo": "red",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "9:00 a 20:00",
+     "texto": "Horario de los colegios",
+     "en": "nueve de la mañana"
+    },
+    {
+     "tipo": "dato",
+     "valor": 38.7,
+     "sufijo": " M",
+     "etiqueta": "de electores",
+     "en": "treinta y ocho"
+    },
+    {
+     "tipo": "sello",
+     "texto": "350 diputados",
+     "en": "trescientos cincuenta"
+    }
+   ]
+  },
+  {
+   "desde": "Lleva tu DNI",
+   "etiqueta": "09 · QUÉ LLEVAR",
+   "fondo": "dark",
+   "elementos": [
+    {
+     "tipo": "tarjeta",
+     "titulo": "DNI, pasaporte o carné",
+     "texto": "con fotografía",
+     "en": "pasaporte"
+    },
+    {
+     "tipo": "sello",
+     "texto": "Resultados · 21:00",
+     "en": "nueve de la noche"
+    },
+    {
+     "tipo": "sello",
+     "texto": "¿Conocías estas normas?",
+     "en": "Conocías"
+    }
+   ]
+  }
+ ]
+}
